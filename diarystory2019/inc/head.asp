@@ -1,0 +1,309 @@
+<% if request.ServerVariables("SCRIPT_NAME")="/diarystory2019/search/index.asp" then %>
+	<div class="diary-head">
+		<h2><a href="/diarystory2019/" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','mainbanner');"><img src="http://fiximage.10x10.co.kr/web2018/diary2019/tit_diary_story.png" alt="DIARY STORY 2019" /></a></h2>
+		<ul class="nav">
+			<%'!-- for dev msg 현재 탭에 current 클래스--%>
+			<li class="diary-home"><a href="/diarystory2019/" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','home');">다이어리홈</a></li>
+			<li class="calendar"><a href="/event/eventmain.asp?eventid=89105" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','calendarevent');">캘린더이벤트</a></li>			
+			<li class="event"><a href="/diarystory2019/event.asp" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','diaryevent');">다이어리이벤트</a></li>
+			<li class="ranking"><a href="/diarystory2019/daccu_ranking.asp">다꾸랭킹</a></li>
+			<li class="daccu"><a href="/diarystory2019/daccu.asp" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','daccu');">다꾸채널</a></li>			
+			<!--<li class="finder current"><a href="" onclick="goSearchDiary();return false;">다이어리검색</a></li>-->
+		</ul>
+	</div>
+<% else %>
+	<div class="diary-head">
+		<h2><a href="/diarystory2019/" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','mainbanner');"><img src="http://fiximage.10x10.co.kr/web2018/diary2019/tit_diary_story.png" alt="DIARY STORY 2019" /></a></h2>
+		<ul class="nav">
+			<%'!-- for dev msg 현재 탭에 current 클래스--%>
+			<li class="diary-home <%=chkiif(instr(request.ServerVariables("SCRIPT_NAME"),"index.asp") > 0,"current","")%>"><a href="/diarystory2019/" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','home');">다이어리홈</a></li>
+			<li class="calendar <%=chkiif(instr(request.ServerVariables("SCRIPT_NAME"),"eventmain.asp") > 0,"current","")%>"><a href="/event/eventmain.asp?eventid=89105" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','calendarevent');">캘린더이벤트</a></li>			
+			<li class="event <%=chkiif(instr(request.ServerVariables("SCRIPT_NAME"),"event.asp") > 0,"current","")%>"><a href="/diarystory2019/event.asp" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','diaryevent');">다이어리이벤트</a></li>
+			<li class="daccu <%=chkiif(instr(request.ServerVariables("SCRIPT_NAME"),"daccu_ranking.asp") > 0,"current","")%>"><a href="/diarystory2019/daccu_ranking.asp" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','daccu_ranking');">다꾸랭킹</a></li>									
+			<li class="daccu <%=chkiif(instr(request.ServerVariables("SCRIPT_NAME"),"daccu.asp") > 0,"current","")%>"><a href="/diarystory2019/daccu.asp" onclick="fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','daccu');">다꾸채널</a></li>
+			<li class="finder"><a href="#lyrDiarySch" onclick="viewPoupLayer('modal',$('#lyrDiarySch').html());fnAmplitudeEventAction('click_diary_gnbmenu','gnb_name','search');return false;" target="_top">다이어리검색</a></li>
+		</ul>
+	</div>
+
+	<%
+	Dim vMenuNum, vCate, arrColorCode
+	vCate = Request("arrds")
+	Select Case Request("arrds")
+		Case "10,"
+			vMenuNum = 1
+		Case "20,"
+			vMenuNum = 2
+		Case "30,"
+			vMenuNum = 3
+		Case "40,"
+			vMenuNum = 4
+		Case "50,"
+			vMenuNum = 5
+		Case Else
+			vMenuNum = 0
+	End Select
+
+	If GetPolderName(2) = "search" OR CurrURL() = "/diarystory2019/index.asp" OR GetPolderName(2) = "event" OR CurrURL() = "/diarystory2019/diary_prd.asp" Then
+		vMenuNum = -1
+	End IF
+	%>
+	<link rel="stylesheet" type="text/css" href="/lib/css/diary2019.css?v=1.07" />
+	<script type="text/javascript" src="/lib/js/jquery.slides.min.js"></script>
+	<script type="text/javascript" src="/lib/js/jquery.numspinner.min.js"></script>
+	<script type="text/javascript">
+		function goSearchDiary()
+		{
+			var nm  = document.getElementsByName('design');
+			var cm  = document.getElementsByName('contents');
+			var km  = document.getElementsByName('keyword');
+		
+			document.frm_search.arrds.value = "";
+			document.frm_search.arrcont.value = "";
+			document.frm_search.arrkey.value = "";
+	
+			for (var i=0;i<nm.length;i++){
+		
+				if (nm[i].checked){
+					document.frm_search.arrds.value = document.frm_search.arrds.value  + nm[i].value + ",";
+				}
+			}
+		
+			for (var i=0;i<cm.length;i++){
+		
+				if (cm[i].checked){
+					document.frm_search.arrcont.value = document.frm_search.arrcont.value  + cm[i].value + ",";
+				}
+			}
+		
+			for (var i=0;i<km.length;i++){
+		
+				if (km[i].checked){
+					document.frm_search.arrkey.value = document.frm_search.arrkey.value  + km[i].value + ",";
+				}
+			}
+	
+			document.frm_search.action = "/diarystory2019/search/";
+			document.frm_search.submit();
+		}
+	
+		//체크박스 전체선택 해제 onclick
+		function fnchkfal(){
+		  $( '.check' ).prop( 'checked', false );
+			var tmp1;
+			for(var i=0;i<document.frm_search.chkIcd.length;i++) {
+				tmp1 = document.frm_search.chkIcd[i].value;
+				$("#barCLChp" + tmp1).removeClass("selected");
+				$("#barCLChp" + tmp1).attr("summary","N");
+			}
+			document.frm_search.iccd.value="0";
+			$("#barCLChp0").addClass("selected");
+		}
+	
+		function fnSelColorChip(iccd) {
+			var tmp;
+			var chkCnt = 0;
+			if(iccd==0) {
+				//전체 선택-리셋
+				for(var i=0;i<document.frm_search.chkIcd.length;i++) {
+					tmp = document.frm_search.chkIcd[i].value;
+					$("#barCLChp" + tmp).removeClass("selected");
+					$("#barCLChp" + tmp).attr("summary","N");
+				}
+				document.frm_search.iccd.value="0";
+				$("#barCLChp0").addClass("selected");
+			} else {
+				// 지정색 On/Off
+				$("#barCLChp0").removeClass("selected");
+				if ($("#barCLChp" + iccd).attr("summary") == "Y"){
+					$("#barCLChp" + iccd).removeClass("selected");
+					$("#barCLChp" + iccd).attr("summary","N");
+				} else {
+					$("#barCLChp" + iccd).addClass("selected");
+					$("#barCLChp" + iccd).attr("summary","Y");
+				}
+		
+				//컬러 마지막 선택 빠질경우 없음으로 되돌아가기
+				$(".colorChip li:not('#barCLChp0')").each(function(){
+					if($(this).hasClass("selected")) {
+						chkCnt++;
+					}
+				});
+				if(chkCnt<=0) {
+					document.frm_search.iccd.value="0";
+					$("#barCLChp0").attr("class","selected");
+				} else {
+					$("#barCLChp0").removeClass("selected");
+				}
+		
+				document.frm_search.iccd.value="";
+				for(var i=0;i<document.frm_search.chkIcd.length;i++) {
+					tmp = document.frm_search.chkIcd[i].value;
+					if($("#barCLChp" + tmp).attr("summary") =="Y") {
+						if(document.frm_search.iccd.value!="") {
+							document.frm_search.iccd.value = document.frm_search.iccd.value + tmp + ",";
+						} else {
+							document.frm_search.iccd.value = tmp+ ",";
+						}
+					}
+				}
+			}
+		}
+	
+	</script>
+	<form name="frm_search" method="post" style="margin:0px;">
+	<input type="hidden" name="arrds" value="">
+	<input type="hidden" name="arrcont" value="">
+	<input type="hidden" name="arrkey" value="">
+	<input type="hidden" name="limited" value="">
+	<input type="hidden" name="arrds_temp" value="<%= request("arrds") %>">
+	<input type="hidden" name="arrcont_temp" value="<%= request("arrcont") %>">
+	<input type="hidden" name="arrkey_temp" value="<%= request("arrkey") %>">
+	<input type="hidden" name="iccd" value="">
+	<%'!-- 다이어리 검색 레이어 --%>
+	<div id="lyrDiarySch" style="display:none;">
+		<div class="diary-search">
+			<h3><img src="http://fiximage.10x10.co.kr/web2017/diary2018/tit_find_2.png" alt="나만의 다이어리 찾기" /><strong>원하는 항목에 체크해 주세요. <em class="color-pink">중복체크도 가능</em>합니다.</strong></h3>
+			<div class="search-option">
+				<dl class="type1">
+					<dt><img src="http://fiximage.10x10.co.kr/web2017/diary2018/txt_design.png" alt="DESIGN" /></dt>
+					<dd>
+						<ul class="option-list">
+							<li><input type="checkbox" class="check" id="optS1" name="design" value="10"/> <label for="optS1">심플</label></li>
+							<li><input type="checkbox" class="check" id="optS2" name="design" value="20"/> <label for="optS2">일러스트</label></li>
+							<li><input type="checkbox" class="check" id="optS3" name="design" value="30"/> <label for="optS3">패턴</label></li>
+							<li><input type="checkbox" class="check" id="optS4" name="design" value="40"/> <label for="optS4">포토</label></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="type02">
+					<dt><img src="http://fiximage.10x10.co.kr/web2017/diary2018/txt_contents.png" alt="CONTENTS" /></dt>
+					<dd>
+						<dl>
+							<dt>날짜</dt>
+							<dd>
+								<ul class="option-list">
+									<li><input type="checkbox" class="check" id="optCt1-1" name="contents" value="'2019'"/> <label for="optCt1-1">2019 날짜형</label></li>
+									<li><input type="checkbox" class="check" id="optCt1-2" name="contents" value="'만년형'"/> <label for="optCt1-2">만년형</label></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>기간</dt>
+							<dd>
+								<ul class="option-list">
+									<!--<li><input type="checkbox" class="check" id="optCt2-1" name="contents" value="'1개월'"  /> <label for="optCt2-1">1개월</label></li>-->
+									<li><input type="checkbox" class="check" id="optCt2-2" name="contents" value="'분기별'"  /> <label for="optCt2-2">분기별</label></li>
+									<li><input type="checkbox" class="check" id="optCt2-3" name="contents" value="'6개월'"  /> <label for="optCt2-3">6개월</label></li>
+									<li><input type="checkbox" class="check" id="optCt2-4" name="contents" value="'1년'"  /> <label for="optCt2-4">1년</label></li>
+									<li><input type="checkbox" class="check" id="optCt2-5" name="contents" value="'1년 이상'"  /> <label for="optCt2-5">1년 이상</label></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>내지 구성</dt>
+							<dd>
+								<ul class="option-list">
+									<li><input type="checkbox" class="check" id="optCt3-1" name="contents" value="'연간스케줄'"  /> <label for="optCt3-1">연간스케줄</label></li>
+									<li><input type="checkbox" class="check" id="optCt3-2" name="contents" value="'먼슬리'"  /> <label for="optCt3-2">먼슬리</label></li>
+									<li><input type="checkbox" class="check" id="optCt3-3" name="contents" value="'위클리'"  /> <label for="optCt3-3">위클리</label></li>
+									<li><input type="checkbox" class="check" id="optCt3-4" name="contents" value="'데일리'"  /> <label for="optCt3-4">데일리</label></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>테마</dt>
+							<dd>
+								<ul class="option-list">
+									<li><input type="checkbox" class="check" id="optCt4-1" name="contents" value="'다이어리'"/> <label for="optCt4-1">다이어리</label></li>
+									<li><input type="checkbox" class="check" id="optCt4-2" name="contents" value="'스터디'"/> <label for="optCt4-2">스터디</label></li>
+									<li><input type="checkbox" class="check" id="optCt4-3" name="contents" value="'가계부'"/> <label for="optCt4-3">가계부</label></li>
+									<li><input type="checkbox" class="check" id="optCt4-4" name="contents" value="'자기계발'"/> <label for="optCt4-4">자기계발</label></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>옵션</dt>
+							<dd>
+								<ul class="option-list">
+									<!--<li><input type="checkbox" class="check" id="optCt5-1" name="contents" value="'캐시북'"  /> <label for="optCt5-1">캐시북</label></li>-->
+									<li><input type="checkbox" class="check" id="optCt5-2" name="contents" value="'포켓'"  /> <label for="optCt5-2">포켓</label></li>
+									<li><input type="checkbox" class="check" id="optCt5-3" name="contents" value="'밴드'"  /> <label for="optCt5-3">밴드</label></li>
+									<li><input type="checkbox" class="check" id="optCt5-4" name="contents" value="'펜홀더'"  /> <label for="optCt5-4">펜홀더</label></li>
+								</ul>
+							</dd>
+						</dl>
+					</dd>
+				</dl>
+				<dl class="type03">
+					<dt><img src="http://fiximage.10x10.co.kr/web2017/diary2018/txt_cover.png" alt="COVER" /></dt>
+					<dd>
+						<dl>
+							<dt>재질</dt>
+							<dd>
+								<ul class="option-list">
+									<li><input type="checkbox" class="check" id="optCv1-1" name="keyword" value="50" /> <label for="optCv1-1">소프트커버</label></li>
+									<li><input type="checkbox" class="check" id="optCv1-2" name="keyword" value="51" /> <label for="optCv1-2">하드커버</label></li>
+									<li><input type="checkbox" class="check" id="optCv1-3" name="keyword" value="52" /> <label for="optCv1-3">가죽</label></li>
+									<li><input type="checkbox" class="check" id="optCv1-4" name="keyword" value="53" /> <label for="optCv1-4">PVC</label></li>
+									<li><input type="checkbox" class="check" id="optCv1-5" name="keyword" value="54" /> <label for="optCv1-5">패브릭</label></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>제본</dt>
+							<dd>
+								<ul class="option-list">
+									<li><input type="checkbox" class="check" id="optCv2-1" name="keyword" value="55" /> <label for="optCv2-1">양장/무선</label></li>
+									<li><input type="checkbox" class="check" id="optCv2-2" name="keyword" value="56" /> <label for="optCv2-2">스프링</label></li>
+									<li><input type="checkbox" class="check" id="optCv2-3" name="keyword" value="60" /> <label for="optCv2-3">바인더(2공~6공)</label></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="tMar15">
+							<dt>컬러</dt>
+							<dd>
+								<ul class="option-list colorchips">
+									<!--<li class="all" id="barCLChp0" summary=""><input type="radio" name="chkIcd" id="chkIcd" value="0" class="check" /><label for="all">ALL</label></li> -->
+									<li class="wine <%= getcheckedcolorclass(arrColorCode,"28") %>"		onclick="fnSelColorChip(28)" id="barCLChp28" summary="<%=getcheckediccd(arrColorCode,"28")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="28" class="check"><label for="wine">Wine</label></li>
+									<li class="red <%= getcheckedcolorclass(arrColorCode,"2") %>"		onclick="fnSelColorChip(2)"  id="barCLChp2"  summary="<%=getcheckediccd(arrColorCode,"2")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="2"  class="check"><label for="red">Red</label></li>
+									<li class="orange <%= getcheckedcolorclass(arrColorCode,"16") %>"	onclick="fnSelColorChip(16)" id="barCLChp16" summary="<%=getcheckediccd(arrColorCode,"16")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="16" class="check"><label for="orange">Orange</label></li>
+									<li class="brown <%= getcheckedcolorclass(arrColorCode,"24") %>"	onclick="fnSelColorChip(24)" id="barCLChp24" summary="<%=getcheckediccd(arrColorCode,"24")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="24" class="check"><label for="brown">Brown</label></li>
+									<li class="camel <%= getcheckedcolorclass(arrColorCode,"29") %>"	onclick="fnSelColorChip(29)" id="barCLChp29" summary="<%=getcheckediccd(arrColorCode,"29")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="29" class="check"><label for="camel">Camel</label></li>
+									<li class="yellow <%= getcheckedcolorclass(arrColorCode,"17") %>"	onclick="fnSelColorChip(17)" id="barCLChp17" summary="<%=getcheckediccd(arrColorCode,"17")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="17" class="check"><label for="yellow">Yellow</label></li>
+									<li class="beige <%= getcheckedcolorclass(arrColorCode,"18") %>"	onclick="fnSelColorChip(18)" id="barCLChp18" summary="<%=getcheckediccd(arrColorCode,"18")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="18" class="check"><label for="beige">Beige</label></li>
+									<li class="ivory <%= getcheckedcolorclass(arrColorCode,"30") %>"	onclick="fnSelColorChip(30)" id="barCLChp30" summary="<%=getcheckediccd(arrColorCode,"30")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="30" class="check"><label for="ivory">Ivory</label></li>
+									<li class="khaki <%= getcheckedcolorclass(arrColorCode,"31") %>"	onclick="fnSelColorChip(31)" id="barCLChp31" summary="<%=getcheckediccd(arrColorCode,"31")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="31" class="check"><label for="khaki">Khaki</label></li>
+									<li class="green <%= getcheckedcolorclass(arrColorCode,"19") %>"	onclick="fnSelColorChip(19)" id="barCLChp19" summary="<%=getcheckediccd(arrColorCode,"19")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="19" class="check"><label for="green">Green</label></li>
+									<li class="mint <%= getcheckedcolorclass(arrColorCode,"32") %>"		onclick="fnSelColorChip(32)" id="barCLChp32" summary="<%=getcheckediccd(arrColorCode,"32")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="32" class="check"><label for="mint">Mint</label></li>
+									<li class="skyblue <%= getcheckedcolorclass(arrColorCode,"20") %>"	onclick="fnSelColorChip(20)" id="barCLChp20" summary="<%=getcheckediccd(arrColorCode,"20")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="20" class="check"><label for="skyblue">SkyBlue</label></li>
+									<li class="blue <%= getcheckedcolorclass(arrColorCode,"21") %>"		onclick="fnSelColorChip(21)" id="barCLChp21" summary="<%=getcheckediccd(arrColorCode,"21")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="21" class="check"><label for="blue">Blue</label></li>
+									<li class="navy <%= getcheckedcolorclass(arrColorCode,"33") %>"		onclick="fnSelColorChip(33)" id="barCLChp33" summary="<%=getcheckediccd(arrColorCode,"33")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="33" class="check"><label for="navy">Navy</label></li>
+									<li class="violet <%= getcheckedcolorclass(arrColorCode,"22") %>"	onclick="fnSelColorChip(22)" id="barCLChp22" summary="<%=getcheckediccd(arrColorCode,"22")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="22" class="check"><label for="violet">violet</label></li>
+									<li class="lilac <%= getcheckedcolorclass(arrColorCode,"34") %>"	onclick="fnSelColorChip(34)" id="barCLChp34" summary="<%=getcheckediccd(arrColorCode,"34")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="34" class="check"><label for="lilac">Lilac</label></li>
+									<li class="babypink <%= getcheckedcolorclass(arrColorCode,"35") %>" onclick="fnSelColorChip(35)" id="barCLChp35" summary="<%=getcheckediccd(arrColorCode,"35")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="35" class="check"><label for="babypink">BabyPink</label></li>
+									<li class="pink <%= getcheckedcolorclass(arrColorCode,"23") %>"		onclick="fnSelColorChip(23)" id="barCLChp23" summary="<%=getcheckediccd(arrColorCode,"23")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="23" class="check"><label for="pink">Pink</label></li>
+									<li class="white <%= getcheckedcolorclass(arrColorCode,"7") %>"		onclick="fnSelColorChip(7)"  id="barCLChp7"  summary="<%=getcheckediccd(arrColorCode,"7")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="7"  class="check"><label for="white">White</label></li>
+									<li class="grey <%= getcheckedcolorclass(arrColorCode,"25") %>"		onclick="fnSelColorChip(25)" id="barCLChp25" summary="<%=getcheckediccd(arrColorCode,"25")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="25" class="check"><label for="grey">Grey</label></li>
+									<li class="charcoal <%= getcheckedcolorclass(arrColorCode,"36") %>" onclick="fnSelColorChip(36)" id="barCLChp36" summary="<%=getcheckediccd(arrColorCode,"36")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="36" class="check"><label for="charcoal">Charcoal</label></li>
+									<li class="black <%= getcheckedcolorclass(arrColorCode,"8") %>"		onclick="fnSelColorChip(8)"  id="barCLChp8"  summary="<%=getcheckediccd(arrColorCode,"8")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="8"  class="check"><label for="black">Black</label></li>
+									<li class="silver <%= getcheckedcolorclass(arrColorCode,"26") %>"	onclick="fnSelColorChip(26)" id="barCLChp26" summary="<%=getcheckediccd(arrColorCode,"26")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="26" class="check"><label for="silver">Silver</label></li>
+									<li class="gold <%= getcheckedcolorclass(arrColorCode,"27") %>"		onclick="fnSelColorChip(27)" id="barCLChp27" summary="<%=getcheckediccd(arrColorCode,"27")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="27" class="check"><label for="gold">Gold</label></li>
+									<li class="hologram <%= getcheckedcolorclass(arrColorCode,"58")%>"	onclick="fnSelColorChip(58)" id="barCLChp58" summary="<%=getcheckediccd(arrColorCode,"58")%>">	<input type="hidden" name="chkIcd" id="chkIcd" value="58" class="check"><label for="hologram">Hologram</label></li>
+									<!--<li class="pattern"><input type="radio" id="pattern" /><label for="pattern">PATTERN</label></li> -->
+								</ul>
+							</dd>
+						</dl>
+
+					</dd>
+				</dl>
+			</div>
+			<div class="btn-group">
+				<input type="submit" id="checkAll" onclick="fnchkfal();" value="초기화" class="btnV18 btn-line-pink" />
+				<input type="submit" onclick="goSearchDiary();" value="검색" class="btnV18 btn-pink" />
+			</div>
+			<button type="button" class="btn-close" onclick="ClosePopLayer();"><img src="http://fiximage.10x10.co.kr/web2018/diary2019/btn_close.png" alt="닫기" /></button>
+		</div>
+	</div>
+	<%'!--// 다이어리 검색 레이어 --%>
+	</form>
+<% end if %>
