@@ -1,0 +1,38 @@
+/*
+Error: Inconsistent indentation: previous line was indented by 3 spaces, but this line was indented by 1 space.
+        on line 12 of foundation.css
+
+7: *\/
+8: /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss *\/
+9: /* Document
+10:    ========================================================================== *\/
+11: /**
+12:  * 1. Change the default font family in all browsers (opinionated).
+13:  * 2. Correct the line height in all browsers.
+14:  * 3. Prevent adjustments of font size after orientation changes in
+15:  *    IE on Windows Phone and in iOS.
+16:  *\/
+17: html {
+
+Backtrace:
+foundation.css:12
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:501:in `try_comment'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:455:in `block in tabulate'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each_with_index'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:444:in `tabulate'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Ruby23/bin/sass:22:in `load'
+C:/Ruby23/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: previous line was indented by 3 spaces, but this line was indented by 1 space.\A         on line 12 of foundation.css\A \A 7: */\A 8: /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */\A 9: /* Document\A 10:    ========================================================================== */\A 11: /**\A 12:  * 1. Change the default font family in all browsers (opinionated).\A 13:  * 2. Correct the line height in all browsers.\A 14:  * 3. Prevent adjustments of font size after orientation changes in\A 15:  *    IE on Windows Phone and in iOS.\A 16:  */\A 17: html {"; }

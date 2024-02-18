@@ -1,0 +1,73 @@
+
+$fs-11:11px;
+$fs-12:12px;
+$fs-13:13px;
+$ff-mg:"malgun Gothic";
+$ff-vd:"verdana";
+$ct:center;
+$rt:right;
+
+@mixin ellipsis {overflow:hidden; white-space:nowrap; text-overflow:ellipsis; border-radius:3px;}
+@mixin headline ($color, $size) {color: $color; font-size: $size;}
+@mixin makingrem ($width){width: $width / 10 / 2 /1.171875 + rem;}
+
+* {margin:0; padding:0; line-height:1; font-family:"malgun Gothic",Dotum, sans-serif; list-style:none;}
+img {vertical-align:top;}
+h1 {margin-bottom:0; padding:3rem 0; font-size:$fs-11; text-align:$ct; line-height:1;}
+
+.row {max-width:60rem;}
+.gnb {border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.gnb .top-bar, .gnb .top-bar ul {background:#fff;}
+.unb {padding:0; background-color:#f7f7f7; border-bottom:1px solid #e5e5e5;}
+.unb ul {background:transparent;}
+.unb li {padding:0 15px; font-size:0.6875rem; line-height:1;}
+.unb li a {line-height:40px; padding:0; color:#000;}
+
+#primary-menu li {width:16.66666%; text-align:$ct;}
+.fullscreen-image-slider li {text-align:$ct;}
+
+.list {padding:3rem 0;}
+.list .cont {padding:18px 18px;}
+.list .cont p {line-height:1.1; margin:0;}
+.list .callout {padding:0; border:1px solid #e5e5e5;}
+.list .brand {font-size:0.875rem; color:#84ad00;}
+.list  .lead {padding:10px 0 0 0; font-size:0.875rem; font-weight:bold; color:#000; @include ellipsis;}
+.list  .subheader {padding-top:15px; font-size:0.75rem; color:#333; @include ellipsis;}
+.marketing-site-footer {border-top:1px solid #eee; padding-top:40px; font-size:0.75rem;}
+.marketing-site-footer ul {margin:0;}
+.marketing-site-footer .menu > li > a {padding:0;}
+.marketing-site-footer .medium-unstack h4 {margin-bottom:0; font-size:0.8125rem; line-height:1; font-family:tahoma; font-weight:bold;}
+.marketing-site-footer .medium-unstack ul {margin:15px 0 0 0;}
+.marketing-site-footer .medium-unstack ul li {padding:10px 0; border-top:1px dashed #ddd;}
+.marketing-site-footer .medium-unstack ul li:first-child {border-top:0;}
+.marketing-site-footer .medium-unstack ul a {color:#000;}
+.marketing-site-footer-bottom {border-top:2px solid #b1da2b;}
+
+.aaa {width:400px; height:100px; border:1px solid red; @include ellipsis{}}
+.bbb {@include headline(green, 20px);}
+.ccc {border:1px solid red; @include makingrem (100);}
+.ccc {border:1px solid red; @include makingrem (100);}
+
+
+
+
+.footerV16 {position:relative; width:960px; height:181px; font-size:12px; color:#999;}
+.footerV16 .bar {display:inline-block; padding:0 8px; color:#a7a7a7; line-height:14px; vertical-align:top;}
+.footerV16 .footNav {overflow:hidden; padding:35px 0 25px;}
+.footerV16 .footNav li {position:relative; float:left; padding:0 16px;}
+.footerV16 .footNav li:after {content:''; display:inline-block; position:absolute; left:0; top:50%; width:1px; height:10px; margin-top:-5px; background-color:#aaa;}
+.footerV16 .footNav li:first-child {padding-left:0;}
+.footerV16 .footNav li:first-child:after {display:none;}
+.footerV16 .footNav li a {color:#000;}
+.footerV16 .footInfo p {padding:6px 0 0 0; margin:0;}
+.footerV16 .footInfo .btnArr {display:inline-block; height:16px; margin:-2px 0 0 10px; padding:0 6px; font-size:11px; line-height:16px; vertical-align:middle;}
+.footerV16 .footGuide {position:absolute; right:10px; top:40px; padding-left:20px; border-left:1px solid #ddd;}
+.footerV16 .footGuide p {margin-bottom:0;}
+.footerV16 .footGuide .footSns {overflow:hidden; margin-top:-7px;}
+.footerV16 .footGuide .footSns a {display:block; float:left; width:30px; height:30px;margin-right:5px; text-indent:-999em;}
+.footerV16 .footGuide .footSns .btnFb {background-position:-130px -312px;}
+.footerV16 .footGuide .footSns .btnTw {background-position:-165px -312px;}
+.footerV16 .footGuide .footSns .btnInsta {background-position:-200px -312px;}
+.footerV16 .footGuide .footSns .btnYt {background-position:-235px -312px;}
+.footerV16 .goTopV16 {position:absolute; right:0; top:2px; width:50px; height:40px; text-align:center; background:#b1da2b url(http://image.thefingers.co.kr/2016/common/arrow_top2.gif) 50% 6px no-repeat; cursor:pointer;}
+.footerV16 .goTopV16 span {display:inline-block; padding-top:18px; color:#fff; font-size:13px; line-height:13px; font-weight:bold; }

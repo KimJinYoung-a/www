@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Front-end | UI</title>
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+<style style="text/css">
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+/* reset css */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6 ,pre, form, fieldset, input, textarea, p, blockquote, th, td {margin:0; padding:0;}
+a {text-decoration:none;}
+table {border-spacing:0;}
+fieldset, img {border:0;}
+address, caption, cite, code, dfn, em, strong, i, th, var {font-weight:normal; font-style:normal;}
+strong {font-weight:bold;}
+ol, ul {list-style:none;}
+caption, th {text-align:left;}
+q:before, q:after {content:' ';}
+abbr, acronym {border:0;}
+
+/* custom css */
+* {box-sizing:border-box;}
+html, body {position:relative; height:100%;}
+body {margin:0; padding:0; color:rgba(0, 0, 0, 0.95); font-family:'malgun gothic', '맑은고딕', sans-serif; font-size:14px; line-height:1.4;}
+a {position:relative; padding-bottom:3px; color:#666;}
+a:after {content:' '; position:absolute; left:0; bottom:0; width:100%; height:1px; background-color:#666; transform:scaleX(0); transition:all 0.3s ease-in-out 0s;}
+a:hover:after {transform:scaleX(1);}
+h1, h2, h3 {font-weight:600; font-family:'Open Sans', sans-serif;}
+h2, h3 {font-size:70px;}
+h1 span {color:#117244;}
+h3 {font-size:60px;}
+h2 small {color:rgba(255, 255, 255, 0.7); font-size:45px;}
+ul, p {font-size:30px;}
+ul {margin-top:70px;}
+mark {background-color:#694e92; color:#fff;}
+u {border-bottom:1px solid #fff; text-decoration:none;}
+
+/* layout */
+.swiper-container {width:100%; height:100%; margin-left:auto; margin-right:auto;}
+
+/* common css */ 
+.swiper-slide {overflow:hidden; position:relative; text-align:center; font-weight:lighter;}
+.swiper-slide section {display:table; width:100%; height:100%;}
+.swiper-slide section .section {display:table-cell; position:relative; z-index:5; width:100%; height:100%; vertical-align:middle;}
+
+.swiper-pagination-bullets {right:20px;}
+.swiper-pagination-bullet {margin:2px 0; border:2px solid #00fd86; background-color:transparent; opacity:0.5; box-shadow:0px 0px 5px 0px rgba(0,0,0,0.4);}
+.swiper-pagination-bullet-active {background-color:#003e21; border:2px solid #003e21; opacity:1;}
+
+.subject {position:absolute; left:0; top:50px; width:100%; display:block; color:#999; letter-spacing:10px; font-size:16px; font-family:'Open Sans', sans-serif; font-weight:600; text-align:center;}
+.subject span {position:relative; display:inline-block; padding-top:10px;}
+.subject span:after {position:absolute; left:0; top:0; width:100%; height:3px; background-color:#999; content:'';}
+
+/* contents */
+.intro, .ending {background-color:#209d63;}
+.intro h1, .ending h1 {font-size:100px; color:#002c17;}
+
+.intro .subject, .ending .subject {color:#fff;}
+.intro .subject span:after, .ending .subject span:after {background-color:#fff;}
+.graph {position:relative; width:997px; height:640px; margin:20px auto;}
+.plan .graph {background:url('images/graph-grid-plan.png') no-repeat 50% 0;}
+.doing .graph {background:url('images/graph-grid.png') no-repeat 50% 0;}
+.planDetail {position:absolute; left:96px; top:67px; width:2px; height:168px; background:url('images/graph-plan.png') no-repeat 0 0;}
+.doDetail {overflow:hidden; position:absolute; left:0; top:345px; width:0; height:214px; background:url('images/graph-doing.png') no-repeat 0 0;}
+
+.function {}
+.function ul {width:55%; margin:50px auto;}
+.function li {text-align:left; font-size:33px; color:#666;}
+.function ul.good {padding-left:200px; background:url('images/img-good.png') no-repeat 0 50%;}
+.function ul.bad {padding-right:200px; background:url('images/img-bad.png') no-repeat 100% 50%;}
+.function ul.bad li {text-align:right;}
+
+.sample ul li {margin-top:30px;}
+</style>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<!-- #1 -->
+		<div class="swiper-slide intro">
+			<section>
+				<div class="subject"><span>FRONT-END l UI</span></div>
+				<div class="section">
+					<h1><span>@</span>CSS Framework</h1>
+				</div>
+			</section>
+		</div>
+		
+		<!-- #2 -->
+		<div class="swiper-slide plan">
+			<section>
+				<div class="subject"><span>FRONT-END l UI</span></div>
+				<div class="section">
+					<h2 style="margin-top:250px;">2017년 Action Plan</h2>
+					<div class="graph">
+						<p class="planDetail"></p>
+						<a href="http://confluence.tenbyten.kr:8090/pages/viewpage.action?pageId=3558781" target="_blank">[컨플루언스] Front-End 길드</a>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<!-- #3 -->
+		<div class="swiper-slide function">
+			<section>
+				<div class="subject"><span>FRONT-END l UI</span></div>
+				<div class="section">
+					<h2>부트스트랩 & 파운데이션</h2>
+					<ul class="good">
+						<li>- 반응형 CSS 프레임워크(모든 디바이스 적용)</li>
+						<li>- 다양한 라이브러리와 콤포넌트, 플러그인 사용가능</li>
+						<li>- 쉽고 빠른 사이트 구축가능</li>
+						<li>- CSS 프리프로세서 LESS, Sass 지원</li>
+						<li>- <a href="http://bootstrapk.com/css/#grid-options" target="_blank">Grid system</a>은 최고!!</li>
+					</ul>
+					<ul class="bad">
+						<li>- 과도한 재정의 필요</li>
+						<li>- 반응형 작업이 아닌 경우 비효율적일수도..</li>
+						<li>- 의미에 맞지 않고, 문법에 맞지 않는 마크업</li>
+						<li>- 하위 브라우저 지원 제한적</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+
+		<!-- #4 -->
+		<div class="swiper-slide sample">
+			<section>
+				<div class="subject"><span>FRONT-END l UI</span></div>
+				<div class="section">
+					<h2>Sample Page</h2>
+					<ul>
+						<li><a href="http://www.jinyeonmi.com/bootstrap/10x10/" target="_blank">텐바이텐 회사소개</a></li>
+						<li><a href="http://www.jinyeonmi.com/bootstrap/10x10_v1/" target="_blank">텐바이텐 회사소개 (커스터마이징)</a></li>
+						<li><a href="sample/kyung/index.html" target="_blank">더핑거스 상품리스트1</a></li>
+						<li><a href="sample/song/index.html" target="_blank">더핑거스 상품리스트2</a></li>
+					</ul>
+				</div>
+			</section>
+		</div>
+
+		<!-- #5 -->
+		<div class="swiper-slide">
+			<section>
+				<div class="subject"><span>FRONT-END l UI</span></div>
+				<div class="section">
+					<h2>결론</h2>
+					<ul>
+						<li>우리만의 그리드시스템을 만들자</li>
+						<li>Flexbox Layout</li>
+						<li>프리프로세서인 LESS, Sass 조금 더 깊이 공부<br /> (LESS보다는 Sass)</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+
+		<!-- #6 -->
+		<div class="swiper-slide doing">
+			<section>
+				<div class="subject"><span>FRONT-END l UI</span></div>
+				<div class="section">
+					<h2 style="margin-top:100px;">2017년 진행중...</h2>
+					<div class="graph">
+						<p class="planDetail"></p>
+						<button>doing</button>
+						<div class="doDetail"></div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- #7 -->
+		<div class="swiper-slide ending">
+			<section>
+				<div class="subject"><span>FRONT-END l UI</span></div>
+				<div class="section">
+					<h2>감사합니다</h2>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="swiper-pagination"></div>
+</div>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".doing .graph button").click(function(){
+		$(".doDetail").animate({"width":"897px"},2000)
+	});
+	var swiper = new Swiper(".swiper-container", {
+		pagination:".swiper-pagination",
+		direction:"vertical",
+		speed:700,
+		paginationClickable:true,
+		mousewheelControl:true,
+		keyboardControl: true,
+		onSlideChangeStart: function (swiper) {
+			$(".swiper-slide-active").find(".planDetail").delay(500).animate({"width":"702px"},2000);
+		}
+	});
+});
+</script>
+</body>
+</html>
