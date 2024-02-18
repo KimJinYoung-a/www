@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+.overHidden {_zoom:1;}
+.unb ul li.unbMemInfo {_width:300px;}
+.unb ul li.unbMyTen {_width:100px;}
+.unb ul li.unbCs {_width:90px;}
+.unb ul li {_width:65px;}
+.unb ul li {background:url(http://fiximage.10x10.co.kr/web2013/common/unb_line.png) right 8px no-repeat;}
+.unb ul li span {_line-height:18px;}
+
+.sctLink {_zoom:1;}
+.groupView {_zoom:1;}
+.fSns {_zoom:1;}
+.gnbSubWrap .gnbSub {_zoom:1;}
+.themeLink {*width:251px;}
+
+#mainWrap .spcIssue dd p {_display:inline;}
+.categoryMain {_zoom:1;}
+.ctgyMultiBnr .pagination {_zoom:1;}
+.memPage .joinStep {_zoom:1;}
+.frmType {_zoom:1;}
+
+.memPage .noArrival dd {_zoom:1;}
+
+.categoryMain .cont {_height:1837px;}
+.lnb li {_display:inline-block;}
+
+
+.swiper-container {-webkit-backface-visibility:hidden; -moz-backface-visibility:hidden; -ms-backface-visibility:hidden; -o-backface-visibility:hidden; backface-visibility:hidden; z-index:1;}
+.swiper-wrapper{-webkit-transition-property:-webkit-transform,left,top; -webkit-transition-duration:0s; -webkit-transform:translate3d(0px,0,0); -webkit-transition-timing-function:ease; -moz-transition-property:-moz-transform,left,top; -moz-transition-duration:0s; -moz-transform:translate3d(0px,0,0); -moz-transition-timing-function:ease; -o-transition-property:-o-transform,left,top; -o-transition-duration:0s; -o-transform:translate3d(0px,0,0); -o-transition-timing-function:ease; -o-transform:translate(0px,0px); -ms-transition-property:-ms-transform,left,top; -ms-transition-duration:0s; -ms-transform:translate3d(0px,0,0); -ms-transition-timing-function:ease; transition-property:transform,left,top; transition-duration:0s; transform:translate3d(0px,0,0); transition-timing-function:ease;}
+.swiper-free-mode>.swiper-wrapper{-webkit-transition-timing-function:ease-out; -moz-transition-timing-function:ease-out; -ms-transition-timing-function:ease-out; -o-transition-timing-function:ease-out; transition-timing-function:ease-out; margin:0 auto;}
+.swiper-wp8-horizontal{-ms-touch-action:pan-y;}
+.swiper-wp8-vertical{-ms-touch-action:pan-x;}
+
+.subCtgyView {_zoom:1;}
+.subCtgyView dd ul {_zoom:1;}
+.pdtList {_zoom:1;}
+.tabWrap {_zoom:1;}
+.colorchips {_zoom:1;}
+.dFilterResult dl {_zoom:1;}
+.dFilterResult dl dd {_zoom:1;}
+.filterSelect {*zoom:1;}
+.filterSelect ul {_zoom:1;}
+.filterSelect li {*display:inline;}
+.ftDelivery li.abroad {*background:url(http://fiximage.10x10.co.kr/web2013/shopping/ico_plane.png) 120px 50% no-repeat;}
+.ftAttribute {_zoom:1;}
+.colorchips li input[type=checkbox] {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.colorchips li input[type=radio] {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+
+.pdtInfoWrap {zoom:1;}
+.pdtThumbList {_zoom:1;}
+
+.pdtName {_height:32px;}
+.pdtDetail .pdtFlag {_zoom:1;}
+.pdtSaleInfoWrap {zoom:1;}
+.pdtSaleInfoWrap .saleInfo {zoom:1;}
+
+.couponGrn span {_zoom:1;}
+.tagView dd ul {_zoom:1;}
+.tagView dd li span {padding:4px 8px 2px 8px;}
+
+
+*:first-child+html .saleInfo select {width:295px;}
+*:first-child+html .plusSaleBox select {width:180px;}
+*:first-child+html .couponGrn {width:157px;}
+*:first-child+html .plusSaleBox dd table {width:93%;}
+.evtIssu {_zoom:1;}
+.pdtSns {_zoom:1;}
+
+.cmt01 {background:url(http://fiximage.10x10.co.kr/web2013/common/blt09.png) left top no-repeat;}
+.brLineArea ul {_zoom:1;}
+.brBnrArea .linkList {_zoom:1;}
+.pdtTabLink ul {_zoom:1;}
+
+.pdtBox .box5 {_zoom:1;}
+
+.wishList .info .account {_background:#989898; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);}
+
+.searchWord {_zoom:1;}
+.schTab {_zoom:1;}
+.schBestBr {_zoom:1;}
+.schBrList ul {_zoom:1;}
+
+.schBrBox {_zoom:1;}
+
+.brandHeader {_zoom:1;}
+
+div.brandNav .navList li {*display:inline;}
+#brTab01 {width:61px;}
+#brTab02 {width:105px;}
+#brTab03 {width:118px;}
+#brTab04 {width:130px;}
+#brTab05 {width:55px;}
+#brTab06 {width:104px;}
+
+.galleryTab {_zoom:1;}
+.galleryArea {_zoom:1;}
+.galleryThumb {_zoom:1;}
+
+.brandSection .titleWrap {zoom:1;}
+.shopTab {_zoom:1;}
+div.brandShop .brDeliveryInfo {*display:inline;}
+div.photoList .swiper-slide {*float:left;}
+
+.cartHeader {_zoom:1;}
+.myBenefitBox dd ul {_zoom:1;}
+
+.cartTab {_zoom:1;}
+.customWord {_zoom:1;}
+.totalPrice {_zoom:1;}
+.priceList li {_zoom:1;}
+.mileageInfo {_zoom:1;}
+.cartBox .pdt150 .pdtList {*width:1060px;}
+
+.popContent .mySection .radioBox input {*vertical-align:middle; *margin-top:0;}
+.popContent .zipcode table {*width:95%; *margin:0 auto;}
+
+.totalWeight {_zoom:1;}
+.totalWeight dl {_zoom:1;}
+
+.cardInfoList li {_zoom:1;}
+.dfn01 {_zoom:1;}
+.dfn02 {_zoom:1;}
+
+*:first-child+html .grid-sizer:first-child {margin-left:-288px;}
+
+.snsArea {_zoom:1;}
+.sns ul {_zoom:1;}
+.pastDayandList {_zoom:1;}
+
+*:first-child+html .mLookbook .swiper-slide {position:relative;}
+*:first-child+html .mLookbook .swiper-slide .bInfo dl {height:auto; position:absolute; left:0; top:50%; margin-top:-12%;}
+*:first-child+html .bestBrand dd li {float:left;}
+
+#playWrap .headerWrap .playLogo h1 {_zoom:1;}
+.playGnbWrap {_zoom:1;}
+
+.contList {_zoom:1;}
+.playTit {zoom:1;}
+
+.articleWrap {_zoom:1;}
+
+.styleList .favoriteAct {*width:40px;}
+.diaryList .favoriteAct {*width:40px;}
+
+.diaryDetailCont {_zoom:1;}
+
+.fingersTitle {_zoom:1;}
+.dfEvtBnr {*text-align:left;}
+.dfEvtListFilter {_zoom:1;}
+
+.evtList {_zoom:1;}
+
+.mySection .pdt150 .pdtList {*width:848px;}
+
+/* T-episode - PHOTO PICK */
+.expandView .thumbnail {*float:left;}
+.expandView .view {*float:left;}
+
+div.eventWrap .snsArea {zoom:1;}
+div.partEvt #contentWrap {_zoom:1;}
+
+*:first-child+html .enjoyTenten .mailzineList li {float:left; width:212px;}
+*:first-child+html .cultureList .noticeList li {float:left; width:226px;}
+
+
+.enjoy {_zoom:1;}
+.enjoyContList {_zoom:1;}
+.multiSlide .slidesjs-pagination {_zoom:1;}
+.mdpickList{_zoom:1;}
+.mdpick .slidesjs-pagination {_zoom:1;}
+.bnrWrap {_zoom:1;}
+.letsWrite .slidesjs-pagination {_zoom:1;}
+.bnrList {_zoom:1;}
+.visualPic .slidesjs-pagination {_zoom:1;}
+.brand {_zoom:1;}
+.brandImg .slidesjs-pagination {_zoom:1;}
+.mainCulture {_zoom:1;}
+.mainCultureList ul {_zoom:1;}
+.mainCultureList .slidesjs-pagination {_zoom:1;}
+.etc {_zoom:1;}
+
+
+*:first-child+html .loginPage .lgnForm .group .cmt {font-family:'Core Sans C','Noto Sans KR';}
+
+.expandView .tagView a {padding:6px 8px 0;}
+.colorTrend .colorchips {_zoom:1;}
+.colorchips li {*display:inline;}
+
+div.evtHead .ftRt {*max-width:330px;}
+*:first-child+html .videoList .favoriteAct {display:inline;}
+
+
+.sitemap .section h3 button {*overflow:visible;}
+.sitemap .section h3 button.btnS2 {*padding-top:3px; *padding-bottom:2px;}
+
+.categoryList .lnb li a, .categoryList .lnb li a:hover {*zoom:1;}
+
+/* search */
+.schDetailBox table td .depthWrap .active00 {*background:url(http://fiximage.10x10.co.kr/web2013/common/blt_arrow_current.gif) 25px top no-repeat;}
+.schDetailBox table td .depthWrap .active01 {*background:url(http://fiximage.10x10.co.kr/web2013/common/blt_arrow_current.gif) 255px top no-repeat;}
+.schDetailBox table td .depthWrap .active02 {*background:url(http://fiximage.10x10.co.kr/web2013/common/blt_arrow_current.gif) 485px top no-repeat;}
+.schDetailBox table td .depthWrap .active03 {*background:url(http://fiximage.10x10.co.kr/web2013/common/blt_arrow_current.gif) 715px top no-repeat;}
+.schDetailBox table td span a {*display:inline-block;}
+.shopViewCtgy .schDetailBox table td span label:hover {*display:inline-block;}
+
+/* offshop */
+.offshop-inquiry .board-list input[type='checkbox'] {display:inline-block !important; padding:0 0 0 15px; border:0;}
+.offshop-inquiry .board-list input[type='checkbox'] + label {margin-top:-3px !important; padding-left:8px !important; margin-left:0 !important; background:none !important;}
+.ly-offshop-list {background-color:#fff;}
+.offshop-conts .svgBlur {display:none;}
+
+/* offshop */
+.offshop-inquiry .board-list input[type='checkbox'] {display:inline-block !important; padding:0 0 0 15px; border:0;}
+.offshop-inquiry .board-list input[type='checkbox'] + label {margin-top:-3px !important; padding-left:8px !important; margin-left:0 !important; background:none !important;}
+.ly-offshop-list {background-color:#fff;}
+.offshop-conts .svgBlur {display:none;}

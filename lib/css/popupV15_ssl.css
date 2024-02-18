@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+.popWrap .popHeader h1 img {vertical-align:top;}
+
+/* profile */
+.profileV15 .list01 {padding-bottom:13px; border-bottom:2px solid #555;}
+.profileV15 .list01 li {margin-bottom:3px;}
+.profileV15 .profileList {position:relative; width:512px; margin:0 auto; padding:20px 4px 0;}
+.profileV15 .profileList ul {overflow:hidden;}
+.profileV15 .profileList ul li {float:left; position:relative; width:100px; height:100px; margin:7px 6px; padding:8px;}
+.profileV15 .profileList ul li img {/*z-index:1;*/}
+.profileV15 .profileList ul li button {position:absolute; top:8px; left:8px; width:100px; height:100px; opacity:0; font-size:11px; text-indent:-999em; cursor:pointer; overflow:hidden; z-index:10;}
+.profileV15 .profileList ul li button {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0);}
+.profileV15 .profileList ul li .on {top:0; left:0; width:116px; height:116px; background:url(http://fiximage.10x10.co.kr/web2015/popup/btn_select.png) no-repeat 0 0; opacity:100;}
+.profileV15 .profileList ul li .on {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100);}
+.profileV15 .profileList .smile {overflow:hidden; position:absolute; right:18px; bottom:15px;}
+.profileV15 .profileList .smile span {display:block; float:left; width:100px; height:100px; margin-left:28px; background:url(http://fiximage.10x10.co.kr/web2015/common/img_smile.png) no-repeat 0 0;}
+.profileV15 .btnArea {padding-bottom:7px;}
+.profileV15 .btnArea .btn {width:105px; margin:0 3px;}
+
+/* badge */
+.badgeV15 .list01 li {margin-bottom:3px;}
+.badgeV15 .article {margin-top:13px; padding-top:30px; padding-bottom:17px; border-top:2px solid #555;}
+.badgeV15 .article .mine {display:block; width:234px; height:43px; margin:0 auto; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; background-color:#f4f8f9; line-height:43px; text-align:center;}
+.badgeV15 .article table {margin-top:30px; border-top:1px solid #ddd;}
+.badgeV15 .article table th, .badgeV15 .article table td {padding:23px 0; border-bottom:1px solid #ddd; color:#777; vertical-align:middle;}
+.badgeV15 .article table th {position:relative; padding-left:123px; font-weight:normal; text-align:left;}
+.badgeV15 .article table th .ico {display:block; position:absolute; top:50%; left:25px; width:74px; height:74px; margin-top:-37px; background:url(http://fiximage.10x10.co.kr/web2015/popup/ico_no_badge.png) no-repeat 0 0; text-align:center;}
+.badgeV15 .article table th .ico img {padding-top:19px;}
+.badgeV15 .article table dl dt {color:#000; font-size:12px; font-weight:bold;}
+.badgeV15 .article table dl dd {margin-top:2px; margin-bottom:2px;}
+.badgeV15 .article table td {line-height:1.875em;}
+
+/* notice */
+.newsV15 .filtering {overflow:hidden; background:url(http://fiximage.10x10.co.kr/web2015/common/bg_line_02.png) no-repeat 100% 2px}
+.newsV15 .filtering li {float:left; width:16%;}
+.newsV15 .filtering li a {display:block; background:url(http://fiximage.10x10.co.kr/web2015/common/bg_line_02.png) no-repeat 0 2px; font-size:11px; line-height:1.375em; text-align:center;}
+.newsV15 .filtering li a:hover {text-decoration:underline;}
+.newsV15 .filtering li a.on {font-weight:bold;}
+.newsV15 .filtering li.last {width:20%;}
+.newsV15 .tableSkin1V15 {margin-top:17px;}
+
+.tableSkin1V15 {border-top:3px solid #555; border-bottom:1px solid #ccc; text-align:center;}
+.tableSkin1V15 thead th {border-bottom:1px solid #ccc; background-color:#fcfcfc;}
+.tableSkin1V15 th, .tableSkin1V15 td {padding:10px 0 7px; border-top:1px solid #eee;}
+
+.newsViewV15 .hgroup {position:relative; padding-bottom:10px;}
+.newsViewV15 .hgroup h2 {padding-right:100px; color:#333; font-size:12px;}
+.newsViewV15 .hgroup .date {position:absolute; top:0; right:0;}
+.newsViewV15 .hgroup .triangle {position:absolute; bottom:0; left:20px; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:6px solid #f5f5f5;}
+.newsViewV15 .section {overflow-y:scroll; height:225px; padding:22px 25px 20px; background-color:#f5f5f5;}
+.newsViewV15 .btnList {margin-top:19px; margin-bottom:6px; text-align:right;}
+.newsViewV15 .btnList a {color:#888;text-decoration:none;}
+.newsViewV15 .btnList a:hover span {text-decoration:underline;}
+
+/* product review */
+.popReviewV15 .reviewPdtV15 {margin-bottom:30px; }
+.popReviewV15 .reviewPdtV15 .pdtBox {overflow:hidden; padding:15px; background:#f4f4f4;}
+.popReviewV15 .reviewPdtV15 .pdtPhoto {float:left; width:120px;}
+.popReviewV15 .reviewPdtV15 .pdtPhoto img {width:120px; height:120px; vertical-align:top;}
+.popReviewV15 .reviewPdtV15 .pdtInfo {float:left; padding-left:25px; text-align:left;}
+
+.popReviewV15 .tabMenuV15 li {min-width:110px; margin-right:1px;}
+.popReviewV15 .tabMenuV15 li a {min-width:110px;}
+.popReviewV15 .tabMenuV15 li:first-child {width:140px;}
+.popReviewV15 .talkList td {padding:30px 0; vertical-align:top; text-align:left;}
+.popReviewV15 .review .talkList tr td:first-child {vertical-align:top;}
+.popReviewV15 .talkList .comment {padding-left:20px; text-align:left;}
+.popReviewV15 .comment .purchaseOption {padding-bottom:10px;}
+.popReviewV15 .comment .btnArea a {margin:0;}
+
+.popReviewV15 .generalReviewV15 {padding:25px 30px; margin-top:8px; text-align:center; line-height:12px; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.popReviewV15 .generalReviewV15 img {vertical-align:top;}
+.popReviewV15 .generalReviewV15 h4 {color:#000; font-weight:bold;}
+.popReviewV15 .generalReviewV15 h4 span {padding:0 12px;}
+.popReviewV15 .generalReviewV15 h4 img {padding:0 8px; vertical-align:baseline;}
+.popReviewV15 .generalReviewV15 ul {overflow:hidden; width:100%; padding:12px 0; margin:25px 0 18px; background:#f8f8f8;}
+.popReviewV15 .generalReviewV15 li:first-child {background:none;}
+.popReviewV15 .generalReviewV15 li {float:left; width:25%; padding:5px 0; background:url(http://fiximage.10x10.co.kr/web2015/common/bg_line.gif) left top repeat-y;}
+.popReviewV15 .generalReviewV15 li p {padding-top:6px;}
+
+.popReviewV15 .healthReview {border-top:1px solid #ddd;}
+.popReviewV15 .healthReview thead {display:none;}
+.popReviewV15 .healthReview thead th {display:block; visibility:hidden; width:0; height:0;}
+.popReviewV15 .healthReview td p {padding-bottom:6px;}
+.popReviewV15 .review table td {padding:16px 0;}
+
+/* quick view */
+.pdfQuickview15 {padding:0; border-top:4px solid #d50c0c;}
+.pdtInfoWrapV15 {width:100%; min-width:928px; margin-top:0; padding-top:20px; padding-bottom:30px; background:none;}
+.pdtInfoWrapV15 .pdtPhotoWrap {width:410px; float:left;}
+.pdtPhotoBox {width:400px; height:400px; padding:5px; background:url(http://fiximage.10x10.co.kr/web2015/common/bg_pdt_photo_small.png) no-repeat 50% 0;}
+.photoSlideV15 {width:400px;}
+.photoSlideV15 .slidesjs-slide img {width:400px; height:400px;}
+.photoSlideV15 .slidesjs-navigation {top:50%; margin-top:-19px;}
+.pdtDetailWrap {width:440px;}
+.pdtInfoV15 {width:440px; min-height:435px; border-bottom:0; background:none;}
+.pdtSaleInfoV15 {min-height:435px; padding-right:0; background:none;}
+.pdtDetailWrap {float:left;}
+.pdtAddInfoV15 {float:none; position:absolute; top:480px; left:30px;}
+.interactInfoV15 {overflow:hidden; width:400px; background:url(http://fiximage.10x10.co.kr/web2015/common/bg_pattern_slash.png) no-repeat 50% 0;}
+.interactInfoV15:before {content:' '; position:absolute; top:44px; left:200px; width:1px; height:23px; background-color:#ddd;}
+.interactInfoV15 dl {float:left; width:50%;}
+.interactInfoV15 dl:before {background:none;}
+.interactInfoV15 dl dt, .interactInfoV15 dl dd {display:inline;}
+.interactInfoV15 dl dd img {padding-left:3px;}
+.interactInfoV15 dl dd a {text-decoration:none;}
+.interactInfoV15 dl dd a {margin:0 3px;}
+.interactInfoV15 dl dd .btnwrite span {padding-right:8px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt_arrow_01.png) no-repeat 100% 4px;}
+
+/* gift card */
+.giftcardPayGuideV15a {color:#000; line-height:1.75em; letter-spacing:-0.05em;}
+.giftcardPayGuideV15a p {margin-top:28px;}
+.giftcardPayGuideV15a p:first-child {margin-top:0;}
+.giftcardPayGuideV15a .btnGroupV15a {margin-top:28px;}
+.giftcardPayGuideV15a .box5 {margin-top:28px; padding:23px 30px 25px;}
+.giftcardPayGuideV15a .listTypeHypen li {margin-top:2px; padding-left:14px; text-indent:-10px; font-size:11px; line-height:1.75em;}
+
+.giftcardViewV15a {background:#fef0f0 url(http://fiximage.10x10.co.kr/web2015/giftcard/bg_pattern_deco_pink.png) repeat 0 0;}
+.cardViewV15a {min-width:400px;}
+.cardViewV15a img {vertical-align:top;}
+.cardViewV15a .hGroup {position:relative; margin-top:28px; text-align:center;}
+.cardViewV15a .hGroup .deco {position:absolute; top:36px; left:50%; margin-left:-187px;}
+.cardViewV15a .price {margin-top:20px; color:#222; font-weight:bold; font-size:50px; line-height:0.688em; text-align:center; letter-spacing:-0.05em;}
+.cardViewV15a .price img {margin-left:5px;}
+.cardViewV15a .design {position:relative; width:374px; height:226px; margin:32px auto 0; text-align:center;}
+.cardViewV15a .design .frame {display:none;}
+.cardViewV15a .designTypeA .frame {display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:url(http://fiximage.10x10.co.kr/web2015/giftcard/bg_sprite_giftcard.png) no-repeat 0 -1100px;}
+.cardViewV15a .designTypeA img {border-radius:24px;}
+.cardViewV15a .giftcardMsg {position:relative; width:400px; margin:40px auto 0; padding-top:38px; background:url(http://fiximage.10x10.co.kr/web2015/giftcard/bg_line_dashed.png) repeat-x 0 0; font-size:12px; text-align:center;}
+
+/* zipcode */
+.zipcodeV16 .hidden {visibility:hidden; width:0; height:0; overflow:hidden; position:absolute; top:-1000%; line-height:0;}
+.zipcodeV16 .tabs {overflow:hidden; margin-left:-1px; border-left:1px solid #ddd;}
+.zipcodeV16 .tabs li {float:left; width:50%;}
+.zipcodeV16 .tabs li a {display:block; border:1px solid #ddd; border-left:0; background-color:#f5f5f5; color:#969696; font-size:13px; font-weight:bold; line-height:33px; text-align:center;}
+.zipcodeV16 .tabs li a:hover {text-decoration:none;}
+.zipcodeV16 .tabs .on {border-bottom:0; background-color:#fff; color:#555;}
+
+.zipcodeV16 .tabsLine {width:100%; margin-top:20px; border-left:0;}
+.zipcodeV16 .tabsLine li {float:left; width:33.333%;}
+.zipcodeV16 .tabsLine li a {background-color:#fff; color:#888; font-size:11px; font-weight:normal;}
+.zipcodeV16 .tabsLine li:first-child a {border-left:1px solid #ddd;}
+.zipcodeV16 .tabsLine a.on {border-bottom:1px solid #999; border-color:#999; background-color:#999; color:#fff;}
+.zipcodeV16 .tabsLine li:first-child a.on {border-color:#999;}
+
+.zipcodeV16 input {font-weight:normal; font-size:11px;}
+.zipcodeV16 select {appearance:none; -webkit-appearance:none; -moz-appearance:none; height:30px; padding-left:10px; border:1px solid #bbb; padding-right:25px; background:url(/fiximage/web2015/giftcard/bg_select_arr.gif) no-repeat 100% 50%; color:#555; font-weight:normal; font-size:11px;}
+.zipcodeV16 select {padding-right:0\9;background:none\9;}
+.zipcodeV16 select::-ms-expand {
+	display:none;
+}
+.zipcodeV16 .itext {display:block; height:28px; padding:0 10px; border:1px solid #bbb;}
+.zipcodeV16 .itext input {width:100%; height:28px; line-height:28px; background-color:transparent;}
+
+.zipcodeV16 .finder {margin:0; padding:0;}
+.zipcodeV16 .help {margin-top:15px; padding:18px 0 17px; background-color:#f5f5f5; color:#959595; text-align:center;}
+.zipcodeV16 .help p:first-child {font-weight:bold;}
+
+.zipcodeV16 .finder ul {overflow:hidden; padding:12px 16px 20px 0; border:5px solid #f5f5f5; border-top:0;}
+.zipcodeV16 .finder ul li {float:left; margin-top:8px; width:50%;}
+.zipcodeV16 .finder ul li div {position:relative; padding-left:66px;}
+.zipcodeV16 .finder ul li label {position:absolute; top:0; left:13px; width:50px; height:30px; line-height:30px; text-align:left;}
+.zipcodeV16 .finder ul li.child2 label,
+.zipcodeV16 .finder ul li.child4 label {left:16px;}
+.zipcodeV16 .finder ul li select {width:100%;}
+
+.zipcodeV16 .btnAreaV16a {margin-top:30px; text-align:center;}
+.zipcodeV16 .btnAreaV16a .btn {margin:0 3px; font-size:12px;}
+
+.zipcodeV16 .reference {margin-top:32px; color:#888; font-size:11px; text-align:center;}
+.zipcodeV16 .reference p {margin-top:16px;}
+.zipcodeV16 .reference a {color:#888; font-weight:bold;}
+
+.zipcodeV16 .result li {margin:0 5px; border-top:1px solid #eee;}
+.zipcodeV16 .result li:first-child {border-top:0;}
+.zipcodeV16 .result li a, .result li span {display:block; color:#555;}
+.zipcodeV16 .result li a {padding:16px 0 15px; font-weight:bold;}
+.zipcodeV16 .result li span {font-weight:normal;}
+.zipcodeV16 .result li.nodata {padding:30px 0; color:#888; font-weight:bold; text-align:center;}
+
+.zipcodeV16 .scrollbarwrap {overflow-y:auto; width:100%; min-height:65px; max-height:268px; border-bottom:1px solid #ddd;}
+
+.zipcodeV16 .form .address {padding:18px 15px 20px; border:5px solid #f5f5f5; border-top:0;}
+.zipcodeV16 .form .address p {color:#888;}
+.zipcodeV16 .form .address p span {display:block;}
+.zipcodeV16 .form .address p span:first-child {color:#000;}
+.zipcodeV16 .form .address .itext {margin-top:13px;}
+
+.jibeon .help {margin-top:33px; padding:0; background-color:#fff;}
+.jibeon .result .total {margin-top:33px;}
+.jibeon .scrollbarwrap {margin-top:10px; border-top:1px solid #ddd;}
+.jibeon .finder .address {margin-top:30px; padding:18px 15px 20px; border:5px solid #ebebeb;}
+.jibeon .finder .address .row {position:relative; padding-left:60px; margin-right:2px; text-align:left;}
+.jibeon .finder .address .row label {position:absolute; top:0; left:0; width:60px; height:30px; line-height:30px;}
+.jibeon .finder .address .row input {width:100%;}
+.jibeon .form .address {margin-top:33px; border-top:5px solid #ebebeb;}
+
+.direct .help {margin-top:20px;}
+.direct .finder ul li div {padding-left:76px;}
+.direct .finder ul li label {width:60px;}
+.direct .finder ul li.child3,
+.direct .finder ul li.child4 {width:100%;}
+.direct .finder ul li.child4 label {left:13px;}
+
+/* zipcode 2017 */
+.zipcodeV17 {min-width:500px;}
+.zipcodeV17 .hidden {visibility:hidden; width:0; height:0; overflow:hidden; position:absolute; top:-1000%; line-height:0;}
+.zipcodeV17 .tabs {overflow:hidden; margin-left:-1px; border-left:1px solid #ddd;}
+.zipcodeV17 .tabs li {float:left; width:50%;}
+.zipcodeV17 .tabs li a {display:block; border:1px solid #ddd; border-left:0; background-color:#f5f5f5; color:#969696; font-size:13px; font-weight:bold; line-height:33px; text-align:center;}
+.zipcodeV17 .tabs li a:hover {text-decoration:none;}
+.zipcodeV17 .tabs .on {border-bottom:0; background-color:#fff; color:#555;}
+
+.zipcodeV17 input {font-weight:normal; font-size:11px;}
+.zipcodeV17 select {appearance:none; -webkit-appearance:none; -moz-appearance:none; height:30px; padding-left:10px; border:1px solid #bbb; padding-right:25px; background:url(/fiximage/web2015/giftcard/bg_select_arr.gif) no-repeat 100% 50%; color:#555; font-weight:normal; font-size:11px;}
+.zipcodeV17 select {padding-right:0\9;background:none\9;}
+.zipcodeV17 select::-ms-expand {
+	display:none;
+}
+.zipcodeV17 .itext {display:block; height:28px; padding:0 10px; border:1px solid #bbb;}
+.zipcodeV17 .itext input {width:100%; height:28px; background-color:transparent; line-height:28px;}
+.zipcodeV17 .itext input[type=search] {-webkit-appearance:none; line-height: normal;}
+.zipcodeV17 .searchForm input::-webkit-input-placeholder {color:#888;}
+.zipcodeV17 .searchForm input::-moz-placeholder {color:#888;} /* firefox 19+ */
+.zipcodeV17 .searchForm input:-ms-input-placeholder {color:#888;} /* ie */
+.zipcodeV17 .searchForm input:-moz-placeholder {color:#888;}
+
+.zipcodeV17 .searchForm {margin-top:30px;}
+.zipcodeV17 .searchForm input[type=search] {border:0;}
+.zipcodeV17 .searchForm .finder {position:relative; margin:0; padding:20px; border:5px solid #fafafa;}
+.zipcodeV17 .searchForm .inner {position:relative; padding-right:130px; text-align:left;}
+.zipcodeV17 .searchForm .finder .btn {position:absolute; top:20px; right:20px; width:120px; padding-right:0; padding-left:0;}
+.zipcodeV17 .searchForm .btnReset {position:absolute; top:1px; right:131px; width:36px; height:28px; background:#fff url(/fiximage/web2017/common/btn_reset.png) 50% 50% no-repeat; color:transparent; cursor:pointer;}
+
+.zipcodeV17 .searchForm ul {padding:25px 20px; border:5px solid #fafafa;}
+.zipcodeV17 .searchForm ul li {position:relative; margin-top:10px; padding-left:80px; *zoom:1;}
+.zipcodeV17 .searchForm ul li:first-child {margin-top:0;}
+.zipcodeV17 .searchForm ul li label {position:absolute; top:0; left:0; width:80px; height:30px; color:#555; font-weight:bold; line-height:30px; text-align:left;}
+.zipcodeV17 .searchForm ul li select {width:100%;}
+
+.zipcodeV17 .guide {padding:27px 0 26px; color:#888; font-weight:bold; text-align:center;}
+
+.zipcodeV17 .tip {padding:5px; background-color:#fafafa;}
+.zipcodeV17 .tip h3 {padding:13px 0 17px 27px; color:#010000; font-weight:bold;}
+.zipcodeV17 .tip h3 span {display:inline-block; width:27px; height:15px; border:1px solid #000; border-radius:13px; font-size:10px; font-weight:normal; line-height:15px; text-transform:uppercase; text-align:center;}
+.zipcodeV17 .tip ul {padding:27px 28px 25px; background-color:#fff;}
+.zipcodeV17 .tip ul li {margin-top:12px; color:#888; font-size:12px; font-weight:bold;}
+.zipcodeV17 .tip ul li:first-child {margin-top:0;}
+.zipcodeV17 .tip ul li span {font-size:11px; font-weight:normal;}
+
+.zipcodeV17 .total {margin-top:17px; padding-bottom:8px; color:#555; }
+.zipcodeV17 .total em {color:#000; font-weight:bold;}
+.zipcodeV17 .result ul {overflow-y:auto; position: relative; max-height:260px; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.zipcodeV17 .result ul li {position:relative; padding:12px 0 13px; margin-right:12px; border-top:1px solid #eee; *zoom:1;}
+.zipcodeV17 .result ul li:first-child {border-top:0;}
+.zipcodeV17 .result ul li .zipcode,
+.zipcodeV17 .result ul li a {overflow:hidden; display:block; margin:5px 70px 0 0; color:#555;}
+.zipcodeV17 .result ul li .postcode + a {margin-top:0;}
+.zipcodeV17 .result ul li .postcode {position:absolute; top:0; *top:25px; right:0; width:50px; height:100%; font-weight:bold; text-align:center;}
+.zipcodeV17 .result ul li .postcode span {display:table; width:100%; height:100%;}
+.zipcodeV17 .result ul li .postcode span i {display:table-cell; width:100%; height:100%; vertical-align:middle; font-style:normal;}
+.zipcodeV17 .result ul li a:hover,
+.zipcodeV17 .result ul li a:hover em {color:#d50c0c; text-decoration:none;}
+.zipcodeV17 .result ul li em {float:left; width:9.8%; color:#000; font-weight:bold;}
+.zipcodeV17 .result ul li div {float:left; width:90.2%; cursor:pointer;}
+
+.zipcodeV17 .pageWrapV15 {margin-top:30px;}
+.zipcodeV17 .pageWrapV15 .pageMove {display:none;}
+
+.zipcodeV17 .btnAreaV16a {margin-top:30px; text-align:center;}
+.zipcodeV17 .btnAreaV16a .btn {width:198px; margin:0 3px; padding-right:0; padding-left:0; font-size:12px;}
+
+/* 멤버십 카드 등록 팝업 */
+.registMemcardV17 {text-align:center;}
+.registMemcardV17 .inputCardNum {position:relative; width:354px; height:226px; margin:20px auto 94px; }
+.registMemcardV17 .inputCardNum .userInput {position:absolute; top:160px; left:0; width:354px;}
+.registMemcardV17 .inputCardNum .userInput .txtInp {margin:0 6px; border:none; text-align:center;}
+.registMemcardV17 .inputCardNum p{padding-top:22px; font-size:16px; font-weight:bold; color:#000;}
+.registMemcardV17 .infoAgree {min-width:480px; color:#787878;}
+.registMemcardV17 .infoAgree .intro {padding:17px 0 11px;background-color:#f5f5f5; font-size:13px; font-weight:bold; line-height:19px;}
+.registMemcardV17 .infoAgree ul {border:solid 6px #f5f5f5;}
+.registMemcardV17 .infoAgree ul li {overflow:hidden; margin:0 30px; padding:16px 0 12px;}
+.registMemcardV17 .infoAgree ul li:first-child { border-bottom:solid 1px #f5f5f5;}
+.registMemcardV17 .infoAgree ul li p {width:265px; float:left;}
+.registMemcardV17 .infoAgree ul li .radioBox {float:right;}
+.registMemcardV17 .btnS1 {padding:15px 40px 15px 46px;}
+
+
+/* 푸시 동의 팝업 */
+.push-agree {text-align:center;}
+.push-agree img {vertical-align:top;}
+.push-agree .btnArea span {padding:0 8px;}
+.push-agree .btn {font-size:16px; width:130px; height:40px;}
+.push-agree .btnGry {background-color:#959595; border:1px solid #959595;}
+.push-agree .btnBlack {background-color:#33353e; border:1px solid #33353e; color:#fff;}
+
+/* 해외직구 안내 */
+.abroad-guide {width:920px; margin:0 auto;}
+.abroad-guide .process {overflow:hidden; padding:20px 0 50px; border-bottom:1px solid #e5dddd;}
+.abroad-guide .process li {float:left; width:210px; padding-left:30px; text-align:center; background:url(http://fiximage.10x10.co.kr/web2017/shopping/ico_abroad_guide.png) -400px 60px no-repeat;}
+.abroad-guide .process li strong { font-size:14px; line-height:1; color:#000; }
+.abroad-guide .process li i {display:block; width:91px; height:91px; margin:15px auto 22px; background:url(http://fiximage.10x10.co.kr/web2017/shopping/ico_abroad_guide.png) 0 0 no-repeat;}
+.abroad-guide .process li.step2 i {background-position:-100px 0;}
+.abroad-guide .process li.step3 i {background-position:-200px 0;}
+.abroad-guide .process li.step4 i {background-position:-300px 0;}
+.abroad-guide .process li:first-child {width:200px; padding-left:0; background:none;}
+.abroad-guide .process li p {padding-top:20px; text-align:left; font-size:11px; color:#888; word-spacing:-0.01em;}
+.abroad-guide .process li p a {display:inline-block; margin-top:8px; font-weight:normal; color:#000; text-decoration:underline;}
+
+/* 재입고 알림 */
+.stock-inform .btnArea .btn {width:105px;}
+.stock-inform .items {position:relative; padding-bottom:24px;}
+.stock-inform .items .brand {font-size:12px; color:#777; font-weight:bold;}
+.stock-inform .items .name {font-size:16px; color:#000; font-weight:bold;}
+.stock-inform .select-form {padding:20px 0; font-size:12px; border-top:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd;}
+.stock-inform .select-form th {padding-top:11px; color:#000; text-align:left; vertical-align:top;}
+.stock-inform .select-form td {padding:11px 0;}
+.stock-inform .select-form .scrollbarwrap {position:relative; width:100%; font-size:11px; color:#555; border:1px solid #000;}
+.stock-inform .select-form .scrollbarwrap .viewport {overflow:hidden; position: relative; width:100%; height:130px;}
+.stock-inform .select-form .scrollbarwrap .overview {color:#666; line-height:18px;}
+.stock-inform .select-form .scrollbarwrap .scrollbar {float:none; position:absolute; right:0; top:0; z-index:10; width:8px;}
+.stock-inform .select-form .scrollbarwrap .track {position: relative; width:8px; height:100%; background-color:#f0f0f0;}
+.stock-inform .select-form .scrollbarwrap .thumb {overflow:hidden; position:absolute; top: 0; left:0; width:8px; height:24px; background-color:#d8d8d8; cursor:pointer;}
+.stock-inform .select-form .scrollbarwrap li.on {background:#efefef;}
+.stock-inform .select-form .scrollbarwrap li input {position:absolute; left:10px; top:8px;}
+.stock-inform .select-form .scrollbarwrap li label {display:block; position:relative; padding:7px 15px 7px 34px; line-height:14px;}
+.stock-inform .form-field label {margin-right:40px;}
+
+/* 위시 폴더 순서 변경 */
+.newFloder {position:relative;}
+.btn-reoreder {position:absolute; right:20px; top:50%; margin-top:-10px;}
+.btn-reoreder .btnS2 {padding:6px 7px 5px 27px; background:url(http://fiximage.10x10.co.kr/web2018/my10x10/btn_reorder.png) 10px 50% no-repeat; focus:}
+.folderManage .folderList li {height:auto; padding:0; background-color:#f9f9f9; border-bottom:1px solid #ddd; margin-top:-1px;}
+.folderManage .folderList li.noData {height:48px;}
+.folderManage .folderList li.ui-state-highlight {height:48px; background-color:#ddd;}
+.folderManage .folderList li .folder-name {height:19px; padding:15px 20px 14px;}
+.folderManage .folderList li .folderModify .btnArea {top:63px;}
+.folderManage .folderModify {z-index:1; height:auto; padding:15px 20px 14px; border-top:0; background:#eaeaea url(http://fiximage.10x10.co.kr/web2013/my10x10/bg_arrow_folder_manage.gif) 20px top no-repeat; font-size:11px;}
+.folderManage .folderModify .txtInp {width:203px; margin-right:5px; padding:0px 10px 2px; font-size:11px;}
+.folderManage .folderModify label {margin:0 5px 0 3px;}
+.folderManage .folderModify .modifying .contLyr {left:-60px; top:5px; background:url(http://fiximage.10x10.co.kr/web2013/common/contlyr_pointer.gif) 61px 10px no-repeat;}
+.folderManage .folderModify .modifying .contLyr ul li {height:auto; padding:0 0 0 13px; border:0; background:url(http://fiximage.10x10.co.kr/web2013/common/blt_btn_arr_red03.gif) left 6px no-repeat;}
+.folderManage .folderModify .modifying .setting {margin-top:5px; zoom:1;}
+.folderManage .folderModify .modifying .setting:after {content:""; display:block; clear:both;}
+.sortable .sorting-action {display:inline-block; width:20px;}
+
+/* popV18 */
+.popV18 input[type=text] {border:solid 1px #ddd;}
+.popV18 .icon {display:inline-block;}
+.popV18 .popHeader {padding:28px 0 8px 25px; background-color:#ff3131;}
+.popV18 .popHeader h1 {color:#fff; font-size:24px; line-height:33px; font-weight:500;}
+.popV18 .popContent {padding:0 30px 40px 30px; font-weight:normal;}
+.popV18 .popContent h2,
+.popV18 .popContent h3 {font-weight:normal;}
+.popV18 .btn-area {margin-top:20px;}
+.popV18 .btn-area button {padding:18px 0; font-size:18px; line-height:1; font-weight:bold;}
+.popV18 .section {margin-top:40px;}
+.popV18 .section:first-child {margin-top:0;}
+.popV18 .section .table-wrap {margin-top:16px; border-top:solid 2px #666;}
+.popV18 .section h3 {color:#000; font-size:17px; line-height:23px; font-weight:bold;}
+.popV18 .section > p {margin-top:4px; color:#999; font-size:12px;}
+.popV18 .section table {font-size:14px; text-align:left; table-layout:fixed;}
+.popV18 .section th {font-weight:normal; text-align:left;}
+.popV18 .section th {padding-left:4px;}
+.popV18 .section th,
+.popV18 .section td {border-bottom:solid 1px #f5f5f5;}
+.popV18 .selectbox {display:inline-block; position:relative; height:34px; color:#999; font-size:13px; border:1px solid #ddd; background-color:#fff; vertical-align:top;}
+.popV18 .selectbox > p {position:relative; padding:0 12px; line-height:36px; color:#999; font-size:13px; font-weight:normal; cursor:pointer;}
+.popV18 .selectbox ul {display:none; overflow-y:auto; position:absolute; left:-1px; top:34px; z-index:30; width:100%; height:228px; color:#333; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; background-color:#fff;}
+.popV18 .selectbox.current ul {display:block;}
+.popV18 .selectbox li {padding:0 10px; line-height:35px; cursor:pointer; font-weight:300;}
+.popV18 .selectbox li:hover {color:#333; background-color:#f5f5f5;}
+.popV18 .noti {margin-top:20px; padding:27px 0; background-color:#f5f5f5; color:#666; font-size:12px; text-align:center;}
+
+/* 예치금 환불 20181129 */
+.popV18.deposit .total-deposit {margin:0 -30px; padding:30px; background:url(http://fiximage.10x10.co.kr/web2018/main/bg_pattern_slash.png) 0 0 repeat;}
+.popV18.deposit .total-deposit .inner {width:460px; margin:0 auto; padding:27px 0 32px; background-color:#fff; text-align:center;}
+.popV18.deposit .total-deposit .inner h2 {color:#999; font-size:16px; letter-spacing:-.5px; font-weight:bold;}
+.popV18.deposit .total-deposit .inner p {color:#ff3131; font-size:20px; font-weight:bold;}
+.popV18.deposit .total-deposit .inner p em {display:inline-block; margin-right:4px; font-size:46px;}
+.popV18.deposit input[type=text] {height:34px; padding:0 12px; font-size:13px;}
+.popV18.deposit ::placeholder,
+.popV18.deposit ::-ms-input-placeholder,
+.popV18.deposit ::-ms-input-placeholder {color:#999;}
+.popV18.deposit td {padding:12px 0; text-align:right;}
+.popV18.deposit .returnDeposit[type=text] {font-size:16px; font-weight:bold; text-align:center;}
+.popV18.deposit .btn-all {padding:11px 21px; margin-left:4px; font-size:14px; line-height:1;}
+.popV18.deposit .selectbox > p {text-align:left;}
+.popV18.deposit .selectbox .btn-linkV18 span {position:absolute; top:50%; right:14px; margin-top:-3px; transform:rotate(90deg);}
+.popV18.deposit .selectbox .btn-linkV18:hover {text-decoration:none;}
+.popV18.deposit .selectbox.current .btn-linkV18 span {transform:rotate(-90deg);}
+.popV18.deposit .selectbox ul li {text-align:left;}
+.popV18.deposit .noti .icon {position:relative; top:3px; width:14px; height:14px; margin-right:5px; background:url(http://fiximage.10x10.co.kr/web2018/common/ico_clock.png) 0 0 repeat; background-size:100%;}

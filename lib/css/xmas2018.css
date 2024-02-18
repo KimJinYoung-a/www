@@ -1,0 +1,99 @@
+/* 크리스마스 2018 - br20181114 */
+@import url('https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css');
+.xmas2018 {font-family:'Verdana', 'Nanum Barun Gothic', '나눔바른고딕', sans-serif;}
+.xmas2018 a {text-decoration:none;}
+.xmas2018 img {vertical-align:top;}
+.xmas-head {position:relative; height:728px; background-image:url(http://fiximage.10x10.co.kr/web2018/xmas2018/bg_head.jpg?v=1.0); background-position:50% 0; background-repeat:no-repeat;}
+.xmas-head:before, .xmas-head:after {content:' '; position:absolute; top:0; width:50%; height:100%; z-index:-1;}
+.xmas-head:before {left:0; background:url(http://fiximage.10x10.co.kr/web2018/xmas2018/bg_head_pat.jpg?v=1.0) 0 0 repeat-x;}
+.xmas-head:after {right:0; background:url(http://fiximage.10x10.co.kr/web2018/xmas2018/bg_head_pat_r.jpg) 100% 0 repeat-x;}
+.xmas-head h2 {position:relative; width:1140px; height:100%; margin:0 auto; color:transparent; text-align:center;}
+.xmas-head h2 > img {margin-top:66px;}
+.xmas-head h2:before, .xmas-head h2:after {display:block; content:' '; position:absolute;}
+.xmas-head h2:before {bottom:77px; left:12px; width:488px; height:138px; background:url(http://fiximage.10x10.co.kr/web2018/xmas2018/img_tree_l.gif) 50% 50% no-repeat;}
+.xmas-head h2:after {bottom:79px; right:7px; width:408px; height:182px; background:url(http://fiximage.10x10.co.kr/web2018/xmas2018/img_tree_r.gif) 50% 50% no-repeat;}
+
+/* 01 피드 */
+.xmas-feed {background:url(http://fiximage.10x10.co.kr/web2018/xmas2018/bg_feed.gif) 0 0 repeat;}
+.xmas-feed .inner {position:relative; top:-80px; width:1080px; margin:0 auto;}
+.xmas-feed .post {position:relative; overflow:hidden; padding:38px 38px 0; background-color:#fff; box-shadow:0 27px 46px rgba(0,0,0,0.2);}
+.xmas-feed .post + .post {margin-top:86px;}
+.xmas-feed .post .img {overflow:hidden; position:absolute; top:38px; left:38px; width:592px; height:560px;}
+.xmas-feed .post .img a {display:block;}
+.xmas-feed .post .img a:after {content:' '; position:absolute; right:20px; bottom:20px; width:63px; height:63px; background:url(http://fiximage.10x10.co.kr/web2018/xmas2018/m/ico_plus.png) 50% 50% no-repeat; background-size:100%;}
+.xmas-feed .post .img img {width:592px;}
+.xmas-feed .post .info {position:relative; height:453px; margin-left:686px; padding-top:107px;}
+.xmas-feed .post .info .tag-new {position:absolute; top:-10px; right:-10px;}
+.xmas-feed .post .info .num {display:block; margin-bottom:22px;}
+.xmas-feed .post .info p {position:relative; width:250px; margin-bottom:16px; padding-bottom:28px; font-size:15px; line-height:25px; color:#000; word-break:keep-all;}
+.xmas-feed .post .info p:after {content:' '; position:absolute; left:0; bottom:0; width:230px; height:1px; background:rgba(0,0,0,0.1);}
+.xmas-feed .tag {overflow:hidden; width:290px;}
+.xmas-feed .tag li {float:left; margin:0 10px 10px 0;}
+.xmas-feed .tag li a {display:inline-block; padding:0 12px; height:29px; line-height:28px; font-size:14px; color:rgba(0,0,0,0.8); border-radius:15px; background-color:#ededed;}
+.xmas-feed .tag li.go-evt a {position:relative; background-color:#ebe0ce;}
+.xmas-feed .tag li.go-evt a:before {display:inline-block; content:'EVENT'; margin-right:0.34rem; font-family:'Verdana'; font-size:0.55rem; color:#684917; vertical-align:top;}
+.xmas-feed .item-list {margin-top:22px;}
+.xmas-feed .item-list ul {overflow:hidden; width:1042px;}
+.xmas-feed .item-list li {float:left; width:180px; height:288px; margin-right:26px;}
+.xmas-feed .item-list li a {display:block; overflow:hidden; position:relative;}
+.xmas-feed .item-list .thumbnail {position:relative; overflow:hidden; width:180px; height:180px; background-color:#f4f4f4;}
+.xmas-feed .item-list .thumbnail:before {content:' '; position:absolute; top:50%; left:50%; width:3rem; height:3rem; margin:-1.5rem 0 0 -1.5rem; background:url(http://fiximage.10x10.co.kr/m/2017/common/bg_img_loading.png) 50% 0 no-repeat; background-size:100% auto;}
+.xmas-feed .item-list .thumbnail > img {position:relative; z-index:2; width:100%;}
+.xmas-feed .item-list .tag-item {display:block; position:absolute; top:0; right:0; z-index:3; width:45px; height:46px;}
+.xmas-feed .item-list .tag-item img {width:45px; height:46px;}
+.xmas-feed .item-list .desc {padding-top:13px; font-size:13px; line-height:17px; text-align:center;}
+.xmas-feed .item-list .desc .name {overflow:hidden; display:-webkit-box; max-height:34px; color:#111; -webkit-line-clamp:2; -webkit-box-orient:vertical; text-overflow:ellipsis;}
+.xmas-feed .item-list .desc .price {margin-top:10px; color:#888;}
+.xmas-feed .item-list .desc .price s {display:none;}
+.xmas-feed .item-list .desc .price span {margin-left:5px; color:#ff4800;}
+.xmas-feed .item-list .desc .price .red {color:#ff4800;}
+.xmas-feed .item-list .desc .price .green {color:#14be98;}
+
+/* 02 이벤트 */
+.xmas-evt {padding:117px 0 80px; background:#7c3f46 url(http://fiximage.10x10.co.kr/web2018/xmas2018/bg_event.jpg) 50% 0 no-repeat;}
+.xmas-evt .inner {width:1080px; margin:0 auto;}
+.xmas-evt h3 {text-align:center;}
+.xmas-evt ul {overflow:hidden; margin-top:33px;}
+.xmas-evt li {overflow:hidden; float:left; width:529px; height:400px; margin-top:22px; background-color:#fff;}
+.xmas-evt li:nth-child(2n) {margin-left:22px;}
+.xmas-evt li a {display:block; padding:16px;}
+.xmas-evt .thumbnail {position:relative; width:497px; height:268px; overflow:hidden;}
+.xmas-evt .thumbnail img {width:497px;}
+.xmas-evt .thumbnail .discount {overflow:hidden; position:absolute; bottom:0; right:0; width:65px; height:65px; line-height:65px; background-color:#ff495a; color:#fff; text-align:center; font-weight:normal; font-size:18px;}
+.xmas-evt .desc {padding:23px 0 10px; line-height:1.5;}
+.xmas-evt .desc .headline {font-weight:bold; font-size:22px; color:#000;}
+.xmas-evt .desc .subcopy {height:24px; font-size:16px; color:#787878;}
+.xmas-evt .desc .ellipsis {width:100%;}
+.xmas-evt .desc .subcopy .discount {margin-right:8px; color:#269e5c;}
+.xmas2018 .btn-more {display:block; width:210px; margin:52px auto 0; background:transparent; outline:0;}
+
+/* 03 카테고리 */
+.xmas-item {padding:57px 0 114px; text-align:center; background-color:#f7f2eb;}
+.xmas-item .type {width:1140px; margin:0 auto;}
+.xmas-item .type ul {display:inline-block; vertical-align:top;}
+.xmas-item .type li {float:left; position:relative; width:109px; padding:0 15px;}
+.xmas-item .type li:first-child {padding-right:20px; margin-right:5px;}
+.xmas-item .type li:first-child:after {content:' '; position:absolute; top:34px; right:0; width:1px; height:41px; background-color:#d5cfc5;}
+.xmas-item .type li input {visibility:hidden; position:absolute; left:0; top:0; width:0; height:0;}
+.xmas-item .type li label {display:block; position:relative; cursor:pointer;}
+.xmas-item .type li input:checked + label:after {content:' '; display:block; position:absolute; top:2px; left:0; right:0; width:109px; height:109px; background:url(http://fiximage.10x10.co.kr/web2018/xmas2018/ico_chk.png) 50% 0 no-repeat;}
+
+.xmas-item .item-box {width:1072px; margin:60px auto 0; padding:58px 44px 62px; background-color:#fff;}
+.xmas-item .items.type-thumb.item-240 ul {margin:0;}
+.xmas-item .items.type-thumb.item-240 li {height:410px; padding:0 14px; margin:0;}
+.xmas-item .thumbnail {display:block;}
+.xmas-item .desc {display:block; padding-top:12px;}
+.xmas-item .desc .brand {display:block; font-size:12px; color:#111;}
+.xmas-item .desc .name {display:block; padding-top:0; font-weight:bold; font-size:15px; line-height:1.2; color:#111;}
+.xmas-item .desc .price {display:block; margin-top:8px; font-family:'Verdana'; font-size:14px; color:#888;}
+.xmas-item .color-red {color:#ff4800 !important;}
+.xmas-item .color-green {color:#269e5c !important;}
+.xmas-item .pageWrapV15 .pageMove {display:none;}
+.xmas-item .paging {height:40px;}
+.xmas-item .paging a {width:40px; height:40px; margin:0 10px; font-weight:bold; line-height:40px; border:0; background-color:transparent;}
+.xmas-item .paging a span {width:40px; height:40px; padding:0; font-size:14px; color:#111; min-width:inherit; letter-spacing:inherit;}
+.xmas-item .paging a.first, .xmas-item .paging a.end {display:none;}
+.xmas-item .paging a.arrow span {background-image:url(http://fiximage.10x10.co.kr/web2018/diary2019/bg_arrow.png);}
+.xmas-item .paging a.prev span {background-position:50% -4px;}
+.xmas-item .paging a.next span {background-position:50% -34px}
+.xmas-item .paging a.current {background-color:#b4d0cc; border-radius:50%;}

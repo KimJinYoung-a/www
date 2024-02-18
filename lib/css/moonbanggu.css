@@ -1,0 +1,217 @@
+/* common */
+.moonbanggu, .moonbanggu .discount, .moonbanggu .num, .moonbanggu h3 {font-family: 'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif; color: #000;}
+.moonbanggu a {color: #000;}
+.moonbanggu .bg-red {background-color: #ff6242;}
+.moonbanggu .bg-green {background-color: #00da5c;}
+.moonbanggu .color-red {color: #fe4924 !important;}
+.moonbanggu .color-green {color: #00d55a !important}
+.moonbanggu .clearFix:after {content: ''; display: block; clear: both;}
+.moonbanggu .clearFix > div, .clearFix > li {float: left;}
+.moonbanggu .clearFix > .flr {float: right;}
+.moonbanggu, .moonbanggu>div {position: relative;}
+.moonbanggu .inner {position: relative; width: 1140px; margin: auto;} 
+.moonbanggu .btn-more {display: block; width: 100%; height: 40px; border: 1px solid #85847f; font-size: 15px; font-weight: normal; line-height: 40px; background-color: transparent; color: #000; text-align: center; text-decoration: none;}
+.moonbanggu .btn-more:hover {text-decoration: none;}
+.moonbanggu .btn-more:after {content: ''; display: inline-block; width: 6px; height: 6px; margin-left: 5px; border-bottom: 1px solid #000;border-left: 1px solid #000; transform: rotate(-45deg); transform-origin: 50% 50%; transition:.4s; vertical-align: 4px}
+.moonbanggu .btn-more.on:after {vertical-align: 0; transform: rotate(135deg);}
+.moonbanggu .blind {display: none;}
+.moonbanggu h2 {position: absolute;z-index: 99; top: 150px; left: 50%; width: 107px; height: 20px; padding: 2px 2px 4px; margin-left: -540px; background: url(//fiximage.10x10.co.kr/web2019/moonbanggu/logo.svg) no-repeat 2px; text-indent: -9999px; border-bottom: 2px solid #000;}
+.moonbanggu h3 {font-size: 20px; font-weight: bold; line-height: 40px; border-bottom: 1px solid #000; }
+
+/* layout */
+
+.moonbanggu {z-index: 1;}
+.main-bnr {height: 554px; width: 100%; }
+.main-bnr .slider {width: 100%; outline:none;}
+.main-bnr .slider span {position: relative; display: block; left: 50%; width: 1920px; margin-left: -960px;}
+.main-bnr .slider span img {width: 100%;}
+.main-bnr .slider .desc {position: absolute; top: 200px; left: 50%; width: 1080px; margin-left: -540px;}
+.main-bnr .slider .desc .headline p {margin-bottom: 8px; font-size: 35px; line-height: 1.25; font-weight: 600;}
+.main-bnr .slider .desc .headline p.tit {margin-bottom: 10px;}
+.main-bnr .slider .desc .headline p.subcopy {margin-bottom: 20px; font-weight: 400; font-size: 17px; line-height: 1.3;}
+.main-bnr .slider .desc .discount {display: inline-block; height: 30px; padding: 0 7px; margin-right: 3px; font-size: 15px; font-weight: bold; line-height: 30px;}
+.main-bnr .slick-slider .slick-arrow {left: 50%; bottom: 25px; width: 25px; height: 25px; margin-left: 533px;}
+.main-bnr .slick-slider .slick-arrow:before {content: ''; position: absolute; top: 7px; left: 7px; display: block; width: 8px; height: 8px; border-left: 2px solid #000; border-bottom: 2px solid #000; transform: rotate(-135deg)}
+.main-bnr .slick-slider .slick-prev {margin-left: 453px;}
+.main-bnr .slick-slider .slick-prev:before { transform: rotate(45deg)}
+.main-bnr .slick-dots {position: absolute; left: 50%; bottom: 27px; height: 20px; margin-left: 487px; font-size: 13px; font-weight: bold; letter-spacing: 5px;}
+.main-bnr .slick-dots li {position: absolute; top: 0; left: 0; opacity: 0; transition-duration: .1s}
+.main-bnr .slick-dots li.slick-active {opacity: 1;}
+
+.main-prd {padding: 30px 0 35px; background-color: #f7f7f7;}
+.main-prd a {display: block; padding-top: 10px;}
+.main-prd .img-cont {display: block;}
+.main-prd .img-cont .thumbnail {position: relative; width: 390px; height: 250px; }
+.main-prd .img-cont .thumbnail img {width: 100%;}
+.main-prd .img-cont .thumbnail .soldout {position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; background-color: #00000070; border-radius: 130px; overflow: hidden;}
+.main-prd .img-cont .thumbnail .soldout b {display: inline-block; margin:100px 0 0 110px; color: #fff; font-size: 35px;}
+.main-prd .img-cont .thumbnail .badge {position: absolute; display:block; top: 0; right: 0;  width: 71px; height:71px; background-image:url(//fiximage.10x10.co.kr/web2019/moonbanggu/img_badge_1day.png?v=1.01); background-repeat:no-repeat; background-size: 71px; z-index: 12;}
+.main-prd .img-cont.verNew p {overflow: hidden; width:390px; height:250px; border-radius: 125px}
+.main-prd .img-cont.verNew .thumbnail img {width:unset; height: 100%; margin-left: -35px;}
+.main-prd .img-cont.verNew .thumbnail .badge {position: absolute; display:block; top: 0; right: 0;  width: 71px; height:71px; background-repeat:no-repeat; background-size: 71px; z-index: 12;}
+.main-prd .oneday .img-cont.verNew .thumbnail .badge {position: absolute; display:block; top: 0; right: 0;  width: 71px; height:71px; background-image:url(//fiximage.10x10.co.kr/web2019/moonbanggu/img_badge_1dayVn.png); background-repeat:no-repeat; background-size: 71px; z-index: 12;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-01 {background-position: 0 0;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-02 {background-position: 0 -100px;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-03 {background-position: 0 -200px;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-04 {background-position: 0 -300px;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-05 {background-position: 0 -400px;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-06 {background-position: 0 -500px;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-07 {background-position: 0 -600px;}
+.main-prd .oneday .img-cont .thumbnail .badge.day-08 {background-position: 0 -700px;}
+.main-prd .oneplus .img-cont .thumbnail .badge {background-image:url(//fiximage.10x10.co.kr/web2019/moonbanggu/img_badge_1plus.png);}
+.main-prd .gift .img-cont .thumbnail .badge {background-image:url(//fiximage.10x10.co.kr/web2019/moonbanggu/img_badge_gift.png);}
+.main-prd .desc {display: table; width: 610px; height: 250px; vertical-align: top;}
+.main-prd .desc .name-area {display: inline-table; width: 375px; padding: 57px 40px 0 110px; box-sizing: border-box; vertical-align: middle;}
+.main-prd .desc .name {display: block; display: -webkit-box; width: 202px; max-height: 102px; border: 15px solid #fff; vertical-align: middle; font-size: 23px; line-height: 1.5; font-weight: bold; color: #000; background-color: #fff; box-shadow: 10px 10px 0 0 #dfdac4; -webkit-line-clamp: 3; -webkit-box-orient: vertical; text-overflow: ellipsis; word-break: break-word; overflow: hidden;}
+.main-prd .desc .price {display: inline-table; padding-top: 55px; font-size: 19px; font-weight: bold; vertical-align: middle;}
+.main-prd .desc .price s {margin-right: 5px; font-size: 15px; font-weight: normal;}
+.main-prd .desc .price span {display: table; margin-top: 10px; padding: 1px 7px; font-size: 17px; color: #fff; background-color: #000;}
+.main-prd .oneday-chart {display: none; position: absolute; top: 32px; right: 0;}
+.main-prd .oneday .oneday-chart {display: block; }
+.main-prd .oneday-chart .time {position: absolute; right: 0; top: -22px; font-weight: 500; font-size: 14px; letter-spacing: 1px;}
+.main-prd .oneday-chart .time-line {position:relative; width:570px; height:8px; background-color: #e8e8e8; }
+.main-prd .oneday-chart .time-line:before {content:''; position:absolute; right: 0; top: 0; height:8px; background-color: #ff6242; }
+.main-prd .oneday-chart .interval-1:before {width:5%;} 
+.main-prd .oneday-chart .interval-2:before {width:10%;}
+.main-prd .oneday-chart .interval-3:before {width:15%;}
+.main-prd .oneday-chart .interval-4:before {width:20%;}
+.main-prd .oneday-chart .interval-5:before {width:25%;}
+.main-prd .oneday-chart .interval-6:before {width:30%;}
+.main-prd .oneday-chart .interval-7:before {width:35%;}
+.main-prd .oneday-chart .interval-8:before {width:40%;}
+.main-prd .oneday-chart .interval-9:before {width:45%;}
+.main-prd .oneday-chart .interval-10:before {width:50%;} 
+.main-prd .oneday-chart .interval-11:before {width:55%;} 
+.main-prd .oneday-chart .interval-12:before {width:60%;} 
+.main-prd .oneday-chart .interval-13:before {width:65%;} 
+.main-prd .oneday-chart .interval-14:before {width:70%;} 
+.main-prd .oneday-chart .interval-15:before {width:75%;} 
+.main-prd .oneday-chart .interval-16:before {width:80%;} 
+.main-prd .oneday-chart .interval-17:before {width:85%;} 
+.main-prd .oneday-chart .interval-18:before {width:90%;} 
+.main-prd .oneday-chart .interval-19:before {width:95%;} 
+.main-prd .oneday-chart .interval-20:before {width:100%;}
+.main-prd .oneday-chart .time-line:after {content: ''; position: absolute; top: 0; left: 0; width:0; height:0px; border-style: solid; border-width: 8px 8px 0 0 ; border-color:  #f7f7f7 transparent  transparent   transparent;}
+
+.items-wrap {padding-top: 60px;}
+.items-wrap .nav a {line-height: 30px;}
+.items-wrap .nav ul:after {content: ''; display: block; clear: both;}
+.items-wrap .nav li {position: relative; float: left; display: block; margin: 0 30px 10px 0}
+.items-wrap .nav li:after {content: ''; position: absolute; top: 2px ; right: -17px; display: block; height: 18px; width: 1px;  background-color: #7a786e;} 
+.items-wrap .nav li:last-child:after {content: none;}
+.items-wrap .nav li a {display: block; height: 25px; line-height: 25px; color: #7a786e; font-size: 17px; font-weight: normal; transition: .1s}
+.items-wrap .nav li a:hover {text-decoration: none; color: #000;}
+.items-wrap .nav li.on a {color:inherit; font-size: inherit; font-weight: inherit}
+.items-wrap .nav li.on a:after {content: ''; display: block; position: absolute; top: 28px; left: 0; width: 100%; height: 14px; background-image: url(//fiximage.10x10.co.kr/web2019/moonbanggu/btn_on.png); background-position-x: 50%; }
+.items-wrap .nav li.nav2.on a:after {background-position-y: -50px;}
+.items-wrap .nav li.nav3.on a:after {background-position-y: -100px;}
+.items-wrap .order {display: none; padding: 30px 0 20px; background-color: unset; }
+.items-wrap .order.on {display: block;}
+.items-wrap .order ul:after {content: ''; display: block; clear: both;}
+.items-wrap .order li {float: left; width: 260px; margin:0 25px 50px 5px}
+.items-wrap .order li:nth-child(4n) {margin-right: 0;}
+.items-wrap .order li a {text-decoration: none;}
+.items-wrap .order li a .desc {padding: 15px 8px 0; font-size: 13px; text-decoration: none; }
+.items-wrap .order li a .desc .name {margin-bottom: 2px;}
+.items-wrap .order li a .desc .price b {margin-right: 5px; font-weight: normal;}
+.items-wrap .order li a .thumbnail { width: 100%; height: 260px; }
+.items-wrap .order li a .thumbnail em {position: absolute; top: 0; left: 0; width: 30px; height: 30px; line-height: 30px; text-align: center; background-color: #ffd83c; z-index: 17; font-size: 13px; font-weight: bold;}
+.items-wrap .order.cart-best .thumbnail em {width: 65px; background-color: #ffa13d; font-weight: normal;}
+.items-wrap .order.tenten-pic .thumbnail em {background-color: #4cbeff;}
+
+.evt-list {background-color: #f9f7ee; padding: 50px 0 70px;}
+.evt-list  h3 {margin-bottom: 10px;}
+.evt-list li {position: relative; width: 550px; height: 260px; margin: 10px 25px 20px 5px; background-color: #fff;}
+.evt-list li:nth-child(2n) {margin-right: 0;}
+.evt-list li .thumbnail {width: 260px;}
+.evt-list li .thumbnail img {width: 100%;}
+.evt-list li .desc {width: 290px; height: 260px; padding: 60px 30px 0; box-sizing: border-box;}
+.evt-list li .desc .tit {width: 180px; margin-bottom: 10px; font-size: 17px; font-weight: bold; line-height: 1.5;}
+.evt-list li .desc .subcopy {margin-bottom: 20px; font-size: 15px; line-height: 1.4;}
+.evt-list li .desc .discount {margin-right: 7px; font-size: 15px;}
+.evt-list li .ico-gift {position: absolute; z-index: 8; top: 8px; right: 8px; display: block; width: 60px; height: 60px; background: url(//fiximage.10x10.co.kr/web2019/moonbanggu/ico_gift.png) no-repeat; background-size: contain; text-indent: -9999px;}
+
+.story {width: 540px; height: 407px; padding-top: 53px;}
+.story a {position: relative; display: block;}
+.story svg {position: absolute; top: 140px; left: 0; height: 80px; width: 80px; transform-origin: 7.5% 5.5%}
+.story svg circle {fill:#00ee6a; cx:40px; cy:40px; r:40px;}
+.story .desc {display: table; width: 240px; height: 330px; }
+.story .desc div {display: table-cell; vertical-align: middle;}
+.story .desc .label {display: inline-block; padding: 6px 5px 4px; margin-bottom: 12px; font-size: 15px; line-height: 1; background-color: #00ee6a}
+.story .desc .tit {margin-bottom: 12px; font-size: 25px; line-height: 1.3; font-weight: bold;  word-break: keep-all;}
+.story .desc .subtxt {font-size: 15px; line-height: 1.5; overflow: hidden; word-break: keep-all;}
+.story .thumbnail {width: 300px;}
+.issue-vod h3 {position: relative; padding-left: 23px; margin-bottom:30px;}
+.issue-vod h3 b {position: absolute; top: 0; left: 0; display: inline-block; width: 23px; font-size: 75px; color: #ffd83c; }
+.issue-vod h3 .timer {padding-left: 12px; margin-left: 7px; font-size: 13px; line-height: 20px; letter-spacing: 1px; background-color: transparent; font-weight: normal; vertical-align: 3px; border-left: 1px solid #ddd;}
+.issue-vod .desc {height: 280px;}
+.issue-vod .desc .label { background-color: #ffd83c;}
+.issue-vod .thumbnail {position: relative;}
+.issue-vod .thumbnail:before {content: ''; position: absolute; top: 80px; left: 80px; display: block; width: 101px; height: 101px; background-image: url(//fiximage.10x10.co.kr/web2019/moonbanggu/ico_vod_play.png); background-repeat: no-repeat; background-size: contain;}
+.issue-vod .thumbnail:after {content: '';  position: absolute; top: 70px; right: 90px; display: block; width: 65px; height:66px; background-image: url(//fiximage.10x10.co.kr/web2019/moonbanggu/ico_vod_new.png);  background-repeat: no-repeat; background-size: contain;}
+.issue-vod .thumbnail img {width: 260px;}
+
+.brand-story {background-color: #333;}
+.brand-story .list-wrap {position: relative;}
+.brand-story ul {position: absolute; top: 0; left: 0; width: 100%;}
+.brand-story ul:after {content: ''; display: block; clear: both;}
+.brand-story li {position: absolute; display: block;}
+.brand-story li.brand1 {top:70px; left: 110px; width: 550px; height: 395px;}
+.brand-story li.brand2 {top: 600px; left: 470px; width: 270px; height: 220px;}
+.brand-story li.brand3 {top: 100px; right: 100px; height: 300px; width: 300px;}
+.brand-story li.brand4 {top: 600px; left: 40px; width: 270px; height: 280px;}
+.brand-story li.brand5 {top: 510px; right: 20px ; width: 270px; height: 340px;}
+.brand-story li.brand6 {top: 1000px; left: 100px; height: 360px; width: 270px;}
+.brand-story li.brand7 {top: 1000px; right:50px; width: 690px; height: 430px;}
+.brand-story li a {position: absolute; top: 0; left: 0; display: block; width: 100%; height: 100%; z-index: 5;}
+.brand-story li .ani {position: relative; z-index: 4; width: 100%; height: 100%;}
+.brand-story li .ani span {position: absolute; display: block;}
+.brand-story li.brand3 .ani {margin: 30px 0 0  80px;}
+.brand-story li.brand4 .ani {margin:-70px 0 0 10px}
+.brand-story li.brand4 .ani span {transform-origin: 50% 50%}
+.brand-story li.brand7 .ani {margin: 110px 0 0 300px;}
+
+.cate-area {padding-bottom: 75px; background-color: #ffd83c;}
+.cate-area .inner {width: 1210px;}
+.cateList ul {padding: 60px 0 25px; text-align: center;}
+.cateList li {display: inline-block; width: 105px; font-size: 15px;}
+.cateList li input {visibility:hidden; position:absolute; left:0; top:66px; width:0; height:0;}
+.cateList li label {display:block; position:relative; cursor:pointer;}
+.cateList li label span {content: ''; display: block; width: 91px; margin: 0 auto; padding-top: 100px; background: url(//fiximage.10x10.co.kr/web2019/moonbanggu/btn_cate.png?v=1.01) no-repeat 0 0 /900px auto;}
+.cateList li.all {position: relative; padding-right: 11px;}
+.cateList li.all span {background: url(//fiximage.10x10.co.kr/web2019/moonbanggu/btn_cate_0.png?v=1.02) no-repeat 0 0 /91px auto;}
+.cateList li.all:hover span:after,
+.cateList li.all input:checked + label span:after {background-image: url(//fiximage.10x10.co.kr/web2019/moonbanggu/btn_cate_0_on.png);}
+.cateList li.all:hover span:after,
+.cateList li.all input:checked + label span:after {background-position-y: 0;}
+.cateList li.all:after {content: ''; display: block; position: absolute; right: 0; top: 20px; width: 1px; height: 50px; margin: 0 5px 0 4px; background-color: #967f23;}
+.cateList li.tape span {background-position: -100px 0;}
+.cateList li.keyring span {background-position: -200px 0;}
+.cateList li.pen span {background-position: -300px 0;}
+.cateList li.case span {background-position: -400px 0;}
+.cateList li.memo span {background-position: -500px 0;}
+.cateList li.binder span {background-position: -600px 0;}
+.cateList li.desc span {background-position: -700px 0;}
+.cateList li span:after,
+.cateList li input + label span:after {content: ''; position: absolute; display: block; top: 0;width: 91px; height: 91px; background-image: url(//fiximage.10x10.co.kr/web2019/moonbanggu/btn_cate_on.png); background-size: cover; transform: scale(0); transition-duration: .2s}
+.cateList li:hover span:after,
+.cateList li input:checked + label span:after {transform: scale(1)}
+.cate-area  .items-wrap {width: 1210px; padding-top: 45px; padding-left: 35px; background-color: #fff; box-sizing: border-box;}
+.cate-area  .items-wrap .sort {text-align: right; margin-right: 40px;}
+.cate-area  .items-wrap .sort li {display: inline-block; font-size: 15px; margin-left: 17px;}
+.cate-area  .items-wrap .sort li a {display: block; padding: 0 3px; text-decoration: none;}
+.cate-area  .items-wrap .sort li:hover a {font-weight: 600;}
+.cate-area  .items-wrap .sort li.on a {border-bottom: 5px solid #ff6242; font-weight: 600;}
+.cate-area  .items-wrap .order {display: block; padding-top: 17px;}
+
+.moonbanggu .paging a{background:none !important; border:none; }
+.moonbanggu .paging a.arrow {margin: 3px 30px;}
+.moonbanggu .paging a.arrow span {background-image: url(//fiximage.10x10.co.kr/web2019/common/ico_wrap.svg); background-position: -95px 0;}
+.moonbanggu .paging a.arrow.next span {transform: rotateY(180deg)}
+.moonbanggu .paging a.arrow.first,
+.moonbanggu .paging a.arrow.end {display: none;}
+.moonbanggu .paging a.current span {color: #000 !important;}
+.moonbanggu .paging {padding-top: 45px;}
+.moonbanggu .paging a {min-width:20px; margin: 0 6px; }
+.moonbanggu .paging a span {font-size: 14px; color: #000;}
+.moonbanggu .paging a.current {font-weight: bold; font-style: italic; border-width: 0; border-bottom: 3px solid #000;}

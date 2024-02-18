@@ -1,0 +1,110 @@
+.evt117084 section{position:relative;}
+.evt117084 section a:hover{text-decoration:none;}
+.evt117084 dfn{display:none;}
+
+.evt117084 .section01 .img01{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/section01.jpg?v=1.03)no-repeat 50% 0;height:681px;}
+.evt117084 .section01 .img02{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/section02.jpg?v=1.03)no-repeat 50% 0;height:893px;}
+.evt117084 .section01 .img03{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/section03.jpg?v=1.03)no-repeat 50% 0;height:707px;}
+
+/* timesale */
+.evt117084 .timesale .main_time{width:960px;margin:108px auto 207px;position:relative;}
+.evt117084 .timesale .main_time .prd_item{overflow: hidden;}
+.evt117084 .timesale .main_time .prd_img{width:440px;height:440px;float:left;margin:0;}
+.evt117084 .timesale .main_time .prd_img img{width:100%;}
+.evt117084 .timesale .main_time .prd_info{text-align:left;margin-left:84px;width:calc(50% - 84px);float:left;}
+.evt117084 .timesale .main_time .prd_date{width:422px;margin-bottom:29px;padding-bottom:21px;border-bottom:1px solid #000;}
+.evt117084 .timesale .main_time .prd_date .date{font-size:54px;font-weight:800;color:#222;line-height:54px;letter-spacing:-0.03em;margin-left: 41px;}
+.evt117084 .timesale .main_time .prd_date .date span{display:block;font-size:22px;font-weight:400;color:#686868;line-height:22px;margin-bottom:15px;letter-spacing:-0.01em;}
+.evt117084 .timesale .main_time .prd_date .date span b{font-size:25px;font-weight:700;line-height:25px;letter-spacing:-0.11em;}
+.evt117084 .timesale .main_time .prd_date .time{font-size:49px;line-height: 49px;font-weight: 700;color:#000;margin-top:81px;position:relative;width:fit-content;letter-spacing:-0.01em;margin-left: 41px;}
+.evt117084 .timesale .main_time .prd_date .time::after{content:'';display:block;background: #FF0D38;width:12px;height:12px;border-radius:50%;position:absolute;top:-5px;right:-15px;animation: twinkle ease-in-out alternate;-webkit-animation: twinkle alternate .6s infinite;}
+.evt117084 .timesale .main_time .prd_name{font-size:25px;letter-spacing:-0.03em;width:290px;font-weight:700;margin-left: 41px;}
+.evt117084 .timesale .main_time .prd_price{margin-left:41px;margin-top:26px;font-size:28px;line-height:28px;letter-spacing:-0.01em;font-weight:700;color:#222;margin-top:10px;}
+.evt117084 .timesale .main_time s{display:block;font-size:23px;line-height:23px;letter-spacing:-0.01em;font-weight:400;color:#8C8C8C;}
+.evt117084 .timesale .main_time span{font-size:33px;line-height: 33px;letter-spacing:-0.01em;font-weight:700;color:#FF0D38;margin-left:10px;}
+.evt117084 .timesale .main_time .prd_link{width:483px;height:77px;display:flex;align-items:center;justify-content:center;background-color:#090909;color:#fff;border-radius:50px;position:absolute;bottom:-130px;left:50%;margin-left:-241.5px;font-size:24px;}
+.evt117084 .timesale .sub_time{background:#F8F3EB;overflow: hidden;}
+.evt117084 .timesale .sub_time .time_list{width:970px;margin:80px auto;overflow: hidden;}
+.evt117084 .timesale .sub_time .time_list li{width:220px;height:220px;float:left;margin-right:30px;position:relative;}
+.time_list li:nth-child(1),.time_list li:nth-child(2),.time_list li:nth-child(3),.time_list li:nth-child(4){margin-bottom:30px;}
+.time_list li:nth-child(4),.time_list li:nth-child(8){margin-right:0 !important;}
+.evt117084 .timesale .sub_time .time_list li figure{margin:0;}
+.evt117084 .timesale .sub_time .time_list li figure .mask{width:100%;height:100%;position:absolute;top:0;left:0;background-color:#686868;opacity: 0.15;}
+.evt117084 .timesale .sub_time .time_list li img{width:100%;}
+.evt117084 .timesale .sub_time .time_list li .time_date{font-size:20px;line-height:20px;font-weight:600;position:absolute;top:15px;left:8px;text-align:left;color:#fff;}
+.evt117084 .timesale .sub_time .time_list li .time_date span{display:block;font-size: 30px;line-height:36px;letter-spacing:-0.05em;font-weight:500;}
+.evt117084 .timesale .sub_time .time_list li.close a.more{display:none;}
+.evt117084 .timesale .sub_time .time_list li.close figure .mask{background-color:#222;opacity: 0.2;}
+.evt117084 .timesale .sub_time .time_list li.close figure img{filter: grayscale(100%);}
+.evt117084 .timesale .sub_time .time_list li.close .time_date{text-align: center;font-size:26px;line-height:26px;position:absolute;top:80px;left:0;width:100%;}
+.evt117084 .timesale .sub_time .time_list li a.more{width:31px;height:31px;position:absolute;right:8.4px;bottom:8.4px;}
+.evt117084 .timesale .sub_time .time_list li a.more img{width:100%;}
+
+.evt117084 .section03{position:relative;height:1500px;}
+.evt117084 .section03::before{position:absolute;content:'';height:500px;background:#74daf1;top:0;left:0;width:100%;}
+.evt117084 .section04{position:relative;height:1500px;}
+.evt117084 .section04::before{position:absolute;content:'';height:500px;background:#5cacf9;top:0;left:0;width:100%;}
+.evt117084 .section05{position:relative;height:1500px;}
+.evt117084 .section05::before{position:absolute;content:'';height:500px;background:#4374ea;top:0;left:0;width:100%;}
+.evt117084 .section06{position:relative;height:1500px;}
+.evt117084 .section06::before{position:absolute;content:'';height:500px;background:#74daf1;top:0;left:0;width:100%;}
+
+.evt117084 section .tit{position:absolute;top:109px;left:50%;transform:translateX(-50%);}
+.evt117084 section .main_prd{position:absolute;top:304px;left:50%;transform:translateX(-50%);}
+.evt117084 section .main_prd .thumbnail{float:left;width:566px;height:566px;margin-top:2px;margin-left:2px;border-right:2px solid #000;}
+.evt117084 section .main_prd .thumbnail img{width:100%;}
+.evt117084 section .main_prd .desc{float:left;margin-top:320px;margin-left:65px;text-align:left;}
+.evt117084 section .main_prd .desc .price s{display:block;font-size:21.06px;color:#8fa08b;}
+.evt117084 section .main_prd .desc .price{font-size:25.07px;font-weight:bold;line-height:27px;}
+.evt117084 section .main_prd .desc .price span{float:left;margin-right:10px;color:#ff214f;}
+.evt117084 section .main_prd .btn_purchase{width:300px;height:60px;position:absolute;bottom:100px;right:201px;display:block;}
+.evt117084 .section03 .main_prd .desc{margin-top:334px;}
+
+.evt117084 section .sub_prd{display:flex;width:1140px;position: relative;top:960px;left:50%;transform:translateX(-50%);justify-content:space-between;}
+.evt117084 section .sub_prd li{width:270px;}
+.evt117084 section .sub_prd li img{width:100%;}
+.evt117084 section .sub_prd li .desc{text-align: left;margin-top:20px;}
+.evt117084 section .sub_prd li .desc .name{font-size:19px;font-weight:500;margin-bottom:15px;line-height:24px;}
+.evt117084 section .sub_prd li .desc .price{font-size:18px;font-weight:700;}
+.evt117084 section .sub_prd li .desc .price s{display:block;font-size:17px;color:#8fa08b;font-weight:500;}
+.evt117084 section .sub_prd li .desc .price span{float:left;margin-right:5px;color:#ff214f;font-weight:600;}
+.evt117084 .section03 .main_prd{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/main01.png)no-repeat 0 0;width:1140px;height:570px;}
+.evt117084 .section04 .main_prd{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/main02.png)no-repeat 0 0;width:1140px;height:570px;}
+.evt117084 .section05 .main_prd{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/main03.png)no-repeat 0 0;width:1140px;height:570px;}
+.evt117084 .section06 .main_prd{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/main04.png)no-repeat 0 0;width:1140px;height:571px;}
+
+ 
+.evt117084 .brand_wrap{height:3360px;}
+.evt117084 .brand_wrap::before{position:absolute;content:none;}
+.evt117084 .brand_wrap .coupon{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/bg_coupon.jpg?v=1.03)no-repeat 50% 0;height:2343px;width:100%;display:block;}
+.evt117084 .brand_wrap .brand{background:url(//webimage.10x10.co.kr/fixevent/event/2022/118682/bg_brand.jpg?v=1.03)no-repeat 50% 0;height:1017px;width:100%;display:block;position:relative;}
+.evt117084 .brand_wrap .brand .brand_wrap{width:1140px;height:232px; position:absolute; left:50%; margin-left:-570px; top:354px;display:flex;flex-wrap:wrap;}
+.evt117084 .brand_wrap .brand .brand_wrap a{display:block;height:50%;}
+.evt117084 .brand_wrap .brand .brand_wrap a:nth-child(odd){width:520px;}
+.evt117084 .brand_wrap .brand .brand_wrap a:nth-child(even){width:618px;}
+
+.evt117084 .popup .bg_dim{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:10000;}
+.evt117084 .popup .pop{position:fixed;top:200px;left:50%;transform:translateX(-50%);z-index:10001;}
+.evt117084 .popup .pop .btn_close{width:85px;height:85px;display:block;position:absolute;top:0;right:0;}
+.evt117084 .popup .pop .btn_prd{width:300px;height:60px;display:block;position:absolute;bottom:50px;left:50%;transform:translateX(-50%);}
+
+.evt117084 .layerDeal{overflow:hidden;}
+.evt117084 .layerDeal .title{height:118px;line-height:118px;font-size:20px;font-weight: 400;letter-spacing: -0.01em;}
+.evt117084 .layerDeal .title span b{font-size:20px;font-weight: 500;letter-spacing: -0.01em;}
+.evt117084 .layerDeal .itemArea .pdtBrand{font-size:19px;line-height:19px;letter-spacing: -0.02em;color:#818181;margin-top:61px;text-decoration: none;margin-bottom:35px;}
+.evt117084 .layerDeal .itemArea .pdtBrand a{text-decoration: none;}
+.evt117084 .layerDeal .itemArea .tit_pdtName{min-height:90px;font-size:26px;line-height:45px;letter-spacing:-0.01em;margin:0 auto;padding:0;}
+
+.evt117084 .layerDeal .deal_detail{margin-top:120px;}
+.evt117084 .layerDeal .deal_list{padding:0 90px;padding-bottom:200px;margin-top:90px;}
+.evt117084 .layerDeal .deal_list .itemDeal li > a:after{border:0;}
+.evt117084 .layerDeal .deal_list .itemDeal .half{width:320px;height:437px;margin:0;margin-right:40px;margin-bottom:80px;}
+.evt117084 .layerDeal .deal_list .itemDeal .half:nth-child(even){margin-right:0;}
+.evt117084 .layerDeal .deal_list .itemDeal .half > a{width:320px;height:437px;padding:0;border:0;}
+.evt117084 .layerDeal .deal_list .itemDeal .half .pdtPhoto, .evt117084 .layerDeal .deal_list .itemDeal .half .pdtPhoto img{width:320px;height:320px;margin-bottom:20px;}
+.evt117084 .layerDeal .itemDeal .pdtInfo{width:320px;}
+.evt117084 .layerDeal .itemDeal .pdtName{margin-top:20px;font-size:20px;letter-spacing:-0.01em;font-weight: 400;height:none;line-height:28px;width:300px;height:54px;display:-webkit-box; -webkit-line-clamp:2;overflow:hidden; -webkit-box-orient: vertical;}
+@keyframes twinkle {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

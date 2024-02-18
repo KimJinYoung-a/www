@@ -1,0 +1,203 @@
+/* COMMON */
+.diary2018 img {vertical-align:top;}
+.diary2018 #contentWrap {width:100%; padding:52px 0 0;}
+.diary2018 .pageWrapV15 {padding-top:20px;}
+.diary2018 .pageWrapV15 .pageMove {display:none;}
+
+.diary-head {width:1110px; margin:0 auto; padding:7px 0 35px;}
+.diary-head:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-head h2 {float:left;}
+.diary-head .nav {float:right;}
+.diary-head .nav li {float:left; padding-left:42px;}
+.diary-head .nav li a {display:inline-block; padding-left:11px;}
+.diary-head .nav li a:hover, .diary-head .nav li.current a {background:url(http://fiximage.10x10.co.kr/web2017/diary2018/blt_round.png) 0 7px no-repeat;}
+.diary-head .nav li.finder {margin-top:-7px; padding-left:48px;}
+.diary-head .nav li.finder a {padding-left:0;}
+.diary-head .nav li.finder a:hover, .diary-head .nav li.finder.current a {background:none;}
+
+.diary-list {overflow:hidden; width:1140px; margin:0 auto;}
+.diary-list ul {width:1160px; margin-left:-20px;}
+.diary-list ul:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-list li {position:relative; float:left; width:270px; height:390px; margin:0 0 29px 20px;}
+.diary-list li a {display:inline-block; color:#4a4a4a; text-decoration:none;}
+.diary-list li .pdtInfo {padding:25px 12px 0;}
+.diary-list li .pdtInfo .brand a {padding-bottom:5px; line-height:16px; color:#afafaf; text-decoration:underline;}
+.diary-list li .pdtInfo .name {line-height:16px;}
+.diary-list li .pdtInfo .price {padding-top:10px; font-size:11px; font-weight:bold; line-height:1;}
+.diary-list li .pdtInfo .price strong {padding-left:4px;}
+.diary-list li .btn-preview {display:block; position:absolute; left:205px; top:205px; width:37px; height:37px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/btn_preview.png) 0 0 no-repeat; text-indent:-999em; outline:none;}
+.diary-list li.soldOut .soldOutMask {display:block; z-index:100;}
+
+/* MAIN */
+.main-rolling {position:relative; width:1280px; height:680px; margin:0 auto; background-color:#ececec;}
+.main-rolling .slidesjs-navigation {display:block; position:absolute; top:50%; z-index:10; width:47px; height:86px; margin-top:-43px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/btn_nav.png) 0 0 no-repeat; text-indent:-999em;}
+.main-rolling .slidesjs-navigation.slidesjs-previous {left:73px;}
+.main-rolling .slidesjs-navigation.slidesjs-next {right:73px; background-position:100% 0;}
+.main-rolling .slidesjs-pagination {position:absolute; right:90px; bottom:72px; z-index:10;}
+.main-rolling .slidesjs-pagination li {float:left;}
+.main-rolling .slidesjs-pagination li a {display:block; position:relative; width:14px; height:20px; margin-left:15px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/txt_number_1.png) 0 0 no-repeat; text-indent:-999em;}
+.main-rolling .slidesjs-pagination li a:after {content:''; display:inline-block; position:absolute; left:50%; top:30px; width:0; height:3px; background-color:#000; transition:all .3s;}
+.main-rolling .slidesjs-pagination li a.active:after {width:14px; margin-left:-7px;}
+.main-rolling .slidesjs-pagination li + li a {background-position:-14px 0;}
+.main-rolling .slidesjs-pagination li + li + li a {background-position:-28px 0;}
+.main-rolling .slidesjs-pagination li + li + li + li a {background-position:-42px 0;}
+.main-rolling .slidesjs-pagination li + li + li + li + li a {background-position:-56px 0;}
+.main-rolling .slidesjs-pagination li + li + li + li + li + li a {background-position:-70px 0;}
+.main-rolling .slidesjs-pagination li + li + li + li + li + li + li a {background-position:-84px 0;}
+.main-rolling .label {position:absolute; left:0; top:450px; z-index:10; padding-left:173px;}
+.main-rolling .label span {display:inline-block; width:55px; height:55px; margin:0 3px; text-align:center; font-size:px; color:#fff; background-color:#2a2a2b; vertical-align:top; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; border-radius:50%;}
+.main-rolling .label span img {display:inline-block; padding-top:20px;}
+.main-rolling .label span.count {color:#9d9c99; font:bold 11px/1.2 'malgun gothic';}
+.main-rolling .label span.count em {display:inline-block; padding-top:13px; font-size:15px; color:#fff; letter-spacing:0.05em;}
+.main-rolling .item.center .label {width:100%; padding-left:0; text-align:center;}
+
+.diary-collabo {display:none; padding:447px 0 84px; text-align:center; background-color:#ececec;}
+.diary-collabo div {padding:63px 0 74px;}
+
+.related-event {width:1162px; margin:0 auto; padding-bottom:120px;}
+.related-event ul {overflow:hidden;}
+.related-event li {overflow:hidden; float:left; width:387px; height:240px; margin-bottom:21px; text-align:center;}
+.related-event li:hover img {margin-top:-240px;}
+.related-event li.big {height:500px; margin-bottom:0;}
+.related-event li.big:hover img {margin-top:-501px;}
+
+.diary-category {padding:100px 0 110px; text-align:center;}
+.diary-category .tab {width:750px; margin:0 auto; padding:50px 0 90px;}
+.diary-category .tab:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-category .tab li {position:relative; float:left;}
+.diary-category .tab li a {overflow:hidden; display:block; height:43px;}
+.diary-category .tab li.current img {margin-top:-43px;}
+.diary-category .tab li.current:after {content:''; display:inline-block; position:absolute; left:50%; top:43px; width:16px; height:8px; margin-left:-8px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/blt_tab_arrow.png) 0 0 no-repeat;}
+.diary-category .type {width:1130px; margin:0 auto; padding-top:45px;}
+.diary-category .type:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-category .type li {position:relative; overflow:hidden; float:left; width:104px;}
+.diary-category .type li input[type=checkbox] {visibility:hidden; position:absolute; left:0; top:0; width:0; height:0;}
+.diary-category .type li label {display:inline-block; position:relative; cursor:pointer; vertical-align:top;}
+.diary-category .type li input[type=checkbox]:checked + label:after {content:''; display:inline-block; position:absolute; left:50%; top:0; width:80px; height:80px; margin-left:-40px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/bg_check.png) 0 0 no-repeat;}
+.diary-category .type li.type0 label {overflow:hidden; width:80px;}
+.diary-category .type li.type0 input[type=checkbox]:checked + label img {margin-left:-80px;}
+.diary-category .type li.type0 input[type=checkbox]:checked + label:after {display:none;}
+
+.diary-best {padding:100px 0 110px; text-align:center; background-color:#61597c;}
+.diary-best .tab {width:600px; margin:0 auto; padding:38px 0 90px;}
+.diary-best .tab:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-best .tab li {position:relative; float:left;}
+.diary-best .tab li a {overflow:hidden; display:block; height:43px;}
+.diary-best .tab li.current img {margin-top:-43px;}
+.diary-best .tab li.current:after {content:''; display:inline-block; position:absolute; left:50%; top:43px; width:16px; height:8px; margin-left:-8px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/blt_tab_arrow.png) 0 0 no-repeat;}
+.diary-best .diary-list li {background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.16);}
+.diary-best .diary-list li > a {display:block; height:390px;}
+.diary-best .diary-list li .pdtPhoto img {width:270px; height:270px;}
+.diary-best .diary-list li:before {content:''; display:inline-block; position:absolute; left:0; top:0; width:44px; height:44px; z-index:10; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/txt_number_2.png) 0 0 no-repeat;}
+.diary-best .diary-list li + li:before {background-position:-44px 0;}
+.diary-best .diary-list li + li + li:before {background-position:-88px 0;}
+.diary-best .diary-list li + li + li + li:before {background-position:-132px 0;}
+.diary-best .diary-list li + li + li + li + li:before {background-position:-176px 0;}
+.diary-best .diary-list li + li + li + li + li + li:before {background-position:-220px 0;}
+.diary-best .diary-list li + li + li + li + li + li + li:before {background-position:-264px 0;}
+.diary-best .diary-list li + li + li + li + li + li + li + li:before {background-position:-308px 0;}
+.diary-best #review.diary-list li {height:555px;}
+.diary-best #review.diary-list li .name {overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.diary-best #review.diary-list li .star {padding-top:13px;}
+.diary-best #review.diary-list li .txt {position:relative; height:135px; padding:30px 32px 0; font-size:11px; line-height:16px; color:#555; text-align:left; background-color:#f5f5f5;}
+.diary-best #review.diary-list li .txt p {overflow:hidden; height:94px;}
+.diary-best #review.diary-list li .txt .btn-more {padding-right:8px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt17.gif) 100% 50% no-repeat;}
+.diary-best #review.diary-list li .txt:after {content:''; display:inline-block; position:absolute; left:50%; top:-7px; width:0; height:0; margin-left:-7px; border-style:solid; border-width:0 9px 9px 9px; border-color:transparent transparent #f5f5f5 transparent;}
+.diary-best #event.diary-list li {height:478px;}
+.diary-best #event.diary-list li .pdtInfo {padding:25px 25px 0; text-align:left; font-size:11px;}
+.diary-best #event.diary-list li .pdtInfo .title {padding-top:3px; font-size:12px; line-height:17px; font-weight:bold;}
+.diary-best #event.diary-list li .pdtInfo .txt {height:50px; padding-top:8px; color:#555;}
+.diary-best #event.diary-list li .pdtInfo .date {position:absolute; left:25px; bottom:30px; color:#999; line-height:1;}
+
+#lyrPreview {width:820px; height:650px; background-color:#fff;}
+
+.diary-preview {overflow:hidden; position:fixed; left:50% !important; top:50% !important; z-index:99999; width:670px; height:650px; margin:-325px 0 0 -410px; padding:0 75px; background:#fff; -webkit-border-radius:13px; -moz-border-radius:13px; -ms-border-radius:13px; border-radius:13px;}
+.diary-preview h3 {padding:28px 0; text-align:center;}
+.diary-preview .slide {position:relative; overflow:visible !important; width:670px; height:470px;}
+.diary-preview .slide .slidesjs-navigation {display:block; position:absolute; top:50%; z-index:10; width:20px; height:37px; margin-top:-19px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/btn_nav_2.png) 0 0 no-repeat; text-indent:-999em;}
+.diary-preview .slide .slidesjs-navigation.slidesjs-previous {left:-46px;}
+.diary-preview .slide .slidesjs-navigation.slidesjs-next {right:-46px; background-position:100% 0;}
+.diary-preview .pdtInfo {text-align:left; line-height:1;}
+.diary-preview .pdtInfo .name {padding-top:33px; color:#686868;}
+.diary-preview .pdtInfo .name span {color:#2d2d2d; font-weight:bold;}
+.diary-preview .pdtInfo .price {padding-top:9px; color:#686868; font-weight:bold;}
+.diary-preview .btn-detail {position:absolute; right:75px; bottom:32px;}
+.diary-preview .btn-close {position:absolute; right:20px; top:20px; background-color:transparent;}
+
+#lyrDiarySch {width:1140px; height:685px;}
+
+.diary-search {overflow:hidden; position:fixed; left:50% !important; top:50% !important; z-index:99999; width:1050px; height:640px; margin:-342px 0 0 -570px; padding:45px 45px 0; font-weight:bold; font-family:dotum; background-color:#fff; -webkit-border-radius:13px; -moz-border-radius:13px; -ms-border-radius:13px; border-radius:13px;}
+.diary-search h3 strong {padding-left:28px; color:#000; line-height:25px;}
+.diary-search .btn-planner {position:absolute; right:50px; top:47px; padding-left:23px; color:#d50c0c; font-size:11px; line-height:17px; font-weight:bold; text-decoration:none; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/ico_mark.png) 0 0 no-repeat;}
+.diary-search .search-option {padding-top:22px;}
+.diary-search .search-option dl {padding:25px 0; border-top:1px solid #e5e5e5;}
+.diary-search .search-option dl:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-search .search-option dt {float:left; width:170px;}
+.diary-search .search-option dd {float:left; width:880px; padding-top:8px;}
+.diary-search .search-option dd dl {padding:23px 0 0 0; border-top:0;}
+.diary-search .search-option dd dl:first-child {padding-top:0;}
+.diary-search .search-option dd dt {width:150px; font-size:14px; line-height:1; color:#272727;}
+.diary-search .search-option dd dd {width:720px; padding-top:0;}
+.diary-search .search-option dd .option-list:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-search .search-option dd .option-list li {float:left; width:142px; color:#555; line-height:1;}
+
+.diary-search .search-option dd .colorchips {overflow:visible; width:580px; margin:-20px 0 0; padding:0;}
+.diary-search .search-option dd .colorchips:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-search .search-option dd .colorchips li {width:28px; height:28px; margin:15px 8px 0 0; cursor:pointer;}
+.diary-search .search-option dd .colorchips li input {width:28px; height:28px; opacity:0; cursor:pointer;}
+.diary-search .search-option dd .colorchips li.hologram {background:url(http://fiximage.10x10.co.kr/web2017/diary2018/ico_hologram.png) 0 0 no-repeat;}
+.diary-search .search-option dd .colorchips li.hologram label {width:54px; margin-left:-28px;}
+.diary-search .search-option dd .colorchips li.pattern {background-position:-506px bottom;}
+.diary-search .search-option dd .colorchips li.pattern label {width:46px; margin-left:-28px;}
+.diary-search .btn-group {margin-top:15px; text-align:center;}
+.diary-search .btn-group .btn {width:165px; margin:0 3px;}
+.diary-search .btn-close {position:absolute; right:20px; top:20px; background-color:transparent;}
+
+/* SEARCH */
+.search-result .search-wrap {background-color:#f8f8f8;}
+.search-result .search-wrap .diary-search {position:relative; left:0 !important; top:0 !important; z-index:999; margin:0 auto; background-color:#f8f8f8;}
+.search-result .search-list {padding:90px 0 110px;}
+.search-result .search-list .tab {width:750px; margin:0 auto; padding-bottom:90px;}
+.search-result .search-list .tab:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.search-result .search-list .tab li {position:relative; float:left;}
+.search-result .search-list .tab li a {overflow:hidden; display:block; height:43px;}
+.search-result .search-list .tab li.current img {margin-top:-43px;}
+.search-result .search-list .tab li.current:after {content:''; display:inline-block; position:absolute; left:50%; top:43px; width:16px; height:8px; margin-left:-8px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/blt_tab_arrow.png) 0 0 no-repeat;}
+
+/* GIFT */
+.diary-gift .diary-content {position:relative; margin-top:32px; text-align:center; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/bg_purple.png) 0 0 repeat-x;}
+.diary-gift .title {margin-left:-163px; padding:64px 0 76px;}
+.diary-gift .moonlight {height:786px; margin-top:138px; background:#b18dde url(http://fiximage.10x10.co.kr/web2017/diary2018/img_moonlight.jpg) 50% 0 no-repeat;}
+.diary-gift .gift-item {overflow:hidden; width:1162px; margin:0 auto; padding-bottom:50px;}
+.diary-gift .gift-item li {float:left; width:384px; padding-right:3px; text-align:center;}
+.diary-gift .story1, .diary-gift .story2 {position:absolute; left:50%; top:33px; width:9px; height:411px; margin-left:526px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/txt_story.png) 0 0 no-repeat;}
+.diary-gift .story2 {top:840px; margin-left:-532px;}
+.diary-gift .terms {padding:105px 0 95px; width:1060px; margin:0 auto;}
+.diary-gift .noti {padding:40px 0; background-color:#f5f5f5;}
+.diary-gift .noti div {position:relative; width:1040px; margin:0 auto;}
+.diary-gift .noti h3 {position:absolute; left:0; top:50%; margin-top:-15px;}
+.diary-gift .noti ul {padding-left:286px;}
+.diary-gift .noti ul li {position:relative; padding-left:16px; font-size:11px; line-height:22px; text-align:left; color:#777;}
+.diary-gift .noti ul li:after {content:''; display:inline-block; position:absolute; left:0; top:8px; width:5px; height:5px; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; border-radius:50%; background-color:#f89f9f;}
+
+/* EVENT */
+.diary-event .bnr {padding-bottom:80px; text-align:center;}
+.diary-event .sorting {position:relative; width:1110px; margin:0 auto; border-bottom:2px solid #f1f1f1;}
+.diary-event .sorting .tab {width:600px; margin:0 auto; margin:0 0 -2px 0;}
+.diary-event .sorting .tab:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-event .sorting .tab li {position:relative; float:left;}
+.diary-event .sorting .tab li a {overflow:hidden; display:block; height:43px;}
+.diary-event .sorting .tab li.current img {margin-top:-43px;}
+.diary-event .sorting .tab li.current:after {content:''; display:inline-block; position:absolute; left:50%; top:43px; width:16px; height:8px; margin-left:-8px; background:url(http://fiximage.10x10.co.kr/web2017/diary2018/blt_tab_arrow.png) 0 0 no-repeat;}
+.diary-event .sorting .tab li.current:after {display:none;}
+.diary-event .sorting .optSelect {position:absolute; right:0px; top:9px;}
+.diary-event .event-list {width:1110px; margin:0 auto; padding:60px 0 80px;}
+.diary-event .event-list ul {margin:0 -30px;}
+.diary-event .event-list ul:after {content:''; visibility:hidden; display:block; font-size:0; clear:both; height:0;}
+.diary-event .event-list ul li {float:left; width:330px; height:320px; margin:0 30px; text-align:center; font-size:11px; line-height:16px;}
+.diary-event .event-list ul li .thumbnail {padding-bottom:8px;}
+.diary-event .event-list ul li .thumbnail img {width:330px; height:178px;}
+.diary-event .event-list ul li .pdtStTag {padding-top:15px;}
+.diary-event .event-list ul li .title {padding-top:10px; color:#000; font-weight:bold;}
+.diary-event .event-list ul li .txt {padding-top:8px; color:#555;}
+.diary-event .event-list ul li .date {padding-top:10px; color:#999;}

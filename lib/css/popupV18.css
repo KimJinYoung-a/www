@@ -1,0 +1,142 @@
+@charset "utf-8";
+html, body {height:100%;}
+
+/* Popup layout */
+body > .heightgird {min-height:100%; height:auto;}
+.heightgird {position:relative;}
+
+/* popV18 */
+.popV18 input[type=text] {border:solid 1px #ddd;}
+.popV18 .icon {display:inline-block;}
+.popV18 .popHeader {padding:28px 0 8px 25px; background-color:#ff3131;}
+.popV18 .popHeader h1 {color:#fff; font-size:24px; line-height:33px; font-weight:500;}
+.popV18 .popContent {padding:0 30px 40px 30px; font-weight:normal;}
+.popV18 .popContent h2,
+.popV18 .popContent h3 {font-weight:normal;}
+.popV18 .btn-area {margin-top:20px;}
+.popV18 .btn-area button {padding:18px 0; font-size:18px; line-height:1; font-weight:bold;}
+.popV18 .section {margin-top:40px;}
+.popV18 .section:first-child {margin-top:0;}
+.popV18 .section .table-wrap {margin-top:16px; border-top:solid 2px #666;}
+.popV18 .section h3 {color:#000; font-size:17px; line-height:23px; font-weight:bold;}
+.popV18 .section > p {margin-top:4px; color:#999; font-size:12px;}
+.popV18 .section table {font-size:14px; text-align:left; table-layout:fixed;}
+.popV18 .section th {font-weight:normal; text-align:left;}
+.popV18 .section th {padding-left:4px;}
+.popV18 .section th,
+.popV18 .section td {border-bottom:solid 1px #f5f5f5;}
+.popV18 .section td {text-align:right;}
+.popV18 .selectbox {display:inline-block; position:relative; height:34px; color:#999; font-size:13px; border:1px solid #ddd; background-color:#fff; vertical-align:top;}
+.popV18 .selectbox > p {position:relative; padding:0 12px; line-height:36px; color:#999; font-size:13px; font-weight:normal; cursor:pointer;}
+.popV18 .selectbox ul {display:none; overflow-y:auto; position:absolute; left:-1px; top:34px; z-index:30; width:100%; height:228px; color:#333; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; background-color:#fff;}
+.popV18 .selectbox.current ul {display:block;}
+.popV18 .selectbox li {padding:0 10px; line-height:35px; cursor:pointer; font-weight:300;}
+.popV18 .selectbox li:hover {color:#333; background-color:#f5f5f5;}
+
+.popV18 .noti {margin-top:20px; padding:27px 0; background-color:#f5f5f5; color:#666; font-size:12px; text-align:center;}
+
+.popV18 .pop-header {padding:31px 0 10px 25px; background-color:#ff3131;}
+.popV18 .pop-header h1 {color:#fff; font-size:24px; line-height:29px; font-weight:500;}
+.popV18 .pop-content {padding:0 30px 40px 30px; font-weight:normal; font-size:12px;}
+
+.popV18 .guidance-msg {margin:0 -30px; padding:30px; background-color:#f8f8f8;}
+.popV18 .guidance-msg .txt01 {margin-bottom:8px; color:#000; font-weight:bold; font-size:15px; line-height:1.35; letter-spacing:-0.54px;}
+.popV18 .guidance-msg .txt02 {color:#000; font-size:12px; line-height:1.5; letter-spacing:-0.5px;}
+
+/* title, button */
+.popV18 .hgroup01 {position:relative;}
+.popV18 .tit {font-weight:bold; color:#000;}
+.popV18 .tit01 {margin:30px 0 14px; font-size:17px; line-height:23px;}
+.popV18 .tit02 {font-size:15px; letter-spacing:-0.54px;}
+.popV18 .tit03 {position:relative; padding-left:10px; font-size:14px; line-height:1.45; letter-spacing:-0.5px; color:#ff3131;}
+.popV18 .tit03:before {display:inline-block; position:absolute; top:7px; left:0; content:' '; width:4px; height:4px; background-color:#ff3131; border-radius:2px;}
+.popV18 .tit03 + p {margin-top:5px; padding-left:10px; line-height:1.7; letter-spacing:-0.5px; color:#000;}
+.popV18 .btn01 {padding:18px 0; font-weight:bold; font-size:18px; line-height:24px;}
+
+/* 20220408 일부취소 플러스세일 추가 */
+.popV18 .hgroup01.plussale .tit01 {display:inline-block;}
+.popV18 .hgroup01.plussale .tit_noti {padding-left:20px; font-size:12px; line-height:18px; font-weight:400; color:#555;}
+.tfoot.popPartialCancelV22 {border-top:1px solid #f5f5f5; font-size:13px; font-weight:normal; text-align:right; color:#000; margin-top:51px;}
+.tfoot.popPartialCancelV22 .tfoot_td {padding:16px 40px 16px 0; border-bottom:1px solid #f5f5f5;}
+.tfoot.popPartialCancelV22 .tfoot_td .color-red {font-size:15px;}
+.tfoot.popPartialCancelV22 .tfoot_td .total {margin-top:10px; padding-top:10px; font-weight:bold; font-size:15px; border-top:1px solid #f5f5f5;}
+/* // 20220408 일부취소 플러스세일 추가 */
+
+/* table (01: col / 02 : row) */
+.popV18 .table01 {border-top:2px solid #666; text-align:center; font-size:12px; color:#000;}
+.popV18 .table01 th {font-weight:normal; background:#f5f5f5;}
+.popV18 .table01 thead th {padding:7px 0;}
+.popV18 .table01 td {padding:16px 0px; border-bottom:1px solid #f5f5f5;}
+.popV18 .table01 td.lt {padding-left:10px; padding-right:10px;}
+.popV18 .table01 td.lt a {color:#000;}
+.popV18 .table01 td img {vertical-align:middle;}
+.popV18 .table01 tfoot {font-weight:bold; font-size:14px; text-align:right;}
+.popV18 .table01 tfoot td {padding-right:40px;}
+.popV18 .table01 .pkgInfoLyrV15a .infoMoreViewV15 span {background-image:url(http://fiximage.10x10.co.kr/web2018/common/ico_question.png);}
+.popV18 .txt-inp {height:24px; padding:5px 10px; border:1px solid #ddd; color:#666; vertical-align:middle; font-weight:normal;}
+.popV18 .table01 .txt-inp.ct {width:26px; color:#000;}
+.popV18 .table02 {border-top:2px solid #666; border-bottom:1px solid #f5f5f5; text-align:center; font-size:13px; color:#000;}
+.popV18 .table02 th {font-weight:normal; background:#f5f5f5;}
+.popV18 .table02 tbody th {font-size:14px; border-top:1px solid #fff;}
+.popV18 .table02 tbody td {height:38px; padding:11px 0 11px 14px; border-top:1px solid #f5f5f5; padding-left:15px; text-align:left;}
+.lPad30 {padding-left:30px !important;}
+.tPad15 {padding-top:15px !important;}
+.bPad15 {padding-bottom:15px !important;}
+
+/* 예치금 환불 - sy20181129 (popReturnDeposit.asp) */
+.popV18.deposit .total-deposit {margin:0 -30px; padding:30px; background:url(http://fiximage.10x10.co.kr/web2018/main/bg_pattern_slash.png) 0 0 repeat;}
+.popV18.deposit .total-deposit .inner {width:460px; margin:0 auto; padding:27px 0 32px; background-color:#fff; text-align:center;}
+.popV18.deposit .total-deposit .inner h2 {color:#999; font-size:16px; letter-spacing:-.5px; font-weight:bold;}
+.popV18.deposit .total-deposit .inner p {color:#ff3131; font-size:20px; font-weight:bold;}
+.popV18.deposit .total-deposit .inner p em {display:inline-block; margin-right:4px; font-size:46px;}
+.popV18.deposit input[type=text] {height:34px; padding:0 12px; font-size:13px;}
+.popV18.deposit ::placeholder,
+.popV18.deposit ::-ms-input-placeholder,
+.popV18.deposit ::-ms-input-placeholder {color:#999;}
+.popV18.deposit td {padding:12px 0; text-align:right;}
+.popV18.deposit .returnDeposit[type=text] {font-size:16px; font-weight:bold; text-align:center;}
+.popV18.deposit .btn-all {padding:11px 21px; margin-left:4px; font-size:14px; line-height:1;}
+.popV18.deposit .selectbox > p {text-align:left;}
+.popV18.deposit .selectbox .btn-linkV18 span {position:absolute; top:50%; right:14px; margin-top:-3px; transform:rotate(90deg);}
+.popV18.deposit .selectbox .btn-linkV18:hover {text-decoration:none;}
+.popV18.deposit .selectbox.current .btn-linkV18 span {transform:rotate(-90deg);}
+.popV18.deposit .selectbox ul li {text-align:left;}
+.popV18.deposit .noti .icon {position:relative; top:3px; width:14px; height:14px; margin-right:5px; background:url(http://fiximage.10x10.co.kr/web2018/common/ico_clock.png) 0 0 repeat; background-size:100%;}
+
+/* 반품접수 - br20181206 (popOrderReturn.asp) */
+.popV18.return .return-detail .table02 {table-layout:fixed;}
+.popV18.return .radio-box + .radio-box {margin-top:10px;}
+.popV18.return .radio-box .selectbox {vertical-align:middle;}
+.popV18.return input[type=radio] {position:relative; width:16px; height:16px; vertical-align:middle; -webkit-appearance:none; -webkit-border-radius:8px; border-radius:8px; border:1px solid #ddd; background-color:#fff;}
+.popV18.return input[type=radio]:checked {background:#fff url(http://fiximage.10x10.co.kr/web2018/common/element_radio.png) 50% 50% no-repeat; background-size:8px;}
+.popV18.return label {vertical-align:middle;}
+.popV18.return .radio-box label {margin-left:4px; margin-right:16px;}
+.popV18.return input[type='checkbox'] {display:none;}
+.popV18.return input[type='checkbox'] + label {display:inline-block; position:relative; bottom:3px; height:16px; padding-left:24px; margin-left:20px; background:url(http://fiximage.10x10.co.kr/web2018/common/img_checkbox.png) no-repeat 0 0; line-height:15px;cursor:pointer;}
+.popV18.return input[type='checkbox']:checked + label {background-position:0 100%;}
+.popV18.return textarea {padding:10px; vertical-align:top; font-weight:normal; font-size:13px; border:1px solid #ddd; box-sizing:border-box; -webkit-box-sizing:border-box;}
+.popV18.return .selectbox .btn-linkV18:hover {text-decoration:none;}
+.popV18.return .selectbox .btn-linkV18::after {content:' '; display:inline-block; position:absolute; top:50%; right:14px; width:4px; height:6px; margin-top:-3px; background:url(http://fiximage.10x10.co.kr/web2018/common/arrow_right.png?v=1.1) 0 0 no-repeat; background-position:-14px 0; transform:rotate(90deg);}
+.popV18.return .selectbox.current .btn-linkV18::after {transform:rotate(-90deg);}
+.popV18.return .selectbox ul {height:auto;}
+label.bullet-dash {position:relative; padding-left:8px; padding-right:3px;}
+label.bullet-dash:before {display:inline-block; content:' '; position:absolute; left:0; top:50%; width:4px; height:1px; background-color:#333;}
+.popV18.return ul.bullet-dash {padding-left:8px;}
+.popV18.return .bullet-dash li {line-height:20px; color:#000; text-indent:-8px; letter-spacing:-0.5px;}
+.popV18.return .orderProcess {width:inherit; padding-left:40px; padding-right:40px; background-color:#f6f6f6; font-weight:normal; font-size:11px;}
+
+/* 일부취소신청 추가 - sy20190703 (popOrderCancel.asp) */
+.popV18.cancel .table01 tfoot {font-size:13px; font-weight:normal;}
+.popV18.cancel .table01 tfoot .color-red {font-size:15px;}
+.popV18.cancel .table01 tfoot .total {margin-top:10px; padding-top:10px; font-weight:bold; font-size:15px; border-top:1px solid #f5f5f5;}
+.popV18.cancel .cancel-detail .table02 {table-layout:fixed;}
+.popV18.cancel .table02 .radio-box + .radio-box {margin-top:10px;}
+.popV18.cancel .table02 .radio-box .selectbox {vertical-align:middle;}
+.popV18.cancel .table02 input[type=radio] {position:relative; width:16px; height:16px; vertical-align:middle; -webkit-appearance:none; -webkit-border-radius:8px; border-radius:8px; border:1px solid #ddd; background-color:#fff;}
+.popV18.cancel .table02 input[type=radio]:checked {background:#fff url(http://fiximage.10x10.co.kr/web2018/common/element_radio.png) 50% 50% no-repeat; background-size:8px;}
+.popV18.cancel .table02 label {vertical-align:middle;}
+.popV18.cancel .table02 .radio-box label {margin-left:4px; margin-right:16px;}
+.popV18.cancel textarea {padding:10px; vertical-align:top; font-weight:normal; font-size:13px; border:1px solid #ddd; box-sizing:border-box; -webkit-box-sizing:border-box;}
+.popV18.cancel ul.bullet-dash {padding-left:8px;}
+.popV18.cancel .bullet-dash li {line-height:20px; color:#000; text-indent:-8px; letter-spacing:-0.5px;}
+.popV18.cancel .table02 select {width:175px; height:36px; border-color:#ddd;}

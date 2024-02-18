@@ -1,0 +1,223 @@
+@charset "utf-8";
+.diarystory2017 #contentWrap {width:100%; padding-top:0; text-align:center;}
+.diarystory2017 img {vertical-align:top;}
+
+/* common */
+.diarystory2017 .array {position:relative; overflow:hidden; width:1110px; margin:0 auto; padding-bottom:25px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/bg_dash_h.png) 0 100% repeat-x;}
+.diarystory2017 .array .option {position:absolute; right:33px; top:0;}
+.diarystory2017 .tab {overflow:hidden;}
+.diarystory2017 .tab li {float:left; width:125px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/bg_dash_v.png) 0 50% no-repeat;}
+.diarystory2017 .tab li:first-child {background:none;}
+.diarystory2017 .tab li a {display:inline-block; height:16px; padding:1px 0; color:#777; font-size:11px; text-decoration:none;}
+.diarystory2017 .tab li img {margin-right:5px;}
+.diarystory2017 .tab li p {overflow:hidden; height:16px; padding-right:6px; }
+.diarystory2017 .tab li p span {padding-left:10px;}
+.diarystory2017 .tab li.current p,
+.diarystory2017 .tab li a:hover p {background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/bg_highlight_rt.png) 100% 100% no-repeat;}
+.diarystory2017 .tab li.current p span,
+.diarystory2017 .tab li a:hover p span {background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/bg_highlight_lt.png) 0 100% no-repeat;}
+.diarystory2017 .tab li a:hover,
+.diarystory2017 .tab li.current a {font-weight:bold;}
+.diarystory2017 .tab li a:hover img,
+.diarystory2017 .tab li.current a img {margin-top:-25px;}
+.diarystory2017 .diaryList ul {overflow:hidden;}
+.diarystory2017 .diaryList li {float:left;}
+.diarystory2017 .diaryList li.soldOut .soldOutMask {display:block; z-index:100;}
+.diarystory2017 .diaryList .nodata {padding-top:60px;}
+.diarystory2017 .diaryList .pdtInfo {padding-top:20px;}
+.diarystory2017 .diaryList .pPhoto {position:relative;}
+.diarystory2017 .diaryList .pPhoto dfn {display:none; position:absolute; left:0; top:0; width:100%; height:100%; z-index:5;}
+.diarystory2017 .diaryList p {font-size:11px; line-height:1.5; font-weight:bold;}
+.diarystory2017 .diaryList a {text-decoration:none;}
+.diarystory2017 .diaryList .name {font-size:12px; color:#4f4f4f;}
+.diarystory2017 .diaryList .brand {padding-bottom:8px;}
+.diarystory2017 .diaryList .brand a {color:#929292; text-decoration:underline; font-weight:normal;}
+.diarystory2017 .diaryList .price {color:#777; padding-top:2px;}
+.diarystory2017 .pageWrapV15 {margin-top:40px;}
+.diarystory2017 .pageMove {display:none;}
+.diarystory2017 .more1V15 {color:#999;}
+
+.diaryHead {position:relative; width:1110px; margin:0 auto; padding:72px 0 25px; text-align:left;}
+.diaryHead .diaryNav {overflow:hidden; position:absolute; right:0; top:118px;}
+.diaryHead .diaryNav li {float:left; padding-left:30px;}
+.diaryHead .diaryNav li a {display:block; height:28px; text-indent:-999em;}
+.diaryHead .diaryNav li.special a {width:119px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/nav_special.png) 0 0 no-repeat;}
+.diaryHead .diaryNav li.event a {width:110px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/nav_event.png) 0 0 no-repeat;}
+.diaryHead .diaryNav li.finder a {width:98px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/nav_find.png) 0 0 no-repeat;}
+.diaryHead .diaryNav li a:hover,
+.diaryHead .diaryNav li.current a {background-position:0 -28px;}
+
+/* main */
+.mainRolling {overflow:hidden; position:relative; width:100%; height:550px;}
+.mainRolling .swiper-slide {position:relative;  float:left; width:100%; height:550px; z-index:90;}
+.mainRolling .swiper-slide-active {z-index:100;}
+.mainRolling .mainPic {position:absolute; left:50%; top:0; width:1800px; height:550px; margin-left:-900px; background-position:50% 0; background-repeat:no-repeat; z-index:50; text-indent:-9999px; font-size:0; line-height:0;}
+.mainRolling .bg {position:absolute; top:0; width:50%; height:550px; z-index:40; text-indent:-999em; font-size:0; line-height:0;}
+.mainRolling .left {left:0;}
+.mainRolling .right {right:0;}
+.mainRolling .linkArea {position:absolute; left:50%; top:0; width:1110px; height:550px; margin-left:-555px;  z-index:60;}
+.mainRolling .linkArea a {display:block; width:1110px; height:550px; z-index:70;}
+.mainRolling .linkArea strong {position:absolute; left:125px; top:179px;  z-index:60;}
+.mainRolling .linkArea .count {display:inline-block; position:absolute; left:125px; top:340px; padding:0 10px; color:#656565; font-size:13px; line-height:26px; font-weight:bold; color:#676767; background-color:rgba(255,255,255,.8); border-radius:12px; z-index:60;}
+.mainRolling .btnNav {display:inline-block; position:absolute; left:50%; top:50%; width:100px; height:100px; margin-top:-50px; z-index:100;  background:transparent url(http://fiximage.10x10.co.kr/web2016/diarystory2017/btn_nav.png) 0 0 no-repeat; text-indent:-9999px; outline:none;}
+.mainRolling .prev {margin-left:-590px;}
+.mainRolling .next {margin-left:490px; background-position:100% 0;}
+.mainRolling .pagination {position:absolute; left:50%; bottom:25px; width:1110px; height:10px; margin-left:-555px; text-align:center;}
+.mainRolling .pagination span {display:inline-block; width:10px; height:10px; margin:0 10px; cursor:pointer; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/btn_pagination.png) 0 0 no-repeat;}
+.mainRolling .pagination span.swiper-active-switch {background-position:100% 0;}
+
+.diaryGift {padding:60px 0; text-align:center;}
+.diaryCtgy {width:1110px; margin:0 auto; padding-bottom:90px;}
+.diaryCtgy .diaryList ul {margin:0 -25px;}
+.diaryCtgy .diaryList li {width:240px; height:360px; margin:40px 25px 0;}
+.diaryCtgy .diaryList .pPhoto img {width:240px; height:240px;}
+.diaryCtgy .diaryList .btnPreview {display:block; position:absolute; right:10px; bottom:10px; z-index:150; width:35px; height:35px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/btn_preview.png) 0 0 no-repeat; text-indent:-999em;}
+.relatedEvent {padding:100px 0 55px; background:#f6f6f6;}
+.diaryBest {position:relative; width:1110px; margin:80px auto 0;}
+.diaryBest h3 {position:absolute; left:18px; top:0;}
+.diaryBest .tab {float:right; padding-top:12px;}
+.diaryBest .tabContainer {position:relative; padding-top:70px;}
+.diaryBest .diaryList ul {margin:0 -35px 0 -36px; padding-left:23px;}
+.diaryBest .diaryList li {position:relative; width:175px; height:284px; margin:0 35px 0 36px; padding-left:36px;}
+.diaryBest .diaryList .ranking {display:block; position:absolute; left:0; top:0; width:35px; height:32px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/txt_rank.png) 0 0 no-repeat; text-indent:-999em;}
+.diaryBest .diaryList li.best01 .ranking {background-position:0 0;}
+.diaryBest .diaryList li.best02 .ranking {background-position:-35px 0;}
+.diaryBest .diaryList li.best03 .ranking {background-position:-70px 0;}
+.diaryBest .diaryList li.best04 .ranking {background-position:-105px 0;}
+.diaryBest .diaryList li.best05 .ranking {background-position:-140px 0;}
+.diaryBest .diaryList li.best06 .ranking {background-position:-175px 0;}
+.diaryBest .diaryList li.best07 .ranking {background-position:-210px 0;}
+.diaryBest .diaryList li.best08 .ranking {background-position:100% 0;}
+.diaryBest .diaryList .name {overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.diaryBest .diaryList  .starView {margin:15px 0; text-align:center;}
+.diaryBest #review li {height:440px;}
+.diaryBest #review .reviewBoxV15 {height:161px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/bg_box.png) 50% 0 no-repeat;}
+.diaryBest #review .reviewBoxV15 p {padding:33px 15px 0; font-weight:normal; color:#555;}
+.diaryBest #event li {height:370px;}
+.diaryBest #event .pdtInfo {padding-top:25px; text-align:left;}
+.diaryBest #event .pdtInfo p {font-weight:normal;}
+.diaryBest #event .pdtInfo .evtTit {padding:0 0 12px; color:#000; font-weight:bold;}
+.diaryBest #event .pdtInfo .evtExp {padding-bottom:15px;}
+.diaryBest #event .pdtInfo .evtDate {padding-top:25px; color:#999;}
+.diaryBest #event .more1V15 {position:absolute; right:30px; top:25px;}
+
+/* event */
+.diaryEvent {width:1140px; margin:0 auto;}
+.diaryEvent .diaryGift {padding:0 0 90px;}
+.diaryEvent .pageWrapV15 {margin-top:10px;}
+.diaryEvent .eventList {width:1110px; margin:0 auto; padding-top:40px;}
+.diaryEvent .eventList ul {overflow:hidden; margin:0 -30px;}
+.diaryEvent .eventList li {float:left; width:330px; height:320px; margin:0 30px; line-height:16px;}
+.diaryEvent .eventList li .pic img {width:330px; height:160px; cursor:pointer;}
+.diaryEvent .eventList li .evtProd {padding:23px 10px 0; font-size:11px; cursor:pointer;}
+.diaryEvent .eventList li .pdtStTag {padding-bottom:9px;}
+.diaryEvent .eventList li .evtTit {color:#000; font-weight:bold;}
+.diaryEvent .eventList li .evtExp {padding:4px 0 8px; color:#555;}
+.diaryEvent .eventList li .evtDate {color:#999; font-family:verdana;}
+
+/* search */
+#lyrDiarySch {width:1140px; height:600px;}
+.diarySearch {overflow:hidden; position:fixed; left:50% !important; top:50% !important; width:1140px; height:600px; margin:-300px 0 0 -570px; z-index:99999; background:#fff; border-radius:18px;}
+.diarySearchWrap {position:relative; height:510px; padding:45px; text-align:left;}
+.diarySearch h3 strong {padding-left:22px; line-height:24px; color:#000;}
+.diarySearch .searchOption {padding-top:25px;}
+.diarySearch .searchOption dl {overflow:hidden; padding:25px 0 27px; border-top:1px solid #e5e5e5;}
+.diarySearch .searchOption dl:first-child {border-top:0;}
+.diarySearch .searchOption dt {float:left; width:175px;}
+.diarySearch .searchOption dd {float:left; width:870px;}
+.diarySearch .searchOption dd dl {border-top:0; padding:18px 0 0;}
+.diarySearch .searchOption dd dl:first-child {padding-top:0;}
+.diarySearch .searchOption dd dt {width:150px;}
+.diarySearch .searchOption dd dd {width:720px;}
+.diarySearch .optionList {overflow:hidden;}
+.diarySearch .optionList li {float:left; width:144px; font-weight:bold; line-height:15px; color:#555; font-family:verdana;}
+.diarySearch .optionList li .check {margin-right:4px;}
+.diarySearch .color {padding-top:38px !important;}
+.diarySearch .colorchips {overflow:visible; width:580px; margin:-20px 0 0; padding:0;}
+.diarySearch .colorchips:after {content:""; display:block; clear:both;}
+.diarySearch .colorchips li {width:28px; height:28px; margin:15px 8px 0 0; cursor:pointer;}
+.diarySearch .colorchips li input {width:28px; height:28px; opacity:0; cursor:pointer;}
+.diarySearch .close {position:absolute; right:20px; top:20px; cursor:pointer;}
+.diarySearch .goPlanner {position:absolute; right:50px; top:47px; line-height:17px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/ico_mark.png) 0 0 no-repeat;}
+.diarySearch .goPlanner a {padding-left:23px; color:#d50c0c; font-size:11px; line-height:16px; font-weight:bold; text-decoration:none;}
+.diarySearch .clearAll {position:absolute; right:55px; bottom:58px; color:#777; font-size:11px; font-weight:bold;}
+.diarySearch .clearAll input {margin-top:-2px;}
+.diarySearch .clearAll label {padding-left:3px; vertical-align:top;}
+.diarySearch .searchBtn {text-align:center; padding-top:20px;}
+.diarySearch .searchBtn .btn {width:164px;}
+
+#lyrPreview {width:820px; height:650px;}
+.diaryPreview {overflow:hidden; position:fixed; left:50% !important; top:50% !important; width:820px; height:650px; margin:-325px 0 0 -410px; z-index:99999; background:#fff; border-radius:18px;}
+.diaryPreview h3 {text-align:center; padding:26px 0 22px;}
+.diaryPreview .close {position:absolute; right:20px; top:20px; cursor:pointer;}
+.diaryPreview .slideWrap {position:relative; width:670px; margin:0 auto;}
+.diaryPreview .slide {overflow:visible !important; width:670px; height:470px;}
+.diaryPreview .slide .slidesjs-navigation {position:absolute; z-index:50; top:50%; width:78px; height:78px; margin-top:-39px; background-image:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/btn_nav_02.png); background-repeat:no-repeat; text-indent:-999em;}
+.diaryPreview .slide .slidesjs-previous {left:-78px; background-position:0 0;}
+.diaryPreview .slide .slidesjs-next {right:-78px; background-position:100% 0;}
+
+.diaryPreview .diaryItemInfo {position:relative; width:670px; margin:32px auto 0;}
+.diaryPreview .diaryItemInfo .pdtInfo {text-align:left; padding-right:180px;}
+.diaryPreview .diaryItemInfo .pdtInfo .name {color:#686868; font-family:verdana;}
+.diaryPreview .diaryItemInfo .pdtInfo .name span {color:#2d2d2d; font-weight:bold;}
+.diaryPreview .diaryItemInfo .pdtInfo .price {padding-top:4px; color:#686868; font-size:11px; font-weight:bold;}
+.diaryPreview .diaryItemInfo .btnGoMore {position:absolute; right:0; top:0;}
+
+.diarySearchResult .array p {padding-left:40px; text-align:left;}
+.diarySearchResult .diarySearch {position:static; width:100%; height:auto; margin:0 0 80px; padding:42px 0 50px; background:#f8f8f8;}
+.diarySearchResult .diarySearchWrap { width:1110px; height:auto; margin:0 auto; padding:0;}
+.diarySearchResult .diarySearch h3 {min-height:18px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/ico_glasses.png) 0 50% no-repeat;}
+.diarySearchResult .diarySearch .goPlanner {right:45px; top:0;}
+.diarySearchResult .diarySearch .clearAll {bottom:20px;}
+
+/*gift */
+.diaryGiftMain .goVideo {position:fixed; left:50%; top:50%; z-index:50; margin:-40px 0 0 440px;}
+.diaryGiftMain .oh10x10Day {position:relative; height:1958px; background:#bbbfc8 url(http://fiximage.10x10.co.kr/web2016/diarystory2017/bg_diary_gift.jpg) 50% 0 no-repeat;}
+.diaryGiftMain .oh10x10Day .title {position:absolute; left:50%; top:95px; margin-left:-415px;}
+.diaryGiftMain .oh10x10Day .title span {position:absolute; right:-105px; top:86px;}
+.diaryGiftMain .oh10x10Day .brandIntro {padding:993px 0 80px;}
+.diaryGiftMain .oh10x10Day .brandIntro a {position:absolute; right:60px; top:23px; z-index:40;}
+.diaryGiftMain .oh10x10Day .giftBox {width:1220px; margin:0 auto; padding:70px 0 40px; border-radius:14px; background:#fff;}
+.diaryGiftMain .oh10x10Day .giftBox ul {overflow:hidden; width:1146px; padding-bottom:60px; margin:0 auto;}
+.diaryGiftMain .oh10x10Day .giftBox li {position:relative; float:left; width:312px; margin:0 35px;}
+.diaryGiftMain .oh10x10Day .giftBox li .slide {position:absolute; left:0; top:70px; z-index:20; width:312px; height:295px;}
+.diaryGiftMain .oh10x10Day .giftBox li .soldout {position:absolute; left:50%; top:105px; z-index:30; margin-left:-97px;}
+.diaryGiftMain .giftCont {position:relative; width:1140px; margin:0 auto;}
+.diaryGiftMain .gallery {position:relative; height:784px; background:#bbbfc8 url(http://fiximage.10x10.co.kr/web2016/diarystory2017/bg_pdts.jpg) 50% 0 no-repeat;}
+.diaryGiftMain .gallery p {position:absolute; left:50%; top:70px; margin-left:50px;}
+.diaryGiftMain .giftTerms {padding:82px 0 95px; text-align:left;}
+.diaryGiftMain .giftTerms .giftCont {width:1090px; padding-left:50px;}
+.diaryGiftMain .giftTerms .price {padding:20px 0 18px;}
+.diaryGiftMain .giftTerms .ex {position:absolute; right:12px; top:-8px;}
+.diaryGiftMain .noti {padding:45px 0 30px; background:#f5f5f5;}
+.diaryGiftMain .noti h3 {position:absolute; left:50px; top:50%; margin-top:-15px;}
+.diaryGiftMain .noti ul {padding-left:335px; text-align:left;}
+.diaryGiftMain .noti li {font-size:11px; line-height:12px; color:#777; padding:0 0 10px 16px; background:url(http://fiximage.10x10.co.kr/web2016/diarystory2017/blt_round.png) 0 1px no-repeat;}
+
+/* brand special */
+.brandSpecial .diaryContent {padding:50px 0; background:#f8f8f8;}
+.brandSpecial .brandList {width:1146px; margin:0 auto;}
+.brandSpecial .brandList > ul > li {position:relative; width:1146px; height:565px; margin-bottom:45px;}
+.brandSpecial .brandList .num {position:absolute; left:10px; top:-22px; width:508px; color:#797979; text-align:right;}
+.brandSpecial .brandList .brandWrap {display:table; position:absolute; left:600px; top:60px; width:528px; height:440px; text-align:left;}
+.brandSpecial .brandList .brandCont {display:table-cell; height:100%; vertical-align:middle;}
+.brandSpecial .brandList .brandCont .txt {padding:10px 25px 0;}
+.brandSpecial .brandList .diaryList {padding:18px 0 20px;}
+.brandSpecial .brandList .diaryList ul {margin:0 -8px;}
+.brandSpecial .brandList .diaryList li {margin:5px 8px;}
+.brandSpecial .brandList .diaryList li img {width:120px; height:120px;}
+.brandSpecial .brandList .goBrand {color:#797979; margin:0 28px; text-decoration:none;}
+.brandSpecial .brandList .goBrand span {padding-right:10px;}
+.brandSpecial .brandList .goPlay {position:absolute; left:-127px; bottom:-40px;}
+.brandSpecial .brandList .type2 .brandWrap {left:18px; text-align:right;}
+.brandSpecial .brandList .type2 .num {text-align:left;}
+.brandSpecial .brandList .type2 .goPlay {left:575px;}
+
+#lyrVideo {width:820px; height:610px;}
+.brandVideo {overflow:hidden; position:fixed; left:50% !important; top:50% !important; width:680px; height:560px; margin:-305px 0 0 -410px; padding:45px 70px 0; z-index:99999; border-bottom:7px solid #d50c0c; background:#fff; border-radius:12px;}
+.brandVideo .name {position:relative; margin-bottom:22px; padding-left:8px; font:bold 14px/1 verdana; color:#2d2d2d;}
+.brandVideo .name:after {content:''; display:inline-block; position:absolute; left:0; top:2px; width:3px; height:10px; background:#d50c0c;}
+.brandVideo .close {position:absolute; right:20px; top:20px; cursor:pointer; background:transparent;}
+.brandVideo .video {padding:9px; width:660px; height:450px; border:1px solid #cdcdcd;}
+.brandVideo .video div {background:#000;}
+.brandVideo .video iframe {width:660px; height:450px; vertical-align:top;}

@@ -1,0 +1,86 @@
+/* evt template */
+div.evtHead {display:none;}
+.eventContV15 {margin-top:0 !important;}
+.evtTermWrap {display:none;}
+
+/* 공통 */
+.anniversary18th {background-color:#fff;}
+.anniversary18th .inner {width:1140px; margin:0 auto;}
+.anniversary18th .icon-chev {display:inline-block; width:14px; height:9px; background:url(//webimage.10x10.co.kr/fixevent/event/2019/18th/ico_chev2.png) repeat-x center / 100%;}
+
+/* 주년 헤드 */
+.anniversary18th .intro {padding-bottom:48px; border-bottom:solid 1px #ddd;}
+.anniversary18th .intro .inner {display:flex; justify-content:space-between;}
+.anniversary18th .intro h2 {padding-top:40px;}
+.anniversary18th .intro .nav {display:flex; height:43px; margin-top:50px; text-align:left;}
+.anniversary18th .intro .nav li {width:228px; margin:0 10px; padding-bottom:10px; font-size:20px; line-height:43px; font-weight:bold; font-family:'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif; border-bottom:solid 3px #000;}
+.anniversary18th .intro .nav li:hover .icon-chev {animation:moveY .6s 1000;}
+.anniversary18th .intro .nav li a {display:flex; align-items:center; justify-content:space-between; color:#000; text-decoration:none;}
+@keyframes moveY{
+    from {transform:translateY(0);}
+    50% {transform:translateY(5px);}
+    to {transform:translateY(0);}
+}
+
+/* 코멘트 */
+.cmtEvt {background-color: #fff; font-family: 'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif; color: #000;}
+.cmtEvt .bg-wrap {height: 620px; background: url(//webimage.10x10.co.kr/fixevent/event/2019/18th/bg_middle.jpg) repeat-x center bottom; text-align: left;}
+.cmtEvt .topic {position: relative; width: 1140px; padding-top: 70px; margin: 0 auto 50px; }
+.cmtEvt .topic .hello {margin-bottom: 25px;}
+.cmtEvt .topic .hello span {font-size: 64px; font-weight: 500; line-height: 1.28; letter-spacing: -1px;}
+.cmtEvt .topic .hello span b {font-weight: inherit;}
+.cmtEvt .topic p {position: absolute; right: 20px; top: 75px;}
+.cmtEvt .cmt-area {position: relative; width: 1140px; margin: 0 auto;}
+.cmtEvt .cmt-area .input-box {position: relative; width: 804px; height: 148px; background-image: url(//webimage.10x10.co.kr/fixevent/event/2019/18th/txt_input.png);}
+.cmtEvt .cmt-area .input-box input {position: absolute; top: 45px; left: 50%; width: 430px; margin-left: -85px; font-size: 30px; font-weight: bold; font-family: 'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif; background: none; border: 0;}
+.cmtEvt .cmt-area .input-box input::-webkit-input-placeholder, .cmt-area .input-box  textarea::-webkit-input-placeholder {color: #7fca84;}
+.cmtEvt .cmt-area .input-box input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder {opacity: 0;} 
+.cmtEvt .cmt-area button {position: absolute; bottom: 50px; right: 150px; background: none;}
+.cmtEvt .cmt-list {width: 1140px; margin: 0 auto; padding-top: 80px;}
+.cmtEvt .cmt-list h3 {margin-bottom: 30px; font-size: 18px; color: #000; font-weight: bold; font-family: 'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif; text-align: left; }
+.cmtEvt .cmt-list ul {display: flex; flex-wrap: wrap;}
+.cmtEvt .cmt-list li {position: relative; display: flex; justify-content: center; align-items: center; width: 208px; height: 208px; margin: 0 10px 40px;}
+.cmtEvt .cmt-list li .btn-del {position: absolute; top: 0; right: 0;}
+.cmtEvt .cmt-list li span{display: block; width: 145px; max-height: 85px; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-size: 18px; font-weight: bold;  text-overflow: ellipsis; word-break: break-all; overflow: hidden;}
+.cmtEvt .pageWrapV15 {padding-top: 25px;}    
+.cmtEvt .pageWrapV15 .paging a, .pageWrapV15 .paging a:hover {height: 40px; width: 40px; margin: 5px; background-color: transparent; border: none; }
+.cmtEvt .pageWrapV15 .first, .pageWrapV15 .end {display: none;}
+.cmtEvt .pageWrapV15 .paging {height: auto;}
+.cmtEvt .pageWrapV15 .paging a span {height: 40px; font-size: 14px; color: #000; font-family: 'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif; line-height: 40px;}
+.cmtEvt .pageWrapV15 .paging a.current span {width: 40px; height: 40px; padding: 0; color: #000; background: #8af5e7; border-radius: 50%;}
+.cmtEvt .pageWrapV15 .paging a.arrow span {width: 40px; height: 40px; background: url(//webimage.10x10.co.kr/fixevent/event/2019/18th/btn_next.png) 0 0;}
+.cmtEvt .pageWrapV15 .paging a.arrow.prev {transform: rotateY(180deg)}
+.cmtEvt .bnr-area {width: 1140px; margin: 60PX auto 0; background-color: #ddd;}
+
+/* 사은품 배너 */
+.bnr-gift {position:relative; height:640px; margin-top:90px; background:#ffe01a url(//webimage.10x10.co.kr/fixevent/event/2019/18th/img_gift_v2.jpg) no-repeat 50% 0;}
+.bnr-gift a {position:absolute; top:0; left:50%; width:1140px; height:100%; margin-left:-570px; text-indent:-999em;}
+
+/* 취향 */
+.taste  {padding-top:72px; background:url(//webimage.10x10.co.kr/fixevent/event/2019/18th/bg_taste.jpg) repeat-x 50% 0;}
+.taste .inner {display:flex; justify-content:space-between; flex-wrap:wrap;}
+.taste .bnfit {width:1140px; padding-top:88px;}
+
+/* 마케팅 배너 */
+.bnr-mkt {padding-top:180px; text-align:center;}
+
+/* 스누피의 선물 */
+.gift .img-bg {position: relative; display: block; left: 50%; width: 3600px; margin-left: -1800px;}
+.gift .shape {width: 1340px; height: 567px; margin: 0 auto; outline:none;}
+.gift .shape .slick-dots {position: absolute; left: 50%; top: 100px; margin-left: -180px; text-align: left;}
+.gift .shape .slick-dots li {display: inline-block;}
+.gift .shape .slick-dots li button {width: 112px; height: 35px; margin-right: 28px;}
+.gift .prd-area {position: relative; width: 100%; height: 630px;}
+.gift .prd-area .rolling {position: absolute; top: 70px; left: 50%; width: 670px; height: 480px; outline:none;}
+.gift .prd-area .rolling .slick-dots {position: absolute; left: 0; bottom: 10px; width: 100%; text-align: center;}
+.gift .prd-area .rolling .slick-dots li {display: inline-block;}
+.gift .prd-area .rolling .slick-dots li button {width: 10px; height: 10px; margin: 0 5px; border: 2px solid #fff; box-sizing: border-box; border-radius: 10px; transition-duration: .4s}
+.gift .prd-area .rolling .slick-dots li.slick-active button {width: 25px;}
+.gift .buy-area {position: relative;}
+.gift .buy-area .btn_buy {position: absolute; bottom: 495px; left: 50%; display: block; width: 155px; height: 40px; margin-left: 80px;}
+.noti {width: 100%; padding: 50px 0; background-color: #845f40; color: #fff; font-family: 'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif;}
+.noti .inner {display: flex; align-items: center; width: 1140px; margin: 0 auto;}
+.noti .inner div {width: 50%;}
+.noti h3 {font-size: 29px; color: #fff; font-weight: normal; text-indent: 11px; font-family: 'Roboto','Noto Sans KR','malgun Gothic','맑은고딕',sans-serif;}
+.noti ul li {color:#fefefe; padding-left: 11px; word-break:keep-all; font-size: 14px; text-align: left; line-height: 20px;}
+.noti li:before {content: '.'; display: inline-block; width: 11px; margin-left: -11px; font-size: 23px; font-weight: 600; color: #a9907a; line-height: auto; vertical-align: 4px;}

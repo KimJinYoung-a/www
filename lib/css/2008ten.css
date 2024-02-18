@@ -1,0 +1,316 @@
+/* CSS Document E-Mail ¿ë*/
+
+a    {text-decoration:none; color:#888888}
+a:link    {text-decoration:none; color:#888888}
+a:visited {text-decoration:none; color:#888888}
+a:hover   {text-decoration:underline; color:#888888}
+
+body,table,tr,td {font-family:dotum,AppleGothic,sans-serif; color:#888888; font-size:11px; word-spacing: -2px;scrollbar-face-color: F2F2F2; scrollbar-shadow-color:#bbbbbb; scrollbar-highlight-color: #bbbbbb; scrollbar-3dlight-color: #FFFFFF; scrollbar-darkshadow-color: #FFFFFF; scrollbar-track-color: #F2F2F2; scrollbar-arrow-color: #bbbbbb; scrollbar-base-color:#E9E8E8;}
+td {word-break:break-all;}
+img,table {border:0px;}
+b {letter-spacing:-1px;}
+input {padding-top:3px; height:21px;}
+textarea {line-height:18px; padding:3px;}
+
+
+
+/* design_mi */
+
+.input_01 {border:1px #cccccc solid; font-family: dotum;font-size: 11px; COLOR: #888888;}
+.input_login {border:1px #cccccc solid; FONT-FAMILY: verdana; font-size: 11px; COLOR: #c3080a; padding:1px;}
+.gray11px01 {font-family: dotum; FONT-SIZE: 11px; COLOR: #333333; letter-spacing: -1px}
+.gray11px02 {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; line-height:16px;}
+.gray11px03 {font-family: dotum; FONT-SIZE: 11px; COLOR: #666666; line-height:14px;}
+.gray11px02b {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; font-weight:bold;line-height:16px;}
+.red11px02 {font-family: dotum; FONT-SIZE: 11px; COLOR: #b70606;}
+.blue11px02 {font-family: dotum; FONT-SIZE: 11px; COLOR: #477da5;}
+.price00{font-family: dotum; FONT-SIZE: 11px; COLOR: #999999; font-weight:bold;}
+.price01{font-family: dotum; FONT-SIZE: 11px; COLOR: #999999; TEXT-DECORATION:line-through;}
+.white11px01 {font-family: dotum; FONT-SIZE: 11px; COLOR: #ffffff;}
+.black11px {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000;  TEXT-DECORATION: none;}
+.black11pxb {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000; font-weight:bold; TEXT-DECORATION: none;}
+.black12px {font-family: dotum; FONT-SIZE: 12px; COLOR: #000000;  TEXT-DECORATION: none;}
+.black12pxb {font-family: dotum; FONT-SIZE: 12px; COLOR: #000000;  font-weight:bold; TEXT-DECORATION: none;}
+.red11px {FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; }
+.red11pxb {FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; font-weight:bold;}
+.red12pxb {FONT-SIZE: 12px; COLOR: #c3080a; TEXT-DECORATION: none; font-weight:bold;}
+.sky12pxb {FONT-SIZE: 12px; COLOR: #69a5b4; TEXT-DECORATION: none; font-weight:bold;}
+.sky11px {font-family: µ¸¿ò; FONT-SIZE: 11px; COLOR: #69a5b4; TEXT-DECORATION: none;}
+.eng11px00 {FONT-FAMILY: "verdana"; font-size: 11px;}
+.eng11px01 {FONT-FAMILY: "verdana"; font-size: 11px;  font-weight:bold ; letter-spacing: -1px}
+.eng11pxred {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; font-weight:bold;}
+.eng11pxblack {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none;}
+.eng11pxgray {FONT-FAMILY: "verdana"; FONT-SIZE: 10px; COLOR: #888888; TEXT-DECORATION: none; letter-spacing: -1px}
+.eng14pxgray {FONT-FAMILY: "verdana"; FONT-SIZE: 14px; COLOR: #aaaaaa; TEXT-DECORATION: none; font-weight:bold;}
+.stbrand01 {FONT-FAMILY: "verdana"; FONT-SIZE: 20px; COLOR: #69a5b4; TEXT-DECORATION: none; font-weight:bold; }
+.pagenum01 {FONT-FAMILY: "verdana"; font-size: 11px; word-spacing:5px;}
+.sale11px01 {font-family: dotum; FONT-SIZE: 11px; font-weight:bold ; COLOR: #b70606;}
+.coupon11px01 {font-family: dotum; FONT-SIZE: 11px; font-weight:bold ; COLOR: #438938;}
+.member_orange {COLOR: #F6931B; font-weight:bold;}
+.member_yellow {COLOR: #ffae00; font-weight:bold;}
+.member_green {COLOR: #17c400; font-weight:bold;}
+.member_blue {COLOR: #0048ff; font-weight:bold;}
+.member_vip {COLOR: #8B328C; font-weight:bold;}
+.member_red {COLOR: #ff0173; font-weight:bold;}
+.member_staff {COLOR: #c3080a; font-weight:bold;}
+.giftnum {FONT-FAMILY: "verdana"; font-size: 20px;  font-weight:bold ; COLOR: #000000;}
+.prodtitle {FONT-FAMILY: dotum; font-size: 16px;  font-weight:bold ; COLOR: #000000;}
+.gray12px01 {font-family: dotum; FONT-SIZE: 12px; COLOR: #999999;  TEXT-DECORATION: none;}
+.gray12px02 {font-family: dotum; FONT-SIZE: 12px; COLOR: #888888;  TEXT-DECORATION: none;}
+.gray12px02b {font-family: dotum; FONT-SIZE: 12px; COLOR: #888888;  TEXT-DECORATION: none; font-weight:bold;}
+.icon_sale {COLOR: #b70606;}
+.icon_limit {COLOR: #9c3387;}
+.icon_coupon {COLOR: #438938;}
+.wordspace01 {word-spacing:4px;}
+
+.wonder01 {font-family: dotum; FONT-SIZE: 11px; COLOR: #47a5c6;  font-weight:bold; TEXT-DECORATION: none;}
+.wonder02 {font-family: dotum; FONT-SIZE: 11px; COLOR: #d34789;  font-weight:bold; TEXT-DECORATION: none;}
+.wonder03 {font-family: dotum; FONT-SIZE: 11px; COLOR: #43b255;  font-weight:bold; TEXT-DECORATION: none;}
+.wonder04 {font-family: dotum; FONT-SIZE: 11px; COLOR: #e9692a;  font-weight:bold; TEXT-DECORATION: none;}
+.wonder05 {font-family: dotum; FONT-SIZE: 11px; COLOR: #8938cd;  font-weight:bold; TEXT-DECORATION: none;}
+
+
+.link_red11px01:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; }
+.link_red11px01:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; }
+.link_red11px01:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; }
+.link_red11px01:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: underline; }
+.link_red11px02:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; }
+.link_red11px02:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; }
+.link_red11px02:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: none; }
+.link_red11px02:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none; }
+.link_gray11px01:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray11px01:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray11px01:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray11px01:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: underline; }
+.link_gray11px02:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray11px02:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray11px02:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray11px02:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #c3080a; TEXT-DECORATION: underline; }
+.link_gray12px01:link {font-family: dotum; FONT-SIZE: 12px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray12px01:visited {font-family: dotum; FONT-SIZE: 12px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray12px01:active {font-family: dotum; FONT-SIZE: 12px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_gray12px01:hover {font-family: dotum; FONT-SIZE: 12px; COLOR: #888888; TEXT-DECORATION: underline; }
+.link_gray11px01Bold:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; font-weight:bold; TEXT-DECORATION: none; }
+.link_gray11px01Bold:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; font-weight:bold; TEXT-DECORATION: none; }
+.link_gray11px01Bold:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; font-weight:bold; TEXT-DECORATION: none; }
+.link_gray11px01Bold:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; font-weight:bold; TEXT-DECORATION: underline; }
+.link_ctleft:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #777777; TEXT-DECORATION: none; }
+.link_ctleft:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #777777; TEXT-DECORATION: none; }
+.link_ctleft:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #777777; TEXT-DECORATION: none; }
+.link_ctleft:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none; }
+.link_skyblue11px:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #69a5b4; TEXT-DECORATION: none; }
+.link_skyblue11px:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #69a5b4; TEXT-DECORATION: none; }
+.link_skyblue11px:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #69a5b4; TEXT-DECORATION: none; }
+.link_skyblue11px:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #69a5b4; TEXT-DECORATION: underline; }
+
+.link_eng11px00:link 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #666666; TEXT-DECORATION: none; }
+.link_eng11px00:visited {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #666666; TEXT-DECORATION: none; }
+.link_eng11px00:active 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #666666; TEXT-DECORATION: none; }
+.link_eng11px00:hover 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none; }
+
+.link_eng11px01:link {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #ffffff; TEXT-DECORATION: none; }
+.link_eng11px01:visited {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #ffffff; TEXT-DECORATION: none; }
+.link_eng11px01:active {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #ffffff; TEXT-DECORATION: none; }
+.link_eng11px01:hover {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #ffffff; TEXT-DECORATION: underline; }
+
+.link_eng11px02:link 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: none; }
+.link_eng11px02:visited {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: none; }
+.link_eng11px02:active 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: none; }
+.link_eng11px02:hover 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: underline; }
+
+.link_eng11px03:link 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_eng11px03:visited {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_eng11px03:active 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_eng11px03:hover 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: underline; }
+
+.link_eng14px:link 	{FONT-FAMILY: "verdana"; FONT-SIZE: 14px; COLOR: #aaaaaa; font-weight:bold; TEXT-DECORATION: none; }
+.link_eng14px:visited {FONT-FAMILY: "verdana"; FONT-SIZE: 14px; COLOR: #aaaaaa; font-weight:bold; TEXT-DECORATION: none; }
+.link_eng14px:active 	{FONT-FAMILY: "verdana"; FONT-SIZE: 14px; COLOR: #aaaaaa; font-weight:bold; TEXT-DECORATION: none; }
+.link_eng14px:hover 	{FONT-FAMILY: "verdana"; FONT-SIZE: 14px; COLOR: #aaaaaa; font-weight:bold; TEXT-DECORATION: underline; }
+
+.link_eng13px:link 	{FONT-FAMILY: "verdana"; FONT-SIZE: 13px; COLOR: #000000; font-weight:bold; TEXT-DECORATION: none; }
+.link_eng13px:visited {FONT-FAMILY: "verdana"; FONT-SIZE: 13px; COLOR: #000000; font-weight:bold; TEXT-DECORATION: none; }
+.link_eng13px:active 	{FONT-FAMILY: "verdana"; FONT-SIZE: 13px; COLOR: #000000; font-weight:bold; TEXT-DECORATION: none; }
+.link_eng13px:hover 	{FONT-FAMILY: "verdana"; FONT-SIZE: 13px; COLOR: #000000; font-weight:bold; TEXT-DECORATION: underline; }
+
+.link_black12px01:link {FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none; }
+.link_black12px01:visited { FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none; }
+.link_black12px01:active { FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none; }
+.link_black12px01:hover { FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: underline; }
+
+
+.link_black11pxb:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none; font-weight:bold; }
+.link_black11pxb:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none; font-weight:bold; }
+.link_black11pxb:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none; font-weight:bold; }
+.link_black11pxb:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: underline; font-weight:bold; }
+
+
+/* design_hyun */
+.font01 {	font-size: 11px;	font-family: "dotum"; font-weight: bold;	color: #707070;}
+.font02 {	font-size: 11px;	font-family: "dotum";	line-height:1.4; }
+.font03 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #555555;}
+.poll_txt {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #555555;}
+.calendar_txt {	font-size: 11px;	font-family: "dotum";	line-height:1.4;  color: #c8151c; font-weight: bold;}
+.calendar_txt02 {	font-size: 11px;	font-family: "dotum";	line-height:1.4;  color: #ffffff;}
+.story_txt {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #ffffff; font-weight: bold;}
+.story_txt2 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #ffffff;}
+.story_txt3 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #f8ff3f; font-weight: bold;}
+.story_no {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #f6ff65;}
+.story_best {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #666666; font-weight: bold;}
+.story_best02 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #666666;}
+.story_id {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #757575;}
+.search_line {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ededed; height:18px;}
+.thank_line {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:18px; width:530px;}
+.thank_line2 {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:65px; width:530px;}
+.thank_f {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #a7a7a7;}
+.thank_txt01 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #8f8f8f; font-weight: bold;}
+.thank_txt02 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #8f8f8f;}
+.thank_list {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #cc0000; font-weight: bold; letter-spacing: 2px}
+.thank_list02 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #393939; letter-spacing: 2px}
+.ticket_b {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #7e7e7e;}
+.ticket_txt01 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #6f6f6f; font-weight: bold;}
+.ticket_line {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:58px; width:500px;}
+.ticket_line2 {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:18px; width:500px;}
+.ticket_line3 {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:250px; width:500px;}
+.event_list {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #dbdbdb;}
+.search_line {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:18px; width:250px;}
+.search_list {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:18px; width:350px;}
+.calendar_week {	font-size: 13px;	font-family: "dotum";	line-height:1.4;  color: #747474; font-weight: bold;}
+.calendar_new {	font-size: 11px;	font-family: "dotum";	line-height:1.4;  color: #f7941d; TEXT-DECORATION: underline;}
+.calendar_on {	font-size: 11px;	font-family: "dotum";	line-height:1.4;  color: #ed1c24; TEXT-DECORATION: underline;}
+.calendar_win {	font-size: 11px;	font-family: "dotum";	line-height:1.4;  color: #45b2bc; TEXT-DECORATION: underline;}
+.calendar_off {	font-size: 11px;	font-family: "dotum";	line-height:1.4;  color: #606060; TEXT-DECORATION: underline;}
+.search01 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #4e4e4e;}
+.search02 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #000000; font-weight: bold;}
+.search03 {	font-size: 12px;	font-family: "dotum";	line-height:1.4;  color: #d91418; font-weight: bold;}
+.search_box {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:20px; width:293px;}
+.search_box02 {border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px; background-color:#ffffff; height:20px; width:168px;}
+.art_font01 {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #505050;}
+.art_font02 {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #ffffff;}
+.eng11px00 {FONT-FAMILY: "verdana"; font-size: 11px;}
+.newart_box{border:1px #cccccc solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px;}
+.art_font03 {	font-size: 12px;	font-family: "dotum";	line-height:1.4; color: #505050;}
+.dic_font01 {	font-size: 12px;	font-family: "dotum";	line-height:1.4; color: #000000;}
+.dic_font02 {	font-size: 12px;	font-family: "dotum";	line-height:1.8; color: #000000; font-weight: bold;}
+.dic_font03 {	font-size: 12px;	font-family: "dotum";	line-height:1.4; color: #bc4719; font-weight: bold;}
+.dic_font04 {	font-size: 16px;	font-family: "dotum";	line-height:1.4; color: #fffa69; font-weight: bold;}
+.dic_font05 {	font-size: 12px;	font-family: "dotum";	line-height:1.4; color: #fffa69; font-weight: bold;}
+.dic_font06 {	font-size: 14px;	font-family: "dotum";	line-height:1.8; color: #ffffff; font-weight: bold;}
+.dic_font07 {	font-size: 12px;	font-family: "dotum";	line-height:1.4; color: #ffffff; }
+.dic_font08 {	font-size: 12px;	font-family: "dotum";	line-height:1.7; color: #ffffff; font-weight: bold;}
+.up_font01 {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #000000;}
+.up_font02 {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #e62807;}
+.up_font03 {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #0f8eb7;}
+.up_font04 {	font-size: 11px;	font-family: "dotum";	line-height:1.4; color: #569c1d;}
+.up_font05 {	font-size: 12px;	font-family: "dotum"; font-weight: bold;	color: #555555;}
+.up_font06 {	font-size: 11px;	font-family: "dotum"; color: #555555; line-height:1.4;}
+.up_font07 {	font-size: 12px;	font-family: "dotum";	color: #000000; line-height:1.4;}
+.up_font08 {	font-size: 12px;	font-family: "dotum";	color: #b71517; line-height:1.4;}
+.up_box{border:1px #b7b7b7 solid; FONT-FAMILY: "verdana"; font-size: 11px; color="#c3080a"; padding:1px;}
+.input_02 {border:1px #cccccc solid; font-family: dotum;font-size: 12px; COLOR: #555555;}
+.best_gray {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; line-height:1.4;}
+
+/* design_hye */
+.dotum11 {color: #888888;	font-family: "dotum";	font-size: 11px;	line-height:1.4; }
+.dotum11red {color: #b70606;	font-family: "dotum";	font-size: 11px;	line-height:1.4; }
+.dotum11_13 {color: #888888;	font-family: "dotum";	font-size: 11px;	line-height:1.3;}
+.dotum12 {	font-size: 12px;	font-weight: bold;	color: #777777;}
+.dotum11pink {color: #f6989d;	font-family: "dotum";	font-size: 11px;	line-height:1.4; }
+.dotum14bold {color: #524843;	font-family: "dotum";	font-size: 14px;	font-weight: bold;	line-height:1.4; }
+.dotum12bold {color: #524843;	font-family: "dotum";	font-size: 12px;	font-weight: bold;	line-height:1.4; }
+.verdana15 {color: #4db2a9;	font-family: "verdana";	font-size: 15px;	font-weight: bold;	line-height:1.4; }
+.brand15 {color: #69a5b4;	font-family: "verdana";	font-size: 15px;	font-weight: bold;	line-height:1.4; }
+.popuptitle {FONT-FAMILY: dotum; font-size: 16px;  font-weight:bold ; COLOR: #ffffff;}
+
+
+/* old , cscenter */
+
+.price_line {font-family: dotum; FONT-SIZE: 11px; COLOR: #999999; TEXT-DECORATION:line-through;}
+.price {font-family: dotum; FONT-SIZE: 11px; COLOR: #999999; font-weight:bold;}
+.sale {font-family: dotum; FONT-SIZE: 11px; font-weight:bold ; COLOR: #b70606;}
+.coupon {font-family: dotum; FONT-SIZE: 11px; font-weight:bold ; COLOR: #438938;}
+
+.brandname {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: none; }
+.event_text {color: #999999}
+.brandimg {line-height: 20px;}
+
+.link_plist:link {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_plist:visited {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_plist:active {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: none; }
+.link_plist:hover {font-family: dotum; FONT-SIZE: 11px; COLOR: #888888; TEXT-DECORATION: underline; }
+
+.link_bname:link 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: none; }
+.link_bname:visited {FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: none; }
+.link_bname:active 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: none; }
+.link_bname:hover 	{FONT-FAMILY: "verdana"; FONT-SIZE: 11px; COLOR: #aaaaaa; TEXT-DECORATION: underline; }
+
+.button00 {
+	font-family: "Verdana", "dotum";
+	font-size: 9pt;
+	background-color: #E6E6E6;
+	border: 1px outset #BABABA;
+	color: #000000;
+	height: 20px;
+	cursor:hand;
+}
+
+.button {
+	font-family: "Verdana", "µ¸¿ò";
+	font-size: 9pt;
+	background-color: #E6E6E6;
+	border: 1px outset #BABABA;
+	color: #000000;
+	height: 20px;
+	cursor:hand;
+}
+
+.view_pro_title {font-size: 16px; font-family: "dotum"; font-weight: bold;}
+
+
+.line {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CCCCCC;
+}
+
+.line_right {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+
+.line_bottom {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+.line_cs {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D4E4D1;
+}
+
+.line_cs_strong {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #D4E4D1;
+}
+
+.webtext {
+	font-size: 12px;
+	background-color: #FFFFFF;
+	border: 1px solid #BABABA;
+	color: #000000;
+}
+
+
+.webtextarea {
+	font-size: 12px;
+	background-color: #FFFFFF;
+	border: 1px solid #BABABA;
+	color: #000000;
+}
+
+.cs_greenfont {font-family: dotum; FONT-SIZE: 11px; COLOR: #3D6736;}
+

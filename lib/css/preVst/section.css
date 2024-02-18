@@ -1,0 +1,1143 @@
+@charset "utf-8";
+/* Brand */
+.brand #contentWrap {padding:50px 0 20px 0;}
+.brandHeader {overflow:hidden;}
+.brandHeader h2, .brandHeader .breadcrumb {float:left;}
+.brandHeader .breadcrumb {padding:18px 0 0 20px; font-size:11px; font-weight:normal;}
+.brandHeader .breadcrumb span {font-weight:bold;}
+.brandHeader select {float:right; width:174px; margin-top:15px;}
+
+.brandContWrap {position:relative; width:100%;}
+.wFix {width:1140px; margin:0 auto;}
+
+.brandIntro {/*position:absolute; width:100%; left:0; top:0; z-index:50;*/}
+.brandIntro .ctgyBg00 {background:#477da5;} /* 카테고리지정 없을때 */
+.brandIntro .ctgyBg01 {background:#ea5050 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head01.png) center 50% repeat;} /* 디자인문구 */
+.brandIntro .ctgyBg02 {background:#2689d4 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head02.png) center 50% repeat;} /* 디지털,핸드폰 */
+.brandIntro .ctgyBg03 {background:#6ec146 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head03.png) center 50% repeat;} /* 캠핑,트래블 */
+.brandIntro .ctgyBg04 {background:#ea77c3 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head04.png) center 50% repeat;} /* 토이 */
+.brandIntro .ctgyBg05 {background:#b171b8 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head05.png) center 50% repeat;} /* 그래픽 */
+.brandIntro .ctgyBg06 {background:#95511f url(http://fiximage.10x10.co.kr/web2013/brand/bg_head06.png) center 50% repeat;} /* 홈인테리어 */
+.brandIntro .ctgyBg07 {background:#f7c244 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head07.png) center 50% repeat;} /* 키친 */
+.brandIntro .ctgyBg08 {background:#e93691 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head08.png) center 50% repeat;} /* 패션의류 */
+.brandIntro .ctgyBg09 {background:#46bbdc url(http://fiximage.10x10.co.kr/web2013/brand/bg_head09.png) center 50% repeat;} /* 베이비,키즈 */
+.brandIntro .ctgyBg10 {background:#c47c27 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head10.png) center 50% repeat;} /* CAT&DOG */
+.brandIntro .ctgyBg11 {background:#9f7658 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head11.png) center 50% repeat;} /* 가구,조명 */
+.brandIntro .ctgyBg12 {background:#833ac6 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head12.png) center 50% repeat;} /* 가방,슈즈,주얼리 */
+.brandIntro .ctgyBg13 {background:#fbac9f url(http://fiximage.10x10.co.kr/web2013/brand/bg_head13.png) center 50% repeat;} /* 뷰티 */
+.brandIntro .ctgyBg14 {background:#ff8a2c url(http://fiximage.10x10.co.kr/web2013/brand/bg_head14.png) center 50% repeat;} /* 푸드 */
+.brandIntro .ctgyBg15 {background:#e197d6 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head15.png) center 50% repeat;} /* 데코,플라워 */
+.brandIntro .ctgyBg16 {background:#c9e272 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head16.png) center 50% repeat;} /* 패브릭,수납 */
+.brandIntro .ctgyBg17 {background:#7a7b88 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head17.png) center 50% repeat;} /* 디자인가전 */
+.brandIntro .ctgyBg18 {background:#5e37b0 url(http://fiximage.10x10.co.kr/web2013/brand/bg_head18.png) center 50% repeat;} /* 주얼리/시계 */
+.customBgUse .bg {background:url(http://fiximage.10x10.co.kr/web2013/brand/bg_black_opacity.png) left top repeat;}
+.customBgNone .bg {background:url(http://fiximage.10x10.co.kr/web2013/brand/bg_line_opacity.png) left top repeat;}
+
+.brandNav h3 {color:#fff; text-align:center; padding:36px 0; min-height:62px;}
+.brandNav h3 span {display:block;}
+.brandNav h3 .eng {font-size:30px; line-height:1;}
+.brandNav h3 .korean {padding-top:17px; font-size:12px; line-height:1.1; font-weight:normal;}
+.brandNav a {color:#fff;}
+.brandNav .navList {margin-top:-3px; padding-bottom:23px; height:21px; text-align:center;}
+.brandNav .navList li {display:inline-block; padding:0 15px; height:21px; cursor:pointer; vertical-align:top;}
+.brandNav .navList li img {vertical-align:top;}
+.brandNav .navList li span {display:block; padding:3px;}
+/*.brandNav .navList li.current span {background:#000;}*/
+.brandNav .navList li:hover span {background:#000;}
+.brandNav .navList li .ico {display:block; margin:-15px 0 4px;}
+
+.fullView .banner, .slimView .hello h4 {display:block;}
+.slimView .banner, .fullView .hello h4 {display:none;}
+
+.brand .snsArea {width:100%;}
+.brand .snsArea .snsBox {overflow:hidden; margin:0 auto; width:1140px;}
+.brand .snsArea .sns {float:right; padding-top:7px;}
+.brand .snsArea .sns ul {float:left; padding-right:5px;}
+.brand .snsArea .sns ul li {display:inline;}
+.brand .snsArea .sns ul li img {vertical-align:top;}
+.brand .snsArea .sns div {float:left; min-width:35px; padding:2px 9px 2px 25px; border:1px solid #ccc; background-color:#fff; background-image:url(http://fiximage.10x10.co.kr/web2013/common/ico_star.png); background-repeat:no-repeat; text-align:right; font-size:11px;}
+.brand .snsArea .sns .zzimBrOff {background-position:5px 4px; color:#999;}
+.brand .snsArea .sns .zzimBrOn {background-position:5px -19px; color:#d50c0c;}
+
+.brandSection {color:#666; padding-bottom:70px;}
+.brandSection > div {padding-top:100px;}
+.brandSection > div:first-child {padding-top:50px;}
+.brandSection h4 {padding:0 0 15px 20px;}
+.brandSection .titleWrap:after {content:" "; display:block; height:0; clear:both; visibility:hidden;}
+.brandSection .line {margin-bottom:30px; border-bottom:1px solid #ddd;}
+.brandSection .interview h4.line {width:1120px; margin:0 auto 30px;}
+
+.hello .wFix {width:980px; padding:0 80px;}
+.hello h4 {background:url(http://fiximage.10x10.co.kr/web2013/brand/bg_designis.png) left top no-repeat; padding-left:40px; padding-bottom:40px; margin:0 0 0 -40px;}
+.hello h4 dl {display:inline-block; background:url(http://fiximage.10x10.co.kr/web2013/brand/bg_designis.png) right top no-repeat; padding-right:40px;}
+.hello h4 dl dd {max-width:1000px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.helloCont {padding-bottom:50px}
+.helloCont dt {padding-bottom:15px;}
+.helloCont dd {line-height:18px;}
+.helloCont dfn {font-style:normal; color:#000;}
+.brandGuide dl {overflow:hidden; width:100%; font-size:11px; padding-top:12px;}
+.brandGuide dl:first-child {padding-top:0;}
+.brandGuide dt {float:left; width:136px; margin-top:3px; line-height:12px; color:#555; font-weight:bold; padding:0 0 0 12px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt13.gif) left 5px no-repeat;}
+.brandGuide dd {float:left; width:830px; line-height:17px;}
+.brandGuide .tagView dd,
+.brandGuide .tagView dd li {padding-top:0;}
+.brandGuide .bookmark {color:#888;}
+.brandGuide .bookmark span {color:#555;}
+
+.articleList {float:left; position:relative; width:442px; height:479px; border:1px solid #ddd;}
+.articleList .swiper-container {position:relative; overflow:hidden; width:442px; height:479px;}
+.articleList .swiper-wrapper {position:relative;}
+.articleList .swiper-slide {width:442px; height:479px; float:left; overflow:hidden; cursor:pointer;}
+.articleList .arrow-left {z-index:10; position:absolute; width:13px; height:34px; margin:0; padding:0; border:0; text-indent:-999em; cursor:pointer; left:10px; top:163px; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev.png) left top no-repeat;}
+.articleList .arrow-left:hover {background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev_over.png) left top no-repeat;}
+.articleList .arrow-right {z-index:10; position:absolute; width:13px; height:34px; margin:0; padding:0; border:0; text-indent:-999em; cursor:pointer; right:10px; top:163px; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next.png) left top no-repeat;}
+.articleList .arrow-right:hover {background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next_over.png) left top no-repeat;}
+.articleList .account {padding:27px 30px; font-size:13px;}
+.articleList .account dt {color:#000; font-size:16px; font-weight:bold; padding-bottom:5px;}
+.articleList .account .date {padding:6px 0; color:#000;}
+.articleList .pagination {position:absolute; right:20px; top:300px; overflow:hidden; z-index:10; width:40px; height:30px; padding-top:10px; text-align:center; background:url(http://fiximage.10x10.co.kr/web2013/brand/bg_circle.png) left top no-repeat;}
+.articleList .pagination .swiper-pagination-switch {display:inline-block; cursor:pointer; font-size:11px; color:#aaa; font-weight:bold;}
+.articleList .pagination .swiper-active-switch {font-weight:bold; color:#000;}
+
+.nextInterview {float:left; width:676px; padding-left:20px;}
+.nextInterview .title {overflow:hidden; padding:10px 10px 12px 10px;}
+.nextInterview .title h5, .nextInterview .title p {float:left;}
+.nextInterview .title p {padding:2px 0 0 7px;}
+.nextInterview table {border-top:3px double #e5e5e5; text-align:center; font-weight:normal;}
+.nextInterview table thead {display:none;}
+.nextInterview table thead th {display:block; visibility:hidden; width:0; height:0;}
+.nextInterview table td {padding:17px 0; border-bottom:1px solid #e5e5e5;}
+.nextInterview table td.lt {padding-left:10px; padding-right:10px;}
+.nextInterview table td strong {color:#888; font-size:11px;}
+.nextInterview table .noData {padding:126px 0 125px;}
+.nextInterview table .noData strong {font-size:12px;}
+.nextInterview fieldset {position:relative; margin-top:40px;}
+.nextInterview fieldset textarea {width:486px; height:42px; padding:9px; font-size:12px;}
+.nextInterview fieldset .btn {position:absolute; right:0; top:0; width:160px;}
+.nextInterview fieldset .btnB1 {padding:24px 45px 22px;}
+.nextInterview fieldset p {padding-top:6px; font-size:11px; font-weight:normal;}
+.nextInterview fieldset p span {font-size:8px;}
+
+.magazine {padding:40px 0; background:#7a8286; margin-top:40px;}
+.magazineList {position:relative; width:1140px; margin:0 auto; text-align:center;}
+.magazineList .article img {vertical-align:top;}
+.magazineList button {position:absolute; width:20px; height:42px; margin-top:-21px; padding:0; text-indent:-999em;}
+.magazineList .prevBtn {left:0; top:50%; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev.gif) left top no-repeat;}
+.magazineList .prevBtn:hover {background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev_over.gif) left top no-repeat;}
+.magazineList .nextBtn {right:0; top:50%; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next.gif) left top no-repeat;}
+.magazineList .nextBtn:hover {background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next_over.gif) left top no-repeat;}
+
+.interviewList {position:relative; text-align:center;}
+.interviewList button {position:absolute; width:20px; height:42px; padding:0; text-indent:-999em;}
+.interviewList .prevBtn {left:0; top:480px; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev_lookbook.png) left top no-repeat;}
+.interviewList .nextBtn {right:0; top:480px; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next_lookbook.png) left top no-repeat;}
+
+.artistWork {background:url(http://fiximage.10x10.co.kr/web2013/brand/bg_artistwork.gif) left 85px repeat-x;}
+.workGallery {padding:30px 0 50px 0;}
+.galleryTab {width:100%; padding-bottom:40px; background:url(http://fiximage.10x10.co.kr/web2013/brand/gallery_line01.gif) left bottom repeat-x;}
+.galleryTab ul {width:420px; margin:0 auto; overflow:hidden;}
+.galleryTab li {float:left; width:130px; height:28px; padding:0 5px;}
+.galleryTab li span {display:block; width:130px; height:20px; padding-top:5px; font-size:13px; line-height:15px; font-weight:bold; border-bottom:3px solid #666; color:#666; text-align:center; letter-spacing:-0.05em; cursor:pointer;}
+.galleryTab li.current span {border-bottom:3px solid #fff; color:#fff;}
+.galleryArea {overflow:hidden; background:url(http://fiximage.10x10.co.kr/web2013/brand/gallery_line02.gif) 592px top repeat-y;}
+.galleryArea .galleryView {float:left; width:526px;}
+.galleryView {position:relative;}
+.galleryView .swiper-container {position:relative; overflow:hidden; width:400px; height:400px; margin:0 auto;}
+.galleryView .swiper-wrapper {position:relative;}
+.galleryView .swiper-slide {float:left; width:400px; height:400px; overflow:hidden; text-align:center;}
+.galleryView a {display:block; z-index:10; position:absolute; width:13px; height:34px; margin-top:-17px; cursor:pointer; top:50%;}
+.galleryView .arrow-left {left:0; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev.png) left top no-repeat;}
+.galleryView .arrow-left:hover {background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev_over.png) left top no-repeat;}
+.galleryView .arrow-right {right:0; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next.png) right top no-repeat;}
+.galleryView .arrow-right:hover {background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next_over.png) right top no-repeat;}
+.galleryArea .tabs {float:right; max-width:492px;}
+.tabs {overflow:hidden;}
+.tabs a {float:left; display:block; margin-left:10px; margin-bottom:10px; position:relative; width:72px; height:72px; cursor:pointer;}
+.tabs a img {width:72px; height:72px;}
+.tabs a dfn {position:absolute; left:0; top:0; display:none; width:66px; height:66px; border:3px solid #fff;}
+.tabs a.active dfn {display:block; z-index:10;}
+
+.brandShop .line {margin-bottom:20px;}
+.brandShop .brDeliveryInfo {display:inline-block; position:relative; z-index:10; vertical-align:middle;}
+.brandShop .brDeliveryInfo .contLyr {left:-146px; top:12px; background-position:195px 10px;}
+.shopListTab {overflow:hidden;}
+.shopListTab li {float:left; min-width:85px; border-left:1px solid #000; padding:5px 20px; font-weight:bold; color:#000; cursor:pointer;}
+.shopListTab li span {padding-right:15px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt15.gif) right 5px no-repeat;}
+.shopListTab li.current span {background-position:right -19px; color:#d50c0c;}
+.shopListTab li:first-child {border-left:none;}
+.brandShop .schDetailBox {border:1px solid #555;}
+/*.brandShop .schDetailBox table th {background-color:#eee;}
+.brandShop .schDetailBox table td {background-color:#f9f9f9;}
+.brandShop .schDetailBox table td span {cursor:pointer;}
+.brandShop .schDetailBox table td span label:hover {text-decoration:underline;}*/
+
+.shopBestPrd {overflow:hidden; width:100%; margin:-20px 0 50px; border-bottom:1px solid #ddd;}
+.shopBestPrd h5 {padding:30px 0 18px;}
+.shopBestPrd .bestItem {float:left; width:840px; height:431px; padding-left:20px;}
+.shopBestPrd .brandShop .pdt200 .pdtList {background:#ddd;}
+.shopBestPrd .pdt200 .bestAwd li .pdtNum {width:30px; padding-right:15px;}
+.shopBestPrd .pdt200 ul.bestAwd > li {width:280px; padding:0;}
+.shopBestPrd .pdt200 .bestAwd {width:100%; padding-left:0;}
+.shopBestPrd .enjoyEvent {position:relative; padding:0; border:0;}
+.shopBestPrd .enjoyEvent ul {margin:0;}
+.shopBestPrd .enjoyEvent .box {padding:0; margin:0; background:none;}
+.shopBestPrd .enjoyEvent .btnPrev {position:absolute; left:-19px; top:157px; cursor:pointer;}
+.shopBestPrd .enjoyEvent .btnNext {position:absolute; right:-19px; top:157px; cursor:pointer;}
+.shopBestPrd .enjoyEvent .evtProd .evtTit {padding-bottom:4px;}
+.shopBestPrd .shopEvent {float:right; width:200px; height:431px; padding:0 40px; background:#f5f5f5;}
+.shopBestPrd .shopEvent .noEvt {text-align:center; padding-top:127px; color:#666;}
+.shopBestPrd .enjoyEvent .evtProd {background:none;}
+
+.shopViewClct .clct {border-top:2px solid #000; overflow:hidden; position:relative;}
+.shopViewClct .clct > div {background:url(http://fiximage.10x10.co.kr/web2013/brand/bg_clct.gif) 20px 30px repeat-y; margin:0 0 50px 0;}
+.shopViewClct .clct h5 {padding:30px 20px 0 20px; background:#fff;}
+.shopViewClct .clct .pdtWrap {width:908px; padding:0;}
+.shopViewClct .clct .pdt170 .pdtList {background:none; margin-bottom:-1px;}
+.shopViewClct .clct .pdt170 .pdtList > li {min-height:285px; border-bottom:1px solid #ddd; padding:30px 0;}
+.shopViewClct .clct .pdt170 .pdtInfo {min-height:90px;}
+.clctMoreBtn {position:absolute; bottom:70px; left:60px; width:92px; height:20px; text-indent:-9999px; overflow:hidden; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_more.gif) left top no-repeat; cursor:pointer;}
+p.clctClose {background-position:left bottom;}
+
+.shopEvtBnr {border:1px solid #ddd;}
+
+.lookbook {padding-bottom:70px;}
+.lookbook h4.line {margin-bottom:15px;}
+.lookbook .nav {overflow:hidden; height:1%; padding:0 0 5px 2px; border-bottom:1px solid #ddd;}
+.lookbook .nav a {display:inline-block; margin:0 40px 11px 0; padding-left:8px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt11.gif) left 7px no-repeat; color:#000;}
+.lookbook .nav .on {font-weight:bold;}
+.lookbook .nav img {margin-left:2px;}
+
+.photoList {position:relative; height:800px; width:1140px; margin-top:40px;}
+.photoList .swiper-container {position:relative; overflow:hidden; width:1140px; height:800px;}
+.photoList .swiper-wrapper {position:relative;}
+.photoList .swiper-slide {width:1140px; height:800px; overflow:hidden; text-align:center; vertical-align:middle; display:table-cell;}
+.photoList .swiper-slide img {max-width:1024px; max-height:800px;}
+.photoList .arrow-left {z-index:10; position:absolute; width:20px; height:43px; margin-top:-21px; padding:0; border:0; text-indent:-999em; cursor:pointer; left:10px; top:50%; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_prev_lookbook.png) left top no-repeat;}
+.photoList .arrow-right {z-index:10; position:absolute; width:20px; height:43px; margin-top:-21px; padding:0; border:0; text-indent:-999em; cursor:pointer; right:10px; top:50%; background:url(http://fiximage.10x10.co.kr/web2013/brand/btn_next_lookbook.png) left top no-repeat;}
+
+
+/* Brand Main */
+.brandMain .brandHeader {padding-bottom:30px;}
+.brandMain .brandHeader h2 {float:none; padding-bottom:12px;}
+.brandMain .brandHeader select {margin-top:48px;}
+
+/* 1031 추가 */
+.brandBnr .slide {position:relative; overflow:hidden; width:1140px; height:500px;}
+.brandBnr .slidesjs-pagination {overflow:hidden; position:absolute; left:50%; top:464px; width:66px; margin-left:-33px; z-index:100;}
+.brandBnr .slidesjs-pagination li {float:left; width:12px; margin:0 5px;}
+.brandBnr .slidesjs-pagination li a {display:block; width:12px; height:12px; text-indent:-9999px; background:url(http://fiximage.10x10.co.kr/web2013/common/multi_nav.png) left top repeat;}
+.brandBnr .slidesjs-pagination li a.active {background-position:-14px top;}
+
+.brandBnr .swiper-container {position:relative; overflow:hidden; width:1140px; height:500px;}
+.brandBnr .swiper-wrapper {position:relative;}
+.brandBnr .swiper-slide {width:1140px; height:500px; float:left; overflow:hidden;}
+.brandBnr .bnrNum {position:absolute; left:50%; top:464px; overflow:hidden; z-index:100; width:66px; margin-left:-33px;}
+.brandBnr .bnrNum .swiper-pagination-switch {float:left; display:inline-block; width:12px; height:12px; margin:0 5px; cursor:pointer; background:url(http://fiximage.10x10.co.kr/web2013/common/multi_nav.png) left top no-repeat;}
+.brandBnr .bnrNum .swiper-active-switch {background-position:-14px top;}
+
+.brandPick {overflow:hidden; width:1140px;}
+.brandPick ul {overflow:hidden; width:1200px; margin-right:-60px;}
+.brandPick li {float:left; width:240px; height:461px; margin-right:60px;}
+.brandPick li .pic {position:relative; width:240px;}
+.brandPick li .txt {padding:24px 0;}
+.brandPick li .txt .brandPdt {width:220px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#111; font-size:20px; font-weight:500; padding-bottom:12px; line-height:1;}
+.brandPick li .txt .brandPdt a {color:#000;}
+.brandPick li .txt .cmt {display:table-cell; font-size:14px; line-height:18px; color:#111; /* background:url(http://fiximage.10x10.co.kr/web2013/brand/ico_comment.gif) left 2px no-repeat; */}
+.brandPick li .txt .cmt em {width:0; height:100%; display:inline-block; vertical-align:middle;}
+.brandPick li .txt .cmt span {display:inline-block;}
+
+.mInterview {float:left; width:444px;}
+.mInterview .articleList {float:none;}
+.mLookbook {float:right; width:656px;}
+.mLookbook .lookbookWrap {position:relative; height:431px; padding-top:50px; background:#e6e6e5;}
+.mLookbook .swiper-container {position:relative; overflow:hidden; width:518px; height:360px; margin:0 auto; border-left:1px solid #ccc; border-right:1px solid #fff;}
+.mLookbook .swiper-wrapper {position:relative;}
+.mLookbook .swiper-slide {width:518px; height:360px; float:left; overflow:hidden;}
+.mLookbook .swiper-slide .bInfo {float:left; width:259px; height:360px; background:#fff;}
+.mLookbook .swiper-slide .bInfo dl {height:360px; display:table-cell; vertical-align:middle; text-align:center; color:#000; word-break:break-all;}
+.mLookbook .swiper-slide .bInfo dt, .mLookbook .swiper-slide .bInfo dd {width:180px; margin-left:40px;}
+.mLookbook .swiper-slide .bInfo dt {font-weight:bold; font-size:14px; line-height:16px; border-top:2px solid #000; padding:20px 0 3px;}
+.mLookbook .swiper-slide .bInfo dd {font-size:13px; border-bottom:1px solid #000; padding-bottom:20px;}
+.mLookbook .swiper-slide .bInfo dd p {width:224px; margin-left:-22px;}
+
+.mLookbook .swiper-slide .pic {float:left; width:259px;}
+.mLookbook .swiper-slide .pic img {width:259px; height:360px;}
+.mLookbook .lookNum {position:absolute; left:50%; top:438px; overflow:hidden; z-index:100; width:66px; margin-left:-33px;}
+.mLookbook .lookNum .swiper-pagination-switch {float:left; display:inline-block; width:12px; height:12px; margin:0 5px; cursor:pointer; background:url(http://fiximage.10x10.co.kr/web2013/common/multi_nav.png) left top no-repeat;}
+.mLookbook .lookNum .swiper-active-switch {background-position:-14px top;}
+
+.brandSch .schHeader {position:relative; height:35px; padding-bottom:10px;}
+.brandSch .schHeader h3 {padding-top:10px;}
+.brandSch .schHeader .brandTag {position:absolute; right:261px; top:12px; overflow:hidden; font-size:14px; line-height:12px; color:#000;}
+.brandSch .schHeader .brandTag dt {float:left; font-weight:bold; padding-right:24px;}
+.brandSch .schHeader .brandTag dd {float:left;}
+.brandSch .schHeader .brandTag dd li {float:left; padding:1px 16px 0; border-right:1px solid #ccc; font-weight:500; color:#111;/* background:url(http://fiximage.10x10.co.kr/web2013/brand/blt_bar01.gif) left 1px no-repeat; */}
+.brandSch .schHeader .brandTag dd li:first-child {background:none;}
+.brandSch .schHeader .brandTag dd li:last-child {border:none;}
+.brandSch .schHeader .brandTag dd li a {color:#000;}
+.brandSch .schHeader .schWrap {position:absolute; right:0; top:0;}
+
+.brandCate {overflow:hidden; width:100%; font-size:11px; line-height:12px; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.brandCate li {float:left; text-align:center; padding:20px 13px 18px 14px; background:url(http://fiximage.10x10.co.kr/web2013/brand/blt_bar02.gif) left 50% no-repeat; cursor:pointer;}
+.brandCate li:first-child {width:56px; padding:20px 0 18px 0; background:none;}
+.brandCate li.current {font-weight:bold; color:#d50c0c;}
+.brandCate li:hover {text-decoration:underline;}
+
+.findWord {padding:25px 0 25px 30px; font-size:11px; background:#fafafa;}
+.findWord dl {overflow:hidden; width:100%; padding:5px 0;}
+.findWord dt {float:left; width:94px; color:#000; line-height:30px;}
+.findWord dd {float:left;}
+.findWord dd ol {overflow:hidden;}
+.findWord dd li {float:left; width:28px; height:28px; line-height:28px; margin-right:5px; text-align:center; border:1px solid #868686; color:#000; background:#fff; cursor:pointer;}
+.findWord dd li:hover {text-decoration:underline;}
+.findWord dd li.current {width:26px; height:26px; line-height:26px; color:#d50c0c; font-weight:bold; border:2px solid #d50c0c;}
+.findWord dd li.current:hover {text-decoration:none;}
+.findWord .recommend {padding-top:15px;}
+.findWord .recommend ul li {width:65px; height:30px; border:0; background:none;}
+.findWord .recommend ul li span {display:block; background-color:#fff; background-position:50% 50%; background-repeat:no-repeat; text-indent:-999em;}
+.findWord .recommend ul li span:hover {border:1px solid #fff;}
+.findWord .recommend ul li.new span {border:1px solid #2d75aa; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_01.gif);}
+.findWord .recommend ul li.new span.current {background-color:#2d75aa; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_01_on.gif);}
+.findWord .recommend ul li.best span {border:1px solid #dc3636; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_02.gif);}
+.findWord .recommend ul li.best span.current {background-color:#dc3636; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_02_on.gif);}
+.findWord .recommend ul li.zzim span {border:1px solid #ffa648; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_03.gif);}
+.findWord .recommend ul li.zzim span.current {background-color:#ffa648; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_03_on.gif);}
+.findWord .recommend ul li.artist {margin-right:19px; padding-right:19px; border-right:1px solid #d3d3d3;}
+.findWord .recommend ul li.artist span {border:1px solid #9868b9; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_04.gif);}
+.findWord .recommend ul li.artist span.current {background-color:#9868b9; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_04_on.gif);}
+.findWord .recommend ul li.lookbook {width:80px; padding-bottom:0;}
+.findWord .recommend ul li.lookbook span {border:1px solid #2abdbe; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_05.gif);}
+.findWord .recommend ul li.lookbook span.current {background-color:#2abdbe; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_05_on.gif);}
+.findWord .recommend ul li.interview {width:80px;}
+.findWord .recommend ul li.interview span {border:1px solid #7990dd; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_06.gif);}
+.findWord .recommend ul li.interview span.current {background-color:#7990dd; background-image:url(http://fiximage.10x10.co.kr/web2013/brand/txt_sorting_recommend_06_on.gif);}
+
+.schBestBrand {overflow:hidden; width:1138px; height:78px; text-align:center; font-size:11px; border:1px solid #ddd;}
+.schBestBrand dt {float:left; width:186px; height:78px; line-height:78px; font-weight:bold; color:#d50c0c; border-right:1px solid #ddd;}
+.schBestBrand dd {float:left; overflow:hidden; width:950px;}
+.schBestBrand dd ul {width:100%; height:78px;}
+.schBestBrand dd li {overflow:hidden; width:180px; height:78px; padding:0 5px; display:table-cell; vertical-align:middle; text-align:center; background:url(http://fiximage.10x10.co.kr/web2013/brand/blt_bar03.gif) left 50% no-repeat;}
+.schBestBrand dd li:first-child {background:none;}
+.schBestBrand dd li em {width:0; height:100%; display:inline-block; vertical-align:middle;}
+.schBestBrand dd li a {color:#000; display:inline-block; vertical-align:middle;}
+
+.brandschList .brdGroup {position:relative;}
+.brandschList .brdGroup .word {position:absolute; left:0; top:36px; width:150px; text-align:center;}
+.brandschList .brdGroup {padding:27px 0 27px 150px; min-height:45px; border-bottom:1px solid #ddd;}
+.brandschList .brdGroup ul {overflow:hidden;}
+.brandschList .brdGroup li {float:left; width:247px; padding:6px 0; font-size:11px; line-height:14px;}
+.brandschList .brdGroup li a {display:inline-block; max-width:245px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#000;}
+
+.brandschRecommend {padding:40px 0 0 0;}
+.brandschRecommend ul {overflow:hidden; margin-bottom:20px; border-bottom:1px solid #f0f0f0; background:url(http://fiximage.10x10.co.kr/web2013/common/line_pdtlist200.gif) left top repeat;}
+.brandschRecommend ul li {float:left; width:20%; min-height:315px; text-align:center;}
+.brandschRecommend ul li .brandPhoto img {width:100%;height:auto;}/* 2021.08.13 손지수 수정 */
+.brandschRecommend ul li .description {width:200px; margin:16px auto 0; font-size:12px; text-align:left;}
+.brandschRecommend ul li .description strong, .brandschRecommend ul li .description span {display:block;}
+.brandschRecommend ul li .description strong {color:#000;}
+.brandschRecommend ul li .description span {padding-top:2px; color:#888;}
+.brandschRecommend ul li .brandPhoto{width:200px;height:200px;overflow:hidden;display:flex;align-items:center;justify-content: center;}/* 2021.08.13 손지수 추가 *//* 2021.08.17 손지수 수정 */
+
+
+/* play */
+.playWrap {min-width:1180px; overflow:hidden;}
+.playWrap .headerWrap {background:#3a3a3a;}
+.playWrap .headerWrap .goTenten {display:block; float:left; width:95px; height:12px; background:url(http://fiximage.10x10.co.kr/web2013/play/btn_go_tenten.png) left top no-repeat; text-indent:-9999px; overflow:hidden; margin:8px 0 0 11px;}
+.playWrap .headerWrap .goTenten:hover {background-position:left -12px;}
+.playWrap .header {width:1140px; border-left:none; border-right:none; height:100px;}
+.playWrap .headerWrap h1 {position:absolute; left:0px; top:15px; width:354px; height:67px; overflow:hidden;}
+.playWrap .headerWrap h1 p {float:left; width:190px; height:67px; background:url(http://fiximage.10x10.co.kr/web2013/play/play_logo.gif) left top no-repeat;}
+.playWrap .headerWrap h1 p:hover {background-position:left -67px;}
+.playWrap .headerWrap h1 p a {display:block; width:190px; height:67px;}
+.playWrap .headerWrap h1 span {float:right;}
+
+.playWrap .audioPlayer {text-align:right; height:50px; padding:10px 0;}
+.playWrap .audioPlayer p {display:none;}
+.playGnbWrap {overflow:hidden; height:30px;}
+.playGnbWrap ul {float:right;}
+.playGnbWrap ul li {float:left; margin-left:29px; height:30px; position:relative; cursor:pointer;}
+.playGnbWrap ul li a {display:block; width:100%; height:30px;}
+.playGnbWrap ul li p {background-repeat:no-repeat; background-position:center top; text-indent:-9999px; overflow:hidden; height:16px;}
+.playGnbWrap ul li:hover p {background-position:center -16px;}
+.playGnbWrap ul li span {display:none; background:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb_pointer.gif) bottom center no-repeat; width:13px; height:7px; position:absolute; left:50%; bottom:0; margin-left:2px;}
+.playGnbWrap ul li.current span {display:block;}
+.playGnbWrap ul li.gnbGround p {width:71px; background-image:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb01.gif);}
+.playGnbWrap ul li.gnbStyle p {width:68px; background-image:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb02.gif);}
+.playGnbWrap ul li.gnbColor p {width:101px; background-image:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb03.gif);}
+.playGnbWrap ul li.gnbDFingers p {width:124px; background-image:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb04.gif);}
+.playGnbWrap ul li.gnbDiary p {width:71px; background-image:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb05.gif);}
+.playGnbWrap ul li.gnbVideo p {width:90px; background-image:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb06.gif);}
+.playGnbWrap ul li.gnbEpisode p {width:91px; background-image:url(http://fiximage.10x10.co.kr/web2013/play/play_gnb07.gif);}
+
+#playSub #contentWrap {padding:65px 0 70px 0; overflow:hidden;}
+#playMain #contentWrap {padding:30px 0 40px 0; overflow:hidden;}
+
+#playMain .groundWrap {width:100%; height:640px; min-width:1140px;}
+#playMain .autoForm a {display:block; width:1140px; margin:0 auto; height:640px; text-indent:-9999px; overflow:hidden;}
+#playMain .groundWrap img {width:1140px; margin:0 auto; height:640px;}
+
+.playContList {width:1200px; margin:0 -30px; overflow:hidden;}
+.playContList .box {width:240px; padding:30px;}
+.playContList .box dl {width:240px; padding-bottom:25px; position:relative;}
+.playContList .box dt {position:absolute; left:0; bottom:0; width:240px; height:25px; text-align:center;}
+.playContList .box dd {width:240px;}
+.playContList .box img {vertical-align:top;}
+
+#playSub .groundWrap #contentWrap {overflow:visible; padding:0; width:100%;}
+.groundWrap {width:100%; min-width:1140px; /*background-size:contain;*/ background-repeat:no-repeat; background-position:center top;}
+.groundHeadWrap {width:100%; min-width:1140px; background-repeat:no-repeat; background-position:center top; background-size:100% 260px;}
+.groundHead {width:1140px; margin:0 auto; padding-top:40px;}
+.groundHead .snsArea {width:450px; padding-top:15px;}
+.groundHead .snsArea .sns {float:left; padding-top:20px;}
+.groundHead .snsArea .sns li {padding-left:0; padding-right:5px;}
+.groundHead .snsArea .sns .favoriteAct {float:left;}
+.grArea {width:1140px; margin:0 auto;}
+.grSubNav {overflow:hidden; float:right;}
+.grSubNav li {float:left; width:150px; height:150px; background-repeat:no-repeat; background-position:center top; margin-left:20px;}
+.grSubNav li div.inner {width:150px; height:150px; position:relative; cursor:pointer;}
+.grSubNav li.navi01 {background-image:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ground_navi01.png);}
+.grSubNav li.navi02 {background-image:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ground_navi02.png);}
+.grSubNav li.navi03 {background-image:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ground_navi03.png);}
+.grSubNav li.navi04 {background-image:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ground_navi04.png);}
+.grSubNav li.current p .offImg {display:none;}
+.grSubNav li.current p .onImg {display:block;}
+.grSubNav li .naviTxt {display:none; position:absolute; left:0; bottom:0; width:150px; height:60px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ground_navibg.png) left bottom repeat;}
+.grSubNav li .naviTxt p {display:table-cell; vertical-align:middle; width:130px; height:40px; padding:10px; text-align:center; color:#fff; font-size:13px; font-weight:bold;}
+.grSubNav li p .onImg {display:none;}
+
+.groundCont {padding-bottom:60px;}
+.groundCont .tagView {overflow:hidden; _zoom:1; margin:0 auto;}
+.groundCont .tagView dt {padding-top:5px; font-size:11px; padding-left:20px;}
+.groundCont .tagView dd {padding-top:0; padding-left:10px;}
+
+.playTit {background:url(http://fiximage.10x10.co.kr/web2013/common/line06.gif) left bottom repeat-x; padding-bottom:20px;}
+.playTit:after {visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+.btnListView {float:right; display:block; margin-top:20px; text-indent:-9999px; overflow:hidden; width:92px; height:11px; background:url(http://fiximage.10x10.co.kr/web2013/play/btn_list_view.gif) center top no-repeat;}
+.btnListView:hover {background-position:center -11px;}
+
+.articleWrap {padding:32px 0; border-bottom:1px solid #ccc; overflow:hidden;}
+
+.styleBnrWrap {width:100%; height:600px; float:none; position:relative;}
+.styleBnrWrap .swiper-container {position:relative; overflow:hidden; width:1140px; height:560px;}
+.styleBnrWrap .swiper-wrapper {position:relative;}
+.styleBnrWrap .swiper-slide {width:1140px; height:560px; float:left; overflow:hidden; text-align:center;}
+
+.styleBnrWrap .pagination {padding-top:16px; overflow:hidden; float:right;}
+.styleBnrWrap .pagination .swiper-pagination-switch {float:left; display:inline-block; width:14px; height:14px; margin:0 6px; cursor:pointer; background:url(http://fiximage.10x10.co.kr/web2013/common/multi_nav2.png) -54px top no-repeat;}
+.styleBnrWrap .pagination .swiper-pagination-switch:hover {background-position:-27px top;}
+.styleBnrWrap .pagination .swiper-active-switch, .styleBnrWrap .pagination .swiper-active-switch:hover {background-position:left top;}
+.styleBnrWrap .arrow-left {position:absolute; left:14px; top:50%; width:37px; height:42px; margin-top:-21px; background:url(http://fiximage.10x10.co.kr/web2013/play/arrow_lt.png) center top no-repeat; z-index:100;}
+.styleBnrWrap .arrow-right {position:absolute; right:14px; top:50%; width:37px; height:42px; margin-top:-21px; background:url(http://fiximage.10x10.co.kr/web2013/play/arrow_rt.png) center top no-repeat; z-index:100;}
+.styleBnrWrap .arrow-left:hover, .styleBnrWrap .arrow-right:hover {background-position:center bottom;}
+
+.articleWrap .styleCopy {float:left; max-width:680px;}
+.articleWrap .styleCopy img {vertical-align:top; max-width:680px;}
+.articleWrap .thumbList {float:right; margin-top:38px; overflow:hidden; width:460px;}
+.articleWrap .thumbList li {float:left; margin:6px 0 6px 12px; width:80px; height:80px; background:url(http://fiximage.10x10.co.kr/web2013/common/bg_thumb_80x80.gif) center top no-repeat;}
+
+.articleWrap .tagView dt {padding-top:5px; font-size:11px;}
+.articleWrap .tagView dd {padding-top:0; padding-left:10px;}
+
+.styleList {width:1200px; margin:0 -30px; padding:25px 0; border-bottom:1px solid #ccc; overflow:hidden;}
+.styleList .box {width:240px; padding:25px 30px;}
+.styleList .styleNo {padding:0 20px 5px 20px; font-size:11px; color:#666;}
+.styleList .favoriteWrap {text-align:center;}
+.styleList .favoriteAct {float:none; display:inline-block; font-size:11px;}
+
+.diaryList {width:1200px; margin:0 -30px; padding:25px 0; border-bottom:1px solid #ccc; overflow:hidden;}
+.diaryList .box {width:240px; padding:25px 30px;}
+.diaryList .favoriteWrap {text-align:center;}
+.diaryList .favoriteAct {float:none; display:inline-block; font-size:11px;}
+
+.playDiaryLyr {width:1126px; border:7px solid #ccc; background:#fff; margin-left:-7px;}
+#lyrPop #playDiaryLyr {z-index:9999;}
+
+.diaryDetailCont .dairyPic {float:left; width:560px; height:560px;}
+.diaryDetailCont .dairyPic img {vertical-align:top;}
+.diaryWrap {float:right; width:446px; height:560px; position:relative;}
+.diary dt {padding-top:39px; font-size:16px; color:#000; font-weight:bold;}
+/*.diary dt p {width:446px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}*/
+.diary dd.diaryView {margin-top:15px; height:253px; background:url(http://fiximage.10x10.co.kr/web2013/play/bg_line.gif) left top repeat; line-height:23px; color:#666; overflow-y:auto;}
+.diary dd.diaryDate {font-size:11px; padding-top:20px; color:#666;}
+
+.diaryShare {position:absolute; left:0; bottom:0;}
+
+.diaryWrap .tagView dt {font-size:11px;}
+.diaryWrap .snsArea .sns {float:left;}
+.diaryWrap .snsArea .sns li:first-child {padding-left:0;}
+
+.diaryDetailCont {position:relative; padding:38px 40px; width:1046px; height:560px; overflow:hidden;}
+.diaryDetailCont .swiper-container {position:relative; overflow:hidden; width:1046px; height:560px;}
+.diaryDetailCont .swiper-wrapper {position:relative;}
+.diaryDetailCont .swiper-slide {width:1046px; height:560px; float:left; overflow:hidden;}
+.diaryDetailCont .arrow-left {position:absolute; left:14px; top:50%; width:37px; height:42px; margin-top:-21px; background:url(http://fiximage.10x10.co.kr/web2013/play/arrow_lt.png) center top no-repeat; z-index:100;}
+.diaryDetailCont .arrow-right {position:absolute; right:14px; top:50%; width:37px; height:42px; margin-top:-21px; background:url(http://fiximage.10x10.co.kr/web2013/play/arrow_rt.png) center top no-repeat; z-index:100;}
+.diaryDetailCont .arrow-left:hover, .diaryDetailCont .arrow-right:hover {background-position:center bottom;}
+.diaryDetailCont .lyrClose {position:absolute; right:10px; top:10px; width:20px; height:20px;}
+
+.colorTrend {padding-top:30px;}
+.colorTrend:after {content:" "; display:block; clear:both;}
+.colorTrend .colorchips {overflow:visible;}
+.colorTrend .colorchips input {width:28px; height:28px; opacity:0; cursor:pointer;}
+.colorTrend .colorchips input {filter:alpha(opacity=0);}
+
+.colorTrTitle {float:left; font-size:16px; font-weight:bold; color:#000; padding-top:5px;}
+.colorTrTitle a {color:#000;}
+
+.colorVisual {width:100%; position:relative;}
+.colorVisual .colorTag {position:absolute; right:0; top:0;}
+
+.colorTrBnr {position:relative; height:640px;}
+.colorTrBnr .colorStory {position:absolute; right:30px; top:30px; z-index:50; width:360px; height:280px;}
+.colorStory button {position:absolute; padding:0; text-indent:-999em;}
+.colorStory .btnOpen {right:0; top:0; width:43px; height:43px; background:url(http://fiximage.10x10.co.kr/web2013/play/btn_open.png) left top no-repeat;}
+.colorStory .btnOpen:hover {background:url(http://fiximage.10x10.co.kr/web2013/play/btn_open_over.png) left top no-repeat;}
+.colorStory .btnClose {right:12px; top:12px; width:20px; height:20px; background:url(http://fiximage.10x10.co.kr/web2013/common/btn_pop_close02.gif) left top no-repeat;}
+.colorStory .btnClose:hover {background:url(http://fiximage.10x10.co.kr/web2013/common/btn_close_big_over.gif) left top no-repeat;}
+.colorTrBnr .swiper-container {height:640px;}
+.colorTrBnr .swiper-slide {height:640px;}
+.colorTrBnr .pagination {float:none; position:absolute; left:50%; bottom:10px; z-index:200;}
+.colorTrBnr .pagination .swiper-pagination-switch {float:none; display:inline-block; background:url(http://fiximage.10x10.co.kr/web2013/common/multi_nav_white.png) -54px top no-repeat;}
+.colorTrBnr .pagination .swiper-active-switch, .colorTrBnr .pagination .swiper-active-switch:hover {background-position:left top;}
+
+.categorySorting {overflow:hidden; padding-top:60px; border-bottom:1px solid #ccc;}
+.categorySorting ul {float:left; font-weight:bold;}
+.categorySorting ul li {float:left; padding:0 9px;}
+.categorySorting ul li a {display:block; padding-bottom:11px; color:#777; letter-spacing:-0.04em;}
+.categorySorting ul li a.on {background:url(http://fiximage.10x10.co.kr/web2013/common/blt_arrow_up_gray.gif) center bottom no-repeat; color:#000;}
+.categorySorting .optSelect {float:right; width:122px; height:20px;}
+
+.pdt120 .colorPdtList {margin-bottom:-64px; padding-top:12px; background:none;}
+.pdt120 .colorPdtList > li {width:14.2%; min-height:162px; height:auto !important; height:162px;}
+
+.favorFingers {width:210px; position:relative; margin-top:13px; background:#fff;}
+.favorFingers dt {height:24px; border:1px solid #bbb; font-size:11px; text-align:center; padding-top:6px; position:relative; cursor:pointer;}
+.favorFingers dt:hover, .favorFingers dt.on {background:#f9f9f9;}
+.favorFingers dt span {background:url(http://fiximage.10x10.co.kr/web2013/play/arrow_downup.gif) right 4px no-repeat; padding-right:15px; color:#777; letter-spacing:-1px;}
+.favorFingers dt.on span {background-position:right -28px; color:#3a3a3a;}
+.favorFingers dd {display:none; width:184px; position:absolute; left:0; top:32px; border:1px solid #bbb; border-top:none; background:#fff; padding:2px 12px;}
+
+.favorFingers dd table td {padding:10px 0; border-bottom:1px solid #e5e5e5; font-size:11px; color:#888; line-height:16px;}
+.favorFingers dd table td strong {color:#ccc;}
+.favorFingers dd table td a {color:#888;}
+
+.favorFingers dd .paging {height:30px;}
+.favorFingers dd .paging a {height:18px; line-height:18px;}
+.favorFingers dd .paging a span {height:18px; font-size:11px; min-width:15px; padding:0 2px 0 1px;}
+.favorFingers dd .paging a.arrow span {width:15px;}
+.favorFingers dd .paging a.first span {background-position:4px 6px;}
+.favorFingers dd .paging a.prev span {background-position:-25px 6px;}
+.favorFingers dd .paging a.next span {background-position:-351px 6px;}
+.favorFingers dd .paging a.end span {background-position:-380px 6px;}
+
+.appLinkGo {float:right; margin-left:20px; width:190px; height:45px; overflow:hidden; text-indent:-999em;}
+.appLinkGo a {display:block; width:190px; height:45px; background:url(http://fiximage.10x10.co.kr/web2013/play/bnr_mobile2.gif) left top no-repeat;}
+.appLinkGo a:hover {background:url(http://fiximage.10x10.co.kr/web2013/play/bnr_mobile2.gif) left bottom no-repeat;}
+
+.fingersTitle {border-bottom:1px solid #ccc; padding:16px 0; overflow:hidden;}
+.fingersTitle .fingersName {float:left;}
+.fingersTitle .fingersName span {padding:0 17px 0 20px; color:#000;}
+.fingersTitle .fingersName strong {padding-left:19px; background:url(http://fiximage.10x10.co.kr/web2013/play/arrow_fingers_title.gif) left 50% no-repeat; color:#4c67aa;}
+.fingersTitle .fingersType {float:right;}
+.fingersType {overflow:hidden; border-left:1px solid #eee; padding:5px 12px 2px 12px;}
+.fingersType li {float:left; padding:0 12px;}
+.fingersType li span {display:block; height:12px; text-indent:-9999px;}
+.fingersType li.selected span {background-position:center -12px;}
+.fingersType .typeUnique span {width:100px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_a01.png) center top no-repeat;}
+.fingersType .typeHigh span {width:99px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_a02.png) center top no-repeat;}
+.fingersType .typeCreative span {width:94px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_a03.png) center top no-repeat;}
+.fingersType .typeSpecial span {width:110px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_a04.png) center top no-repeat;}
+
+.fingersCont {width:100%; padding-top:20px;}
+.fingersCont p, .fingersCont img {vertical-align:top;}
+
+.detailViewWrap {padding:30px 20px 0 20px; overflow:hidden;}
+.detailBigPic {float:left; width:400px; height:400px;}
+.detailBigPic img {width:400px; height:400px; vertical-align:top;}
+.detailInfo {float:right; width:640px; padding-top:20px; position:relative; height:380px;}
+.detailInfo dt {font-size:16px; font-weight:bold; color:#333;}
+.detailInfo dd {padding-top:20px;}
+.detailInfo dd li {padding:5px 0; font-size:11px; color:#999;}
+.detailInfo dd li strong {color:#777; width:50px; display:inline-block;}
+
+.fingersPdtImgList {position:absolute; left:0; bottom:0; overflow:hidden; width:390px;}
+.fingersPdtImgList li {float:left; width:60px; height:60px; margin:18px 18px 0 0; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_thumb_bg.png) center top no-repeat; position:relative;}
+.fingersPdtImgList li span {display:block; position:absolute; left:0; top:0; width:60px; height:60px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_thumb_overon.png) center top no-repeat;}
+.fingersPdtImgList li:hover span {background-position:center -60px;}
+.fingersPdtImgList li.current span {background-position:center -120px;}
+
+div.dFPdtWrap {padding:15px 0;}
+div.dFPdtWrap .pdtList {background:none;}
+.dFPdtWrap .pdtList > li {width:340px; padding:15px 20px; min-height:160px;}
+.dFPdtWrap .pdtBox {overflow:hidden; width:340px;}
+.dFPdtWrap .pdtBox .pdtPhoto {float:left; width:160px;}
+.dFPdtWrap .pdtBox .pdtPhoto img {vertical-align:top;}
+.dFPdtWrap .pdtBox .pdtInfo {float:right; width:170px; padding:0; min-height:160px; text-align:left;}
+.dFPdtWrap .pdtBox .pdtActionV15 {position:relative; left:auto; bottom:auto; width:170px; margin-top:7px; text-align:left;}
+
+.dfEvtWrap {text-align:center;}
+.dfEvtBnr {display:inline-block; position:relative;}
+.dfEvtBnr span {position:absolute; left:0; top:0; display:block; width:40px; height:73px; line-height:15px; padding:15px 40px 0 8px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_evt_tag.gif) center top no-repeat; color:#fff; font-weight:bold; text-align:left;}
+
+.evtResultWrap {margin-top:10px; padding-top:12px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_pointer.gif) center top no-repeat;}
+.evtResultWrap dl {background:#fff; border:5px solid #ddd; padding:22px; font-weight:bold;}
+.evtResultWrap dl dt {color:#d50c0c;}
+.evtResultWrap dl dt span {padding-left:25px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_deco01.gif) left top no-repeat;}
+.evtResultWrap dl dt span em {padding-right:25px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_deco02.gif) right top no-repeat;}
+.evtResultWrap dl dd {font-size:11px; color:#666; padding-top:10px;}
+
+.dfEvtListFilter {background:#f5f5f5; padding:12px 20px; overflow:hidden;}
+.dfEvtListFilter .fingersType {float:left; overflow:hidden; border-left:none; padding:8px 0 5px 0;}
+.dfEvtListFilter .fingersType li {float:left; padding:0 10px;}
+.dfEvtListFilter .fingersType li span {display:block; height:13px; text-indent:-9999px; cursor:pointer;}
+.dfEvtListFilter .fingersType li:hover span {background-position:center -13px;}
+.dfEvtListFilter .fingersType li.current span {background-position:center -26px;}
+.dfEvtListFilter .fingersType .typeAll span {width:35px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_b00.png) center top no-repeat;}
+.dfEvtListFilter .fingersType .typeUnique span {width:107px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_b01.png) center top no-repeat;}
+.dfEvtListFilter .fingersType .typeHigh span {width:107px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_b02.png) center top no-repeat;}
+.dfEvtListFilter .fingersType .typeCreative span {width:101px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_b03.png) center top no-repeat;}
+.dfEvtListFilter .fingersType .typeSpecial span {width:118px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_type_b04.png) center top no-repeat;}
+
+.dfSearch {float:right; min-width:430px;}
+.recommendWord {overflow:hidden; font-size:11px; float:left; padding-top:5px;}
+.recommendWord dt {float:left; font-weight:bold;}
+.recommendWord dd {float:left; padding:0 10px; color:#666;}
+.recommendWord dd a {color:#666;}
+
+.dfEvtListFilter .schBox {float:right; background:transparent;}
+.dfEvtListFilter .txtInp {height:14px; padding:5px 10px; font-size:11px; border:1px solid #ddd; color:#4c67aa; vertical-align:middle; font-weight:normal;}
+.dfEvtListFilter input.onInput {border:1px solid #4c67aa;}
+.dfEvtListFilter input.offInput {border:1px solid #ddd; color:#4c67aa;}
+.dfEvtListFilter .btnS1 {padding:6px 10px 5px 10px; vertical-align:top;}
+
+.dfEvtSort {float:right; padding-right:15px;}
+.dfEvtSort span {padding:0 5px;}
+.dfEvtSort .current {color:#4c67aa;}
+
+.dfEvtListWrap .evtList {overflow:hidden;}
+.dfEvtListWrap .evtList li {float:left; width:150px; padding:30px 20px 15px 20px; border-bottom:1px solid #eee;}
+.dfEvtListWrap .evtList li:hover .evtPhoto span {display:block;}
+.dfEvtListWrap .evtList li.current .evtPhoto span {display:block; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_evt_overon.png) -150px top no-repeat;}
+.dfEvtListWrap .evtList li.current .evtName a {text-decoration:underline;}
+.evtPhoto {position:relative;}
+.evtPhoto span {display:none; width:150px; height:150px; position:absolute; left:0; top:0; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_evt_overon.png) left top no-repeat;}
+.evtInfo {padding-top:10px; font-size:11px;}
+.evtInfo img {vertical-align:top;}
+.evtCondition {color:#d50c0c; line-height:14px; height:15px;}
+.evtName {height:42px; vertical-align:top; padding-top:8px; color:#555; line-height:16px;}
+.evtCmtFavor {padding-top:5px;}
+.evtCmtFavor span {display:inline-block; margin-right:20px; font-weight:bold; color:#999;}
+.evtCmtFavor .evtCmt {padding-left:18px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ico_cmt.gif) left 50% no-repeat;}
+.evtCmtFavor .evtFavor {padding-left:15px; background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ico_favorite.png) left 4px no-repeat;}
+.evtCmtFavor span.myFavor {background:url(http://fiximage.10x10.co.kr/web2013/play/fingers_ico_favorite.png) left -26px no-repeat;}
+
+.videoList {width:1200px; margin:0 -30px; padding:25px 0; border-bottom:1px solid #ccc; overflow:hidden;}
+.videoList .box {width:240px; padding:25px 30px;}
+.videoList .styleNo {padding:0 20px 5px 5px; font-size:11px; color:#666;}
+.videoList .favoriteWrap {text-align:center;}
+.videoList .favoriteAct {float:none; display:inline-block; font-size:11px;}
+
+.videoWrap {width:960px; margin:40px auto;}
+.videoWrap .snsArea {background:#000; padding:10px 0;}
+.videoWrap .snsArea .favoriteAct {color:#aaa;}
+.videoWrap .videoArea {background:#000;}
+.videoWrap .videoCont dt strong {font-size:16px; color:#000;}
+.videoWrap .videoCont dt span {font-size:11px; color:#aaa; padding-left:10px;}
+.videoWrap .videoCont dd {padding-top:6px; color:#777;}
+
+.videoWrap .tagView dt {padding-top:5px; font-size:11px;}
+.videoWrap .tagView dd {padding-top:0; padding-left:10px;}
+
+
+/* T-episode */
+.episodeNav {float:right; padding-top:22px;}
+.episodeNav:after {content:""; display:block; clear:both;}
+.episodeNav li {float:left; margin-left:-1px; padding:0 10px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt_gray_bar_1x11.gif) left top no-repeat;}
+.episodeNav li:first-child {background:none;}
+.episodeNav li a {display:block; text-align:center;}
+.episodeNav li a em {display:block; margin:-22px 0 5px;}
+.episodeNav li a span {display:block; overflow:hidden; height:11px; text-indent:-9999px; background-position:left top; background-repeat:no-repeat;}
+.episodeNav li a:hover span {background-position:left -11px;}
+.episodeNav li a.on span {background-position:left -22px;}
+.episodeNav li.photoPick a {width:79px;}
+.episodeNav li.photoPick a span {background-image:url(http://fiximage.10x10.co.kr/web2013/play/nav_tepisode_01.gif);}
+.episodeNav li.wallpaper a {width:79px;}
+.episodeNav li.wallpaper a span {background-image:url(http://fiximage.10x10.co.kr/web2013/play/nav_tepisode_02.gif);}
+.episodeNav li.screenSaver a {width:95px;}
+.episodeNav li.screenSaver a span {background-image:url(http://fiximage.10x10.co.kr/web2013/play/nav_tepisode_03.gif);}
+.episodeNav li.tenFont a {width:81px;}
+.episodeNav li.tenFont a span {background-image:url(http://fiximage.10x10.co.kr/web2013/play/nav_tepisode_04.gif);}
+
+/* T-episode - PHOTO PICK */
+.photoPickList {width:100%; padding-bottom:40px; border-bottom:1px solid #ccc;}
+.photoPickList:after {content:""; display:block; clear:both;}
+.photoPickList .box {float:left; position:relative; margin:20px 20px 0 0;}
+.photoPickList .box a {display:block;}
+.photoPickList .box a .description {display:block; position:absolute; left:0; top:0; width:100%; height:135px; padding:65px 0 0; color:#fff;}
+.photoPickList .box a:hover .description {background:url(http://fiximage.10x10.co.kr/web2013/play/bg_photo_pick_over.png) left top repeat-x; text-decoration:none;}
+.photoPickList .box .description em, .photoPickList .box .description strong {display:block; text-align:center;}
+.photoPickList .box .description em {margin:-37px 0 20px;}
+.photoPickList .box button {display:block; width:34px; height:34px; margin:18px auto 0; padding:0; border:0; background:url(http://fiximage.10x10.co.kr/web2013/play/btn_expand_view.png) left top no-repeat; text-indent:-999em; cursor:pointer;}
+
+.expandView {overflow:hidden; text-align:center; position:relative; width:1000px; padding:50px; background:#000; color:#fff; font-size:11px;}
+.expandView .thumbnail {display:inline;}
+.expandView .thumbnail img {max-width:850px;}
+.expandView .view {display:inline-block; width:130px; padding-left:16px; vertical-align:top; text-align:left;}
+.expandView .view .title .ico {display:block; margin-bottom:6px;}
+.expandView .view .title strong {display:block; text-decoration:underline;}
+.expandView button {position:absolute; right:12px; top:12px; width:20px; height:20px; margin:0; padding:0; border:0; background:url(http://fiximage.10x10.co.kr/web2013/play/btn_close.gif) left top no-repeat; text-indent:-999em; cursor:pointer;}
+.expandView button:hover {background:url(http://fiximage.10x10.co.kr/web2013/play/btn_close.gif) left bottom no-repeat;}
+.expandView .tagView {padding-top:30px;}
+.expandView .tagView a {display:inline-block; margin:4px 4px 0 0; padding:2px 8px 0; background:#666; color:#222; text-decoration:none; font-weight:normal;}
+@media screen and (min-width:0\0) {
+	.expandView .tagView a {padding:4px 8px 0px 8px;}
+}
+.expandView .tagView a:hover {background:#888;}
+.expandView .viewAdd {width:130px; word-break:break-all;}
+
+/* T-episode - WALLPAPER */
+.wallpaperWrap {overflow:hidden; padding:40px 0 35px; border-bottom:1px solid #ddd; background:#f8f8f8;}
+.tabWallpaper {overflow:hidden; width:300px; margin:0 auto 30px;}
+.tabWallpaper li {float:left; padding:0 25px;}
+.tabWallpaper li a {display:block; width:100px; height:100px; text-indent:-9999px; background-position:left top; background-repeat:no-repeat;}
+.tabWallpaper li a:hover {background-position:left -100px;}
+.tabWallpaper li a.on {background-position:left -200px}
+.tabWallpaper li.pcVersion {background:url(http://fiximage.10x10.co.kr/web2013/play/blt_gray_bar.gif) right center no-repeat;}
+.tabWallpaper li.pcVersion a {background-image:url(http://fiximage.10x10.co.kr/web2013/play/tab_wallpaper_01.gif);}
+.tabWallpaper li.mobileVersion a {background-image:url(http://fiximage.10x10.co.kr/web2013/play/tab_wallpaper_02.gif);}
+
+.wallpaperList {overflow:hidden; padding:0 45px;}
+.wallpaperList li {float:left; width:320px; padding:0 15px 44px;}
+.wallpaperList .thumbnail {width:300px; height:180px; padding:10px; background:url(http://fiximage.10x10.co.kr/web2013/play/bg_wallpaper_frame_pc.gif) left top no-repeat;}
+.wallpaperList .download {overflow:hidden; padding:6px 10px 0; font-size:11px; font-weight:bold; background:url(http://fiximage.10x10.co.kr/web2013/play/bg_line_wallpaper.gif) 10px 27px no-repeat;}
+.wallpaperList .download a {float:left; margin:2px 11px 1px 4px; padding-right:13px; background:url(http://fiximage.10x10.co.kr/web2013/play/blt_download.gif) right 4px no-repeat; color:#888; text-decoration:none;}
+.wallpaperList .download a:hover {background:url(http://fiximage.10x10.co.kr/web2013/play/blt_download_over.gif) right 4px no-repeat; color:#d50c0c;}
+
+.mobileWallpaper {padding:0 30px;}
+.mobileWallpaper li {width:240px;}
+.mobileWallpaper .thumbnail {width:220px; height:350px; background:url(http://fiximage.10x10.co.kr/web2013/play/bg_wallpaper_frame_mobile.gif) left top no-repeat;}
+.mobileWallpaper .download {background:none;}
+.mobileWallpaper .download a {display:block; float:none; width:203px; margin:0; padding:5px 13px 2px 4px; border-bottom:1px solid #ddd; background:none;}
+.mobileWallpaper .download a:hover {background:none;}
+.mobileWallpaper .download a span {display:block; background:url(http://fiximage.10x10.co.kr/web2013/play/blt_download.gif) right 2px no-repeat; font-weight:normal;}
+.mobileWallpaper .download a:hover span {background:url(http://fiximage.10x10.co.kr/web2013/play/blt_download_over.gif) right 2px no-repeat;}
+
+/* T-episode - SCREENSAVER */
+.screenWrap {padding:40px 0; border-bottom:1px solid #ccc; overflow:hidden;}
+.screenWrap .thumbnail {float:left; padding:0 56px 0 20px;}
+.screenWrap .thumbnail img {border:1px solid #ddd;}
+.screenWrap .description {float:left; width:284px;}
+.screenWrap .description .no, .screenWrap .description .take {color:#333;}
+.screenWrap .description .no {padding-bottom:15px; text-decoration:underline;}
+.screenWrap .description .take {padding-bottom:8px;}
+.screenWrap .description .account {padding-bottom:25px;}
+
+/* T-episode - 10X10 FONT */
+.tenFontWrap {background:#f8f8f8; padding-bottom:80px;}
+.tenFontWrap .fontHeader {height:258px; margin-bottom:-28px; padding:35px 70px 0 70px; background:url(http://fiximage.10x10.co.kr/web2013/play/bg_10x10_font.jpg) left top no-repeat;}
+.tenFontWrap .fontHeader h1 {float:left;}
+.tenFontWrap .fontHeader p {float:right; margin-top:-45px; padding-left:12px; background:url(http://fiximage.10x10.co.kr/web2013/play/blt_white_line.gif) left 3px no-repeat; color:#fff;}
+
+.tenFontWrap .fontsection {overflow:hidden; margin-top:98px; padding:0 70px;}
+.tenFontWrap .fontsection h4 {margin-bottom:7px;}
+.tenFontWrap .fontsection .visual {float:left;}
+.tenFontWrap .fontsection .description {float:left; width:711px; padding-left:40px;}
+
+.downloadOS {overflow:hidden; width:1100px; margin:20px -20px 0 0;}
+.downloadOS .os {float:left; position:relative; width:432px; height:144px; margin-right:20px; padding:25px 29px; border:1px solid #ddd; background:#fff;}
+.downloadOS .os h5 {margin-bottom:4px; padding-left:16px; background:url(http://fiximage.10x10.co.kr/web2013/play/blt_dot.gif) left 6px no-repeat; color:#333;}
+.downloadOS .os p {padding-top:4px; font-size:11px;}
+.downloadOS .os p em {color:#aaa;}
+.downloadOS .os .btnArea {position:absolute; left:29px; bottom:30px;}
+.downloadOS .os .btnArea .btn {margin:0 12px 0 0;}
+.tenFontWrap .pleaseMsg {padding-left:16px; background:url(http://fiximage.10x10.co.kr/web2013/play/blt_star.gif) left 2px no-repeat;}
+
+.downloadResume {overflow:hidden; width:1100px; margin:20px -20px 0 0; font-size:11px;}
+.downloadResume li {float:left; width:235px; margin-right:20px;}
+.downloadResume li a {display:block; height:36px; margin-top:10px; padding-left:46px; background:url(http://fiximage.10x10.co.kr/web2013/play/ico_download.gif) left top no-repeat;}
+.downloadResume li a:hover {background:url(http://fiximage.10x10.co.kr/web2013/play/ico_download.gif) left bottom no-repeat; text-decoration:none;}
+.downloadResume li a span {display:block; color:#999;}
+.downloadResume li a strong {display:block;}
+
+/* 2015 GIFT */
+.giftSection .hidden {visibility:hidden; width:0; height:0; overflow:hidden; position:absolute; top:-1000%; line-height:0;}
+.giftSection .head .navigator ul li a span,
+.giftSection .head .option a,
+.navgift .badge a, .navgift .aside li a, .navgift .badge p,
+.giftArticle .article, .giftSection .vote span,
+.giftArticle .cmtwrite .etiquette, .giftArticle .article .btnclose button,
+.giftArticle .comment .headline .total,
+.giftArticle .commentlist .paging a.arrow span, .navgift .hgroup,
+.giftSection .nodata span, .thisPdt .btnwrite a span,
+.thisPdt .pdtAbout .pdtReview, .thisPdt .pdtAbout .pdtWish,
+.thisTalk .btnAll a span, .giftHint .hint .topic h4 a span, .giftHint .hint .desc span,
+.giftSection .btnmore a {background-image:url(http://fiximage.10x10.co.kr/web2013/gift/bg_sprite_gift.png); background-repeat:no-repeat;}
+
+.giftSection #contentWrap {width:100%; padding:0 0 60px 0; background:#f4f7f7 url(http://fiximage.10x10.co.kr/web2013/gift/bg_zigzag.png) repeat-x 50% 0;}
+/* 20181116 gift 수정 */
+.giftSection .head {position:relative; height:230px; background:url(http://fiximage.10x10.co.kr/web2018/gift/bg_gift_pattern.png) no-repeat 70% 0;}
+.giftSection .head .inner {position:relative; width:1100px; margin:0 auto;}
+.giftSection .head h2 {position:absolute; top:40px; left:0;}
+.giftSection .head .navigator {position:absolute; top:90px; right:0; z-index:5; width:300px; height:100px; text-align:right;}
+.giftSection .head .navigator a {display:inline-block; width:80px; height:92px; margin-left:5px; text-align:left; text-indent:-9999px; background-image:url('http://fiximage.10x10.co.kr/web2018/gift/btn_gifts.png?v=1.01'); background-position-y:-100px;}
+.giftSection .head .navigator a.wrapping {background-position-x:-93px;}
+.giftSection .head .navigator a.giftcard {background-position-x:-190px;}
+.giftSection .head .navigator a:hover,
+.giftSection .head .navigator a.on {background-position-y:0px;}
+
+.navgift {position:relative; width:1100px; margin:0 auto; padding:40px 20px 0;}
+.navgift .badge {padding-bottom:9px; font-size:11px; font-weight:normal; line-height:1.313em;}
+.navgift .badge a {display:block; position:relative; z-index:5; width:164px; height:28px; padding-left:36px; background-position:-128px -289px; color:#777; line-height:28px; text-decoration:none;}
+.navgift .badge a:hover, .navgift .badge a.on {background-position:-128px -317px;}
+.navgift .badge em, .navgift .badge strong {color:#ff5c62;}
+.navgift .badge p {position:absolute; top:12px; left:50px; z-index:10; width:146px; height:48px; padding:8px 0 0 4px; background-position:-128px -350px; text-align:center;}
+.navgift .aside {overflow:hidden; position:absolute; bottom:10px; right:20px;}
+.navgift .aside li {float:left; padding-left:12px;}
+.navgift .aside li a {display:block; width:110px; height:27px; padding-top:1px; background-position:-232px -416px; color:#ff7676; font-size:12px; font-weight:bold; line-height:2.2em; text-indent:35px;}
+.navgift .aside li a:hover {background-position:-232px -444px; color:#e44545; text-decoration:none;}
+/*.navgift .aside li a.on {background-position:-232px -472px; color:#fff;}*/
+.navgift .aside li:first-child a {width:104px; background-position:-128px -416px; color:#55bcc3;}
+.navgift .aside li:first-child a:hover {background-position:-128px -444px; color:#1b9ba3;}
+/*.navgift .aside li:first-child a.on {background-position:-128px -472px; color:#fff;}*/
+.navgift .hgroup {position:relative; min-height:50px; padding-left:54px;}
+.navgift .hgroup h3 {margin-bottom:5px; padding:13px 0 12px 10px; border-bottom:1px solid #ddd;}
+.navgift .hgroup p {position:absolute; top:17px; padding-left:12px; color:#777;}
+.navgift .mytalk {background-position:0 -1033px;}
+.navgift .mytalk p {left:184px;}
+/* .navgift .wrapping {background-position:0 -1402px;} */
+.navgift .wrapping h3 {width:630px;}
+.navgift .wrapping p {left:210px;}
+.navgift .talkwrite {background-position:0 -1523px;}
+.navgift .talkwrite p {left:190px;}
+.navgift .hgroup p span {position:absolute; top:3px; left:0; width:2px; height:11px; background-color:#ccc;}
+.navgift .hgroup p em {font-weight:bold;}
+.navgift .hgroup p strong {color:#ff5055; font-weight:normal;}
+.navgift .sidebar {position:absolute; top:31px; right:20px; width:396px;}
+.navgift .sidebar li {float:left; width:64px; height:66px; margin-left:2px;}
+.navgift .sidebar li a {display:block; width:100%; height:100%; background-image:url(http://fiximage.10x10.co.kr/web2013/gift/bg_nav_wrapping.png); background-repeat:no-repeat; font-size:11px; line-height:1.25em; text-align:center; text-indent:-999em;}
+.navgift .sidebar li.nav1 a {background-position:0 0;}
+.navgift .sidebar li.nav1 a:hover {background-position:0 -66px;}
+.navgift .sidebar li.nav1 a.on {background-position:0 100%;}
+.navgift .sidebar li.nav2 a {background-position:-64px 0;}
+.navgift .sidebar li.nav2 a:hover {background-position:-64px -66px;}
+.navgift .sidebar li.nav2 a.on {background-position:-64px 100%;}
+.navgift .sidebar li.nav3 a {background-position:-128px 0;}
+.navgift .sidebar li.nav3 a:hover {background-position:-128px -66px;}
+.navgift .sidebar li.nav3 a.on {background-position:-128px 100%;}
+.navgift .sidebar li.nav4 a {background-position:-192px 0;}
+.navgift .sidebar li.nav4 a:hover {background-position:-192px -66px;}
+.navgift .sidebar li.nav4 a.on {background-position:-192px 100%;}
+.navgift .sidebar li.nav5 a {background-position:-256px 0;}
+.navgift .sidebar li.nav5 a:hover {background-position:-256px -66px;}
+.navgift .sidebar li.nav5 a.on {background-position:-256px 100%;}
+.navgift .sidebar li.nav6 a {background-position:100% 0;}
+.navgift .sidebar li.nav6 a:hover {background-position:100% -66px;}
+.navgift .sidebar li.nav6 a.on {background-position:100% 100%;}
+
+.giftArticle {overflow:hidden; width:1126px; margin:0 auto; padding-left:14px;}
+.giftArticle .article {float:left; position:relative; width:230px; height:489px; padding:29px 20px 0; margin-right:10px; margin-bottom:5px; background-position:-552px -514px;}
+.giftArticle .wide {width:492px; height:488px; margin-right:7px; padding:30px 31px 0; background-position:0 -514px;}
+.giftArticle .article .desc {border-bottom:1px solid #eee;}
+.giftSection .vote {overflow:hidden; padding-top:6px; padding-bottom:10px;}
+.giftSection .vote .button {float:left; width:50%; text-align:center;}
+.giftSection .vote .button span {display:inline-block; position:relative; width:112px; height:44px; background-position:-478px -333px; text-align:center; cursor:pointer;}
+.giftSection .vote .button:first-child span {background-position:-478px -289px;}
+.giftArticle .vote .button span:hover {background-position:-478px -377px;}
+.giftArticle .vote .button span.on {background-position:-478px -421px;}
+.giftSection .vote .button span button {position:absolute; top:0; left:0; z-index:10; width:112px; height:44px; background-color:transparent; text-indent:-999em;}
+.giftSection .vote .button em {position:absolute; top:4px; left:35px; z-index:5; width:65px; height:41px; color:#fff; font-size:14px; font-weight:bold; line-height:41px;}
+.giftArticle .wide .desc .thumb {overflow:hidden;}
+.giftArticle .wide .desc .thumb a {float:left; padding-left:14px; border-left:1px solid #f6f6f6;}
+.giftArticle .wide .desc .thumb a:first-child {padding-right:14px; padding-left:0; border-right:1px solid #f6f6f6;}
+.giftArticle .wide .vote .button span {background-position:-366px -333px;}
+.giftArticle .wide .vote .button:first-child span {background-position:-366px -289px;}
+.giftArticle .wide .vote .button span:hover {background-position:-366px -377px;}
+.giftArticle .wide .vote .button span.on {background-position:-366px -421px;}
+
+.giftArticle .topic {position:relative;}
+.giftArticle .topic .question {height:80px; margin-top:12px; color:#555; font-size:13px; line-height:1.375em; word-break:break-all;}
+.giftArticle .topic .btnwrap {overflow:hidden; position:absolute; right:0; bottom:24px;}
+.giftArticle .topic .btnwrap a, .giftArticle .topic .btnwrap button {float:left; margin-left:4px; border:1px solid #cacaca; background-color:#f0f0f0; color:#848484; font-size:11px; font-weight:normal; line-height:1.688em; text-align:center;}
+@media screen and (min-width:0\0) {
+	.giftArticle .topic .btnwrap button {line-height:1.5em;}
+}
+.giftArticle .topic .btnwrap a {width:28px; height:16px; text-decoration:none;}
+.giftArticle .topic .btnwrap button {width:30px; height:18px;}
+@media screen and (min-width:0\0) {
+	.topic .btnwrap button {padding-top:1px;}
+}
+.giftArticle .topic .profile {position:relative; margin-top:20px;}
+.giftArticle .id {color:#aaa; font-size:12px; line-height:1.375em;}
+.giftArticle .id img {margin-left:6px; vertical-align:middle;}
+.giftArticle .date {color:#999; font-size:12px; line-height:1.375em;}
+.giftArticle .topic .profile .date {position:absolute; top:0; right:0;}
+
+.giftArticle .article .btnclose {position:relative; z-index:25; height:40px; background-color:#d8d8d8;}
+.giftArticle .article .btnclose button {position:absolute; top:9px; right:15px; width:43px; height:22px; padding-top:3px; padding-left:5px; border:1px solid #a1a1a1; background-color:#ececec; background-position:-620px -350px; color:#a1a1a1; font-size:12px; font-weight:normal; line-height:1.25em; text-align:left; letter-spacing:-1px;}
+.giftArticle .article .btnclose span {position:relative;}
+
+.giftArticle .comment {position:absolute; bottom:10px; left:5px; z-index:15; width:260px; height:40px; background-color:#fafafa;}
+.giftArticle .comment .headline {position:relative; margin:0 15px; padding-top:12px; font-size:12px; line-height:1.5em;}
+.giftArticle .comment .headline .btnwrite {position:absolute; top:12px; right:0;}
+.giftArticle .comment .headline .total {display:inline-block; *display:inline; *zoom:1; padding-right:19px; background-position:100% -301px;}
+.giftArticle .wide .comment {left:6px;}
+.giftArticle .wide .comment {bottom:10px; width:540px;}
+.giftArticle .wide .comment .headline {margin:0 25px;}
+
+.giftArticle .cmtwrite {position:absolute; bottom:10px; left:5px; width:260px; padding-top:17px; background-color:#fff;}
+.giftArticle .cmtwrite .inner {position:relative; padding:0 15px;}
+.giftArticle .cmtwrite textarea {border:1px solid #ccc; width:208px; height:72px; padding:10px; background-color:#f9f9f9; color:#999;}
+.giftArticle .cmtwrite .etiquette {margin:5px 75px 9px 0; padding-left:12px; background-position:-646px -327px; color:#aaa; font-size:11px; line-height:1.25em;}
+.giftArticle .cmtwrite input {position:absolute; right:15px; top:99px; width:50px; height:26px; padding-top:3px; border:1px solid #ae0000; background-color:#d50c0c; color:#fff; font-size:12px; font-weight:bold; line-height:1.25em;}
+.giftArticle .wide .cmtwrite {padding-top:18px;}
+.giftArticle .wide .cmtwrite textarea {width:468px;}
+.giftArticle .wide .cmtwrite .etiquette {margin-top:10px; margin-bottom:9px; margin-right:100px; margin-bottom:18px; background-position:-646px -326px;}
+.giftArticle .wide .cmtwrite {left:6px; width:540px;}
+.giftArticle .wide .cmtwrite .inner {padding:0 25px;}
+.giftArticle .wide .cmtwrite input {right:25px;}
+
+.giftArticle .commentlist {position:absolute; bottom:10px; left:5px; z-index:15; width:260px; background-color:#fff;}
+.giftArticle .wide .commentlist {left:6px;}
+.giftArticle .commentlist ul {*overflow-x:hidden; overflow-y:scroll; position:relative; height:164px; margin:0 15px; padding:0 15px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background-color:#fdfdfd;}
+.giftArticle .commentlist ul li {position:relative; padding:10px; border-bottom:1px solid #eee; zoom:1;}
+.giftArticle .commentlist ul li:last-child {margin-bottom:-1px;}
+.giftArticle .commentlist ul .no {position:absolute; top:10px; left:0; width:21px; color:#888; font-size:11px; line-height:1.25em; font-weight:bold;}
+.giftArticle .commentlist ul .substance {padding-left:21px;}
+.giftArticle .commentlist ul .substance p {color:#444; font-size:11px; line-height:1.25em; word-break:break-all;}
+.giftArticle .commentlist ul .author {overflow:hidden; width:100%; padding-top:5px;}
+.giftArticle .commentlist ul .author .date img {margin-top:2px; vertical-align:top;}
+.giftArticle .commentlist ul .author .badge .id {margin-right:2px; font-weight:normal;}
+.giftArticle .commentlist ul .author .badgeView {display:inline;}
+.giftArticle .commentlist .del {width:30px; height:18px; border:1px solid #aaa; background-color:#bbb; color:#fff; font-size:11px; font-weight:normal; line-height:1.5em;}
+@media screen and (min-width:0\0) {
+	.giftArticle .commentlist .del {line-height:1.875em;}
+}
+.giftArticle .commentlist .paging {overflow:hidden; height:15px; margin:7px 0 11px;}
+.giftArticle .commentlist .paging a {border:0; line-height:15px; text-align:center;}
+.giftArticle .commentlist .paging a:hover {background-color:#fff;}
+.giftArticle .commentlist .paging a span {width:15px; padding:0; color:#999;}
+.giftArticle .commentlist .paging a:hover span {color:#666;}
+.giftArticle .commentlist .paging a.current span {color:#d50c0c;}
+.giftArticle .commentlist .paging a.arrow span {width:15px;}
+.giftArticle .commentlist .paging a.prev span {background-position:-1042px -324px;}
+.giftArticle .commentlist .paging a.prev:hover span {background-position:-1042px -339px;}
+.giftArticle .commentlist .paging a.next span {background-position:100% -324px;}
+.giftArticle .commentlist .paging a.next:hover span {background-position:100% -339px;}
+.giftArticle .commentlist .paging a.first span {background-position:-1042px -354px;}
+.giftArticle .commentlist .paging a.first:hover span {background-position:-1042px -369px;}
+.giftArticle .commentlist .paging a.end span {background-position:100% -354px;}
+.giftArticle .commentlist .paging a.end:hover span {background-position:100% -369px;}
+.giftArticle .wide .commentlist {width:540px;}
+.giftArticle .wide .commentlist ul {margin:0 25px;}
+.giftArticle .wide .commentlist ul .author .badge {float:right; width:70%; text-align:right;}
+.giftArticle .wide .commentlist ul .author .date {float:left; width:30%;}
+
+.giftSection .nodata {width:1140px; margin:0 auto; padding-top:96px; padding-bottom:186px; text-align:center;}
+.giftSection .nodata span {display:block; width:100px; height:93px; margin:0 auto 16px; background-position:0 -1242px;}
+.giftSection .nodata strong {display:block; color:#444;}
+
+.thisTalk {position:relative; width:1140px; margin:0 auto; padding-top:40px; padding-bottom:34px;}
+.thisTalk .ing {position:relative; padding-left:32px; color:#777; font-size:12px; line-height:1.25em;}
+.thisTalk .ing span {position:absolute; top:3px; left:22px; display:block; width:2px; height:10px; background-color:#ccc;}
+.thisTalk .ing em {color:#ff5055;}
+.thisTalk .btnAll {position:absolute; top:40px; right:25px;}
+.thisTalk .btnAll a {color:#aaa; font-size:11px; font-weight:bold;}
+.thisTalk .btnAll a:hover {color:#888; text-decoration:underline;}
+.thisTalk .btnAll a span {display:inline-block; *zoom:1; *display:inline; width:4px; height:8px; margin-left:2px; background-position:0 -1346px; *vertical-align:middle;}
+.thisTalk .btnAll a:hover span {background-position:0 -1364px;}
+.thisTalk .thisPdt {position:relative; width:1051px; height:161px; margin-top:5px; margin-left:12px; padding:40px 33px 42px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_box_wide.png) no-repeat 0 0;}
+.thisPdt .pdtBox {position:relative;}
+.thisPdt .pdtBox .pdtPhoto {position:absolute; top:0; left:0; width:160px;}
+.thisPdt .pdtBox .pdtInfo {margin-left:190px; width:465px; text-align:left;}
+.thisPdt .pdtBox .pdtBrand {text-decoration:none;}
+.thisPdt .pdtBox .pdtBrand strong {color:#777;}
+.thisPdt .pdtBox .zzim {cursor:pointer; width:14px; height:13px; background-color:#fff; background-image:url(http://fiximage.10x10.co.kr/web2013/common/ico_star.png); background-repeat:no-repeat; background-position:50% 0; text-indent:-999em;}
+.thisPdt .pdtBox .pdtBrand .on {background-position:50% 100%;}
+.thisPdt .pdtBox .pdtInfo h3 {margin-top:7px; font-size:14px; line-height:1.375em;}
+.thisPdt .pdtBox .pdtInfo h3 a {color:#000;}
+.thisPdt .pdtBox .pdtInfo .pdtPrice {display:block; margin-top:15px; color:#666;}
+.thisPdt .pdtAbout {position:relative; margin-top:30px; color:#999;}
+.thisPdt .pdtAbout:after {content:" "; display:block; clear:both;}
+.thisPdt .pdtAbout .pdtReview,
+.thisPdt .pdtAbout .pdtWish {float:left; margin-right:10px; padding:5px 12px 5px 32px; border:3px solid #ddd; color:#999; font-weight:bold; font-size:11px; line-height:12px;}
+.thisPdt .pdtAbout .pdtReview:hover {text-decoration:none;}
+.thisPdt .pdtAbout .pdtReview {background-position:-100px -1300px;}
+.thisPdt .pdtAbout .pdtReview .cmt {position:absolute; left:0; top:36px; z-index:10; width:370px; height:46px; font-size:11px; line-height:16px; padding:20px 15px 0; font-weight:normal; background:url(http://fiximage.10x10.co.kr/web2013/shopping/bg_review.gif) left top no-repeat;}
+.thisPdt .pdtAbout .pdtWish {background-color:#fff; background-position:-100px -1244px; color:#999; font-size:12px;}
+.thisPdt .pdtAbout .pdtWish span {position:relative;}
+.thisPdt .pdtAbout .myWishOn {background-position:-100px -1272px;}
+.thisPdt .btnwrite {position:absolute; top:42px; right:36px;}
+.thisPdt .btnwrite a {overflow:hidden; display:block; position:relative; width:280px; height:70px; color:#ff6161; line-height:70px; text-align:center;}
+.thisPdt .btnwrite a span {display:block; position:absolute; top:0; left:0; width:100%; height:100%; background-position:0 -1097px;}
+.thisPdt .btnwrite a:hover span {background-position:0 -1167px;}
+
+.wrappingList {width:1127px; margin:0 auto; padding:26px 0 25px 13px; background:none;}
+.wrappingList .pdtList {margin-top:0;}
+.wrappingList .pdtList > li {width:230px; height:377px; margin-top:4px; margin-right:6px; padding:22px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_box_small.png) no-repeat 0 0;}
+.wrappingList .pdtInfo {margin-top:17px;}
+.wrappingList .btnmore {position:absolute; right:10px; bottom:10px;}
+.wrappingList .pageMove {right:20px;}
+
+.giftHint {width:1140px; margin:40px auto 0; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_sprite_gift.png) no-repeat 24px -1592px;}
+.giftHint .hint {overflow:hidden; position:relative; padding-top:53px;}
+.giftHint .hint:first-child {padding-top:26px;}
+.giftHint .hint .line {position:absolute; top:0; left:50px; width:2px; height:100%; background-color:#e8e8e8;}
+.giftHint .hint .topic {float:left; position:relative; width:100px; padding-bottom:8px; background-color:#f4f7f7; text-align:center;}
+.giftHint .hint .topic h4 {position:relative; z-index:5; width:64px; height:94px; margin:0 auto;}
+.giftHint .hint .topic h4 a {overflow:hidden; display:block; position:relative; z-index:5; width:64px; height:100%; font-size:11px; line-height:94px;}
+.giftHint .hint .topic h4 a span {display:block; position:absolute; top:0; left:0; width:100%; height:100%; background-position:100% -514px;}
+.giftHint .her .topic h4 a span {background-position:100% -609px;}
+.giftHint .teen .topic h4 a span {background-position:100% -703px;}
+.giftHint .baby .topic h4 a span {background-position:100% -797px;}
+.giftHint .home .topic h4 a span {background-position:100% -891px;}
+.giftHint .hint .topic .time {display:block; margin-top:8px; color:#bbb; font-size:11px; font-weight:bold; line-height:1.125em;}
+.giftHint .hint .box {float:left; width:1002px; height:432px; padding:9px 9px 15px; margin-top:62px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_shadow_hint.png) no-repeat 100% 0;}
+.giftHint .hint .desc {position:absolute; top:64px; left:50px; z-index:1; padding:9px 43px 9px 59px; color:#fff; font-size:14px; font-weight:bold; line-height:1.375em;}
+.giftHint .hint:first-child .desc {top:40px;}
+.giftHint .hint .desc span {display:block; position:absolute; top:0; right:0; width:12px; height:36px;}
+.giftHint .him .desc {background-color:#07c0f3;}
+.giftHint .him .desc span {background-position:0 -1473px;}
+.giftHint .her .desc {background-color:#ff96a3;}
+.giftHint .her .desc span {background-position:-12px -1473px;}
+.giftHint .teen .desc {background-color:#47dba1;}
+.giftHint .teen .desc span {background-position:-24px -1473px;}
+.giftHint .baby .desc {background-color:#ffba81;}
+.giftHint .baby .desc span {background-position:-36px -1473px;}
+.giftHint .home .desc {background-color:#cdadf1;}
+.giftHint .home .desc span {background-position:-48px -1473px;}
+.giftHint .hint .box ul {overflow:hidden; position:relative; padding:30px; background-color:#fff; zoom:1;}
+.giftHint .hint .box ul.left {width:592px; padding:30px 0 30px 410px;}
+.giftHint .hint .box ul.right {width:594px; padding:30px 378px 30px 30px;}
+.giftHint .hint .box ul li {float:left; position:relative; margin-top:8px; margin-right:8px; cursor:pointer;}
+.giftHint .hint .box ul li img {display:block; border:1px solid #eee;}
+.giftHint .hint .box ul.left li:first-child, .giftHint .hint .box ul.right li:first-child {float:none; position:absolute; top:30px;}
+.giftHint .hint .box ul.left li:first-child {left:30px;}
+.giftHint .hint .box ul.right li:first-child {right:22px;}
+.giftHint .hint .box ul.left li:first-child img, .giftHint .hint .box ul.right li:first-child img {width:370px !important; height:370px !important;}
+.giftHint .hint .box ul .btnmore {position:absolute; right:10px; bottom:10px;}
+
+.giftSection .btnmore {overflow:hidden;}
+.giftSection .btnmore a {float:left; position:relative; width:50px; height:22px; margin-left:10px; padding-top:28px; background-position:-936px -514px; color:#fff; font-size:11px; font-weight:bold; line-height:1.25em; text-align:center;}
+.giftSection .btnmore a:hover {text-decoration:none;}
+.giftSection .btnmore a:first-child {background-position:-886px -514px;}
+.giftSection .btnmore a strong {position:absolute; top:9px; left:50%; width:26px; height:13px; margin-left:-13px; color:#555; font-size:9px;}
+
+.writeTalk {overflow:hidden; width:1140px; margin:22px auto 0;}
+.writeTalk .write, .writeTalk .find {float:left; margin-left:11px;}
+.writeTalk .write {width:658px; padding-bottom:21px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_shadow_btm.png) no-repeat 50% 100%;}
+.writeTalk .find {width:440px; margin-top:-5px; padding-top:12px; border-bottom:2px solid #ddd; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_zigzag_white.png) repeat-x 0 5px;}
+.writeTalk .write .inner {padding:0 9px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_shadow_mid.png) repeat-y 50% 0;}
+.writeTalk .find .inner {padding:32px 26px 40px; background-color:#fff;}
+.writeTalk .write h4 {padding-left:9px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt14.gif) no-repeat 0 4px; color:#666; font-size:13px; line-height:1.313em;}
+.writeTalk .question {position:relative; padding:32px 40px 0; border-top:5px solid #ff9393;}
+.writeTalk .question textarea {width:538px; height:54px; margin-top:8px; padding:10px; border:1px solid #ddd; color:#999; line-height:1.5em;}
+.writeTalk .question .limited {position:absolute; top:35px; right:40px; color:#999; font-size:11px; line-height:1em;}
+.writeTalk .goods {margin:30px 30px 0; padding:27px 12px 16px; border-top:1px solid #eee; border-bottom:1px solid #eee;}
+.writeTalk .goods .addwrap {min-height:440px; margin-top:8px; padding:30px 5px; border:1px solid #ddd; background-color:#fafafa;}
+.writeTalk .goods .add {padding-top:10px; text-align:left;}
+.writeTalk .goods .caseB, .writeTalk .goods .caseC {padding-top:5px;}
+.writeTalk .goods .findGoods {width:230px; height:183px; padding-top:237px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_box_add.png) no-repeat 100% 0; color:#ccc; line-height:1.375em; text-align:center;}
+.writeTalk .caseA .item {width:230px; margin:0 auto;}
+/*.writeTalk .caseB .item {width:244px; margin:0 auto;}*/
+.writeTalk .caseB, .writeTalk .caseC {overflow:hidden;}
+.writeTalk .caseB .item, .writeTalk .caseC .item {float:left; margin-left:26px;}
+.writeTalk .caseB .item, .writeTalk .caseC .item:first-child {margin-left:15px;}
+.writeTalk .caseB .item .note {position:relative; padding-top:219px; padding-left:20px; color:#ccc; text-align:center; line-height:1.375em;}
+.writeTalk .caseB .item .note span {display:block; position:absolute; top:124px; left:50%; width:77px; height:77px; margin-left:-38px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_box_add.png) no-repeat 50% 41%;}
+.writeTalk .item .pdtBox {position:relative; width:200px; height:344px; margin:0; padding:20px 22px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_box_item.png) no-repeat 0 0; text-align:center;}
+.writeTalk .item .pdtBox .pdtBrand {margin-top:13px;}
+.writeTalk .vote {clear:left; padding-top:0; padding-bottom:7px;}
+.writeTalk .vote .button {cursor:default;}
+.writeTalk .vote .button span {cursor:default;}
+.writeTalk .vote strong {position:absolute; top:0; left:0; width:112px; height:44px; background-color:transparent; text-indent:-999em;}
+.writeTalk .caseB .vote {width:240px; margin-left:17px;}
+.writeTalk .caseC .vote .button span {background-position:-366px -333px;}
+.writeTalk .caseC .vote .button:first-child span {background-position:-366px -289px;}
+.writeTalk .caseB, .writeTalk .caseC {position:relative;}
+.writeTalk .caseB .line, .writeTalk .caseC .line {position:absolute; left:271px; top:13px; height:363px; border-left:1px dashed #ddd;}
+.writeTalk .item .pdtBox .btnDel {position:absolute; top:-5px; right:-2px; width:21px; height:21px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_sprite_gift.png) no-repeat -851px -514px; text-indent:-999em;}
+.writeTalk .write .btnWrap {margin-top:30px; padding-bottom:60px; text-align:center;}
+.writeTalk .write .btnWrap .btn {width:184px; margin:0 7px; padding:18px 45px; background-color:#ff6161; color:#fff;}
+@media screen and (min-width:0\0) {
+	.writeTalk .write .btnWrap .btn {padding:20px 45px 16px;}
+}
+.writeTalk .write .btnWrap .btn:first-child {background-color:#777;}
+.writeTalk .goods .noti {margin-top:9px; padding-left:12px; color:#999; font-size:11px; line-height:1.5em;}
+
+.writeTalk .find h4 {color:#000;}
+.writeTalk .find .tabnav {overflow:hidden; margin-top:10px;}
+.writeTalk .find .tabnav li {float:left; width:33.333%;}
+.writeTalk .find .tabnav li a {display:block; padding:9px 0; border:1px solid #ddd; border-left:0; background-color:#f0f0f0; color:#666; font-size:11px; line-height:1.25em; text-align:center;}
+.writeTalk .find .tabnav li a:hover, .writeTalk .find .tabnav li a.on {text-decoration:none; border-bottom:1px solid #fff; background-color:#fff;}
+.writeTalk .find .tabnav li:first-child a {border-left:1px solid #ddd;}
+.writeTalk .find .itext {width:332px; height:22px; padding:0 10px; border:4px solid #d50c0c;}
+.writeTalk .find .itext input {width:100%; height:20px; padding-top:2px; *padding-top:0; color:#888; font-size:11px; font-weight:normal; line-height:20px;}
+@media screen and (min-width:0\0) {
+	.writeTalk .find .itext input {height:16px; padding-top:4px; line-height:19px;}
+}
+.writeTalk .find .itext input:focus {color:#000;}
+.writeTalk .findItem .finder, .findWish .finder {padding-top:30px;}
+.writeTalk .findItem .finder {position:relative; width:360px; margin:0 auto;}
+.writeTalk .findItem .finder .btnsearch {position:absolute; top:34px; right:8px; background:#fff url(http://fiximage.10x10.co.kr/web2013/common/btn_search.gif) no-repeat 50% -2px; width:22px; height:22px; border:none; text-indent:-999em; cursor:pointer; vertical-align:top;}
+.writeTalk .findItem .finder .btnsearch:hover, .writeTalk .findItem .finder .btnsearch:focus {background-position:50% -29px;}
+.writeTalk .findItem .result span {display:block; color:#888; font-size:11px; font-weight:normal;}
+.writeTalk .findItem .breadcrumb {margin-top:34px; font-weight:normal;}
+.writeTalk .findItem .breadcrumb span {color:#555; font-size:11px; font-weight:normal;}
+.writeTalk .findList .select {color:#6c6c6c; font-size:11px; font-weight:normal;}
+.writeTalk .findList .styled-selectbox {display:inline-block; *display:inline; position:relative; *zoom:1;}
+.writeTalk .findList select.select{overflow:hidden; position:relative; z-index:10; width:112px; height:20px; line-height:1.25em;}
+.writeTalk .findList span.select{overflow:hidden; float:left; position:absolute; bottom:0; left:-1px; z-index:1; width:92px; height:16px; padding-top:4px; padding-right:20px; border:0; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_select_01.png) no-repeat 0 0; color:#6c6c6c; font-size:11px; line-height:16px; text-indent:5px; cursor:default; text-overflow:ellipsis; white-space:nowrap;}
+
+.writeTalk .find .result {margin-top:18px; color:#000; font-weight:bold; text-align:center;}
+.writeTalk .find .result strong {color:#d50c0c;}
+.writeTalk .find .result em {color:#555;}
+
+.writeTalk .findList .option {position:relative; margin-top:19px; padding:17px 12px; border-top:2px solid #ddd; background-color:#fafafa; color:#555; font-size:11px;}
+.writeTalk .findList .option .styled-selectbox {position:absolute; top:15px; right:12px;}
+.writeTalk .findList .option .select.select {width:100px;}
+.writeTalk .findList .option span.select {width:80px; background:url(http://fiximage.10x10.co.kr/web2013/gift/bg_select_02.png) no-repeat 0 0;}
+.writeTalk .findList .pdtWrap {padding:0;}
+.writeTalk .findList .pdtList li {width:330px; overflow:hidden; padding:15px 10px; border-bottom:1px solid #eaeaea; background:none; cursor:pointer; zoom:1;}
+.writeTalk .findList .pdtList .pdtPhoto {float:left; width:100px;}
+.writeTalk .findList .pdtList .pdtInfo {float:left; width:215px; padding-left:15px; text-align:left;}
+.writeTalk .findList .paging {margin-top:20px;}
+
+.writeTalk .findLately .noti {padding-top:47px; padding-bottom:25px; color:#888; font-size:11px; line-height:1.5em; text-align:center;}
+.writeTalk .findLately .noti strong {display:block; color:#555; font-size:12px;}
+.writeTalk .findLately .result {margin-top:0; padding-top:47px; padding-bottom:25px; color:#555; text-align:center;}
+
+.findWish .finder {padding-bottom:7px; text-align:center;}
+.findWish .selectwrap{display:inline-block; *display:inline; position:relative; z-index:10; width:360px; vertical-align:middle; background:#fff; *zoom:1;}
+.findWish .selectwrap .myValue{overflow:hidden; position:relative; left:0; top:0; z-index:2; border:1px solid #eaeaea; background:transparent; color:#666; line-height:19px; text-align:left; text-overflow:ellipsis; white-space:nowrap;}
+.findWish .selectwrap .myValue.selected{background-color:#efefef;}
+.findWish .selectwrap.open .myValue,
+.findWish .selectwrap .myValue.outLine{border:1px solid #eaeaea;}
+.findWish .selectwrap button.myValue{width:360px; height:30px; padding:2px 40px 0 10px; font-size:11px; font-weight:normal; line-height:30px;}
+.findWish .selectwrap div.myValue{height:30px; text-indent:8px;}
+.findWish .selectwrap button span {position:relative;}
+.findWish .selectwrap button em {position:absolute; top:0; right:0; width:28px; height:28px; background:#efefef url(http://fiximage.10x10.co.kr/web2013/event/btn_select_arrow.gif) no-repeat 50% 2px;}
+.findWish .selectwrap .myValue.selected em {background:#efefef url(http://fiximage.10x10.co.kr/web2013/event/btn_select_arrow.gif) no-repeat 50% -19px;}
+.findWish .selectwrap ul {overflow:hidden; top:30px; left:0; z-index:10; width:100%; border-bottom:1px solid #eaeaea; background:#fff;}
+.findWish .selectwrap ul.aList {display:none;}
+.findWish .selectwrap.open ul.aList{display:block;}
+.findWish .selectwrap ul.iList {left:-2000%;}
+.findWish .selectwrap.open ul.iList{left:0;}
+.findWish .selectwrap li {overflow:hidden; position:relative; padding:8px 10px; border-left:1px solid #eaeaea; border-right:1px solid #eaeaea; word-wrap:break-word; text-align:left;}
+.findWish .selectwrap li a {display:block; color:#777; font-size:11px; font-weight:normal; line-height:1.313em;}
+
+/* 2014 Gift */
+.themeView {overflow:hidden; margin:12px 0 -20px -20px;}
+.themeView .myBrdBox {float:left; width:230px; min-height:440px; margin:0 0 20px 20px; padding:15px 15px 0;}
+.themeView .pdtInfo {height:128px;}
+.themeView .count {overflow:hidden; text-align:center; border-top:1px solid #eaeaea; border-bottom:1px solid #eaeaea;}
+.themeView .count p {float:left; width:76px; height:49px; line-height:12px; border-left:1px solid #eaeaea;}
+.themeView .count p:first-child {border-left:0;}
+.themeView .count p a {display:block; height:20px; padding-top:29px; font-weight:bold; color:#777; text-decoration:none; background-position:center 7px; background-repeat:no-repeat;}
+.themeView .count p a:hover {color:#555;}
+.themeView .count p.talkNum a {background-image:url(http://fiximage.10x10.co.kr/web2013/gift/ico_talk02.gif); background-position:center 10px;}
+.themeView .count p.talkNum a:hover {background-image:url(http://fiximage.10x10.co.kr/web2013/gift/ico_talk02_hover.gif);}
+.themeView .count p.dayNum a {background-image:url(http://fiximage.10x10.co.kr/web2013/gift/ico_day.gif);}
+.themeView .count p.dayNum a:hover {background-image:url(http://fiximage.10x10.co.kr/web2013/gift/ico_day_hover.gif);}
+.themeView .count p.shopNum a {background-image:url(http://fiximage.10x10.co.kr/web2013/gift/ico_shop02.gif);}
+.themeView .count p.shopNum a:hover {background-image:url(http://fiximage.10x10.co.kr/web2013/gift/ico_shop02_hover.gif);}
+.themeView .pdtPhoto .new {position:absolute; right:0; top:0;}

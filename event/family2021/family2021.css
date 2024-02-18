@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.family2021 {position:relative; overflow:hidden;}
+.family2021 img {vertical-align:top;}
+.family2021 .hidden {visibility:hidden; width:0; height:0; overflow:hidden; position:absolute;}
+
+.family2021 > .topic {position:relative; height:732px; background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/bg_topic.jpg) no-repeat center top;}
+.family2021 > .topic h2 {font-size:0; color:transparent;}
+.family2021 .intro {padding:60px 0; text-align:center; background:#f9f2e8;}
+
+.family2021 .section {position:relative; padding-bottom:60px;}
+.family2021 .section.s1 {background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/bg_s01.jpg) no-repeat center top;}
+.family2021 .section.s2 {background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/bg_s02.jpg) no-repeat center top;}
+.family2021 .section.s3 {background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/bg_s03.jpg) no-repeat center top;}
+.family2021 .section.s4 {background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/bg_s04.jpg) no-repeat center top;}
+.family2021 .section .topic {position:relative;}
+.family2021 .section .topic h3 {position:relative; width:1140px; margin:0 auto;}
+.family2021 .section.s4 .topic h3::before,
+.family2021 .section .topic h3::after {content:' '; position:absolute; z-index:5;}
+.family2021 .section.s1 .topic h3::after {top:85px; right:120px; content:url(//webimage.10x10.co.kr/fixevent/event/2021/family/ico_s01.png);}
+.family2021 .section.s2 .topic h3::after {top:85px; right:160px; content:url(//webimage.10x10.co.kr/fixevent/event/2021/family/ico_s02.png);}
+.family2021 .section.s3 .topic h3::after {top:35px; right:45px; width:200px; height:200px; background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/ico_s03.png) no-repeat center 100%;}
+.family2021 .section.s4 .topic h3::before,
+.family2021 .section.s4 .topic h3::after {width:200px; height:200px; background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/ico_s04.png) no-repeat;}
+.family2021 .section.s4 .topic h3::before {top:55px; right:130px; background-position:100% 0;}
+.family2021 .section.s4 .topic h3::after {top:55px; right:35px; background-position:0 0;}
+.family2021 .section .topic .num {position:absolute; top:180px; right:50%; margin-right:-470px; z-index:10;}
+
+.family2021 .section .items .price s {display:none;}
+.family2021 .section .items .price span {margin-left:8px; font-weight:500; color:#ff3131;}
+
+.family2021 .slider {position:relative; overflow:hidden; height:759px; margin-bottom:200px;}
+.family2021 .slider::before,
+.family2021 .slider::after {content:' '; position:absolute; top:0; width:50%; height:100%; background:rgba(0,0,0,.7); z-index:5;}
+.family2021 .slider::before {right:50%; margin-right:570px;}
+.family2021 .slider::after {left:50%; margin-left:570px;}
+.family2021 .slider .slick-arrow {top:0; width:120px; height:100%; z-index:10; background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/ico_arrow.png) no-repeat center;}
+.family2021 .slider .slick-prev {left:50%; margin-left:-570px; transform:scale(-1);}
+.family2021 .slider .slick-next {right:50%; margin-right:-570px;}
+
+.family2021 .tab-wrap {position:relative; padding:420px 0 120px; background:#ffc3b5 url(//webimage.10x10.co.kr/fixevent/event/2021/family/bg_tab.jpg) no-repeat center top;}
+.family2021 .tab-wrap h3 {position:absolute; top:168px; left:50%; margin-left:-90px; opacity:0; transform:translate3d(0,15%,0); transition:1s;}
+.family2021 .tab-wrap h3.on {opacity:1; transform:none;}
+.family2021 .tab-nav {padding-bottom:60px;}
+.family2021 .tab-list {display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center;}
+.family2021 .tab-list li {position:relative; margin:0 15px;}
+.family2021 .tab-list li input {position:absolute; top:0; left:0; width:0; height:0; visibility:hidden;}
+.family2021 .tab-list li label {position:relative; overflow:hidden; display:inline-block; width:170px; height:170px; text-align:center; vertical-align:top; font-size:0; color:transparent; background:#c3ecdb; border-radius:50%; cursor:pointer;}
+.family2021 .tab-list li label::before {position:absolute; top:0; right:0; bottom:0; left:0; background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/ico_chk.png) no-repeat 0 0;}
+.family2021 .tab-list li input:checked + label::before {content:' '; animation:typeRotate 5s infinite both;}
+.family2021 .tab-list li label::after {content:' '; position:absolute; top:0; right:0; bottom:0; left:0; background:url(//webimage.10x10.co.kr/fixevent/event/2021/family/txt_tab.png?v=1.0) no-repeat 0 0;}
+.family2021 .tab-list li:nth-of-type(2) label::after {background-position:0 -170px;}
+.family2021 .tab-list li:nth-of-type(3) label::after {background-position:0 -340px;}
+.family2021 .tab-list li:nth-of-type(4) label::after {background-position:0 -510px;}
+.family2021 .tab-list li:nth-of-type(5) label::after {background-position:0 -680px;}
+.family2021 .tab-list li:nth-of-type(6) label::after {background-position:0 -850px;}
+@keyframes typeRotate {
+	100% {transform:rotate(360deg);}
+}
+
+.family2021 .tab-cont {position:relative; max-width:1510px; margin:0 auto; padding-top:80px; background:#fff1ee; border-radius:130px;}
+.family2021 .tab-cont .keyword {padding-bottom:70px; text-align:center;}
+
+.family2021 .items.type-thumb.item-240 ul {width:1120px; margin:0 auto;}
+.family2021 .items.type-thumb.item-240 li {height:410px; margin:0 20px;}
+.family2021 .items li > a {text-decoration:none;}
+.family2021 .items .name {display:-webkit-box; height:48px; padding-top:15px; font-size:16px; line-height:24px; white-space:normal; word-break:keep-all; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-word;}
+.family2021 .items .price {padding-top:5px; font-size:18px;}
+.family2021 .items .price .discount {padding-right:0; font-weight:500;}
+.family2021 .items .etc {margin-top:5px; font-weight:300; font-size:15px; color:#8c8c8c;}
+.family2021 .items .etc::after {content:' '; display:block; clear:both; float:none;}
+.family2021 .items .etc .review {font-size:inherit;}
+
+.family2021 .items .tag {float:left; margin-right:10px;}
+.family2021 .items .icon {position:relative; display:inline-block; vertical-align:middle;}
+.family2021 .items .icon:before {content:' '; position:absolute; top:0; left:0;}
+.family2021 .items .icon-rating {width:82px; height:13px;}
+.family2021 .items .icon-rating:before,
+.family2021 .items .icon-rating i {width:100%; height:100%; background:url(//fiximage.10x10.co.kr/web2019/common/ico_star.png) 0 0 no-repeat;}
+.family2021 .items .icon-rating i {position:absolute; left:0; top:0; text-indent:-999px; background-position:0 100%;}
+.family2021 .items .icon-wish {width:15px; height:15px;}
+.family2021 .items .icon-wish:before {width:15px; height:15px; background:url(//webimage.10x10.co.kr/fixevent/event/2020/family2020/ico_wish.png) no-repeat 0 0 / 100%;}
+.family2021 .items .icon-wish.on:before {background-position:0 100%;}
+.family2021 .items .icon-wish i {display:inline-block; padding-left:20px; vertical-align:top; line-height:15px; font-style:normal;}
+.family2021 .items .counting {display:inline-block; padding-left:5px; vertical-align:middle; cursor:default;}
+
+.family2021 .pageWrapV15 {padding-bottom:60px;}
+.family2021 .paging {height:auto;}
+.family2021 .paging a {position:relative; display:inline-flex; justify-content:center; align-items:center; width:50px; height:50px; margin:0 5px; line-height:inherit; border:0 none; background-color:transparent;}
+.family2021 .paging a span {position:relative; height:auto; padding:0; font-size:18px; color:#787570;}
+.family2021 .paging a.current span {color:#59b69a; font-weight:700;}
+.family2021 .paging a.arrow span {width:10px; height:20px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/ico_page_arrow.png);}
+.family2021 .paging a.prev span {background-position:inherit; transform:scale(-1);}
+.family2021 .paging a.next span {background-position:inherit;}
+
+.family2021 .evt-wrap {position:relative; padding-bottom:80px; background:#fff5e3;}
+.family2021 .evt-wrap h3 {padding:70px 0 60px; text-align:center; font-size:45px; color:#ffb533;}
+.family2021 .evt-list {display:-webkit-box; display:-ms-flexbox; display:flex; -ms-flex-wrap:wrap; flex-wrap:wrap; width:1120px; margin:0 auto;}
+.family2021 .evt-list li {margin:0 20px; padding-bottom:50px;}

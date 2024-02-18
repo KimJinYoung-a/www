@@ -1,0 +1,183 @@
+.xmas2019 {position:relative; font-weight:normal;}
+.xmas2019 img {vertical-align:top;}
+.xmas2019 a {text-decoration:none;}
+
+.xmas2019 .topic {position:relative; height:783px; background:#282b32 url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/bg_topic.jpg) no-repeat 50% 0;}
+.xmas2019 .topic h2, .xmas2019 .topic p {width:1140px; margin:0 auto;}
+.xmas2019 .topic h2 {position:relative; padding-top:336px;}
+.xmas2019 .topic .tit-pick {position:absolute; left:50%; top:50px; width:600px; margin-left:-280px; clip:rect(100px,600px,300px,0px);}
+.xmas2019 .topic .tit-pick img {width:100%;}
+.xmas2019 .topic .tit-your, .xmas2019 .topic p {opacity:0; transform:translateY(-20px); transition:1.5s;}
+.xmas2019 .topic.que .tit-your, .xmas2019 .topic.que p {opacity:1; transform:translateY(0px);}
+.xmas2019 .topic.que .tit-your {transition-delay:1.5s;}
+.xmas2019 .topic.que p {transition-delay:2s;}
+
+.xmas2019 .topic .deco {position:absolute; bottom:77px;}
+.xmas2019 .topic .deco-l {left:50%; margin-left:-870px; width:400px; height:450px;}
+.xmas2019 .topic .deco-r {right:50%; margin-right:-870px; width:300px; height:450px;}
+.xmas2019 .topic .deco img {position:absolute; top:0; left:0; width:100%; animation:bgBlink 1s ease-in-out infinite alternate both;}
+.xmas2019 .topic .deco img:nth-child(2) {animation-delay:0.5s;}
+.xmas2019 .topic .deco img:nth-child(3) {animation-delay:1s;}
+@keyframes bgBlink {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.xmas2019 .bnr-floating {position:fixed; top:235px; right:50%; z-index:10; margin-right:-600px; animation:floatSwing 1s infinite ease-in-out alternate;}
+.xmas2019 .bnr-floating button {display:block; background-color:transparent;}
+@keyframes floatSwing {
+	0% {transform:translateX(-8px);}
+	100% {transform:translateX(8px);}
+}
+
+.xmas2019 .keyword {padding:130px 0 70px; background-color:#fff; text-align:center;}
+.xmas2019 .keyword .tag {width:1140px; margin:32px auto 0; font-size:0;}
+.xmas2019 .keyword .tag a {display:inline-block; height:34px; line-height:35px; padding:0 26px; margin:10px 7.5px; font-weight:bold; font-size:19px; color:#343434; border-radius:20px; letter-spacing:-0.3px;}
+.xmas2019 .keyword .tag a:hover {color:#fff;}
+.xmas2019 .keyword .tag .sch {border:2px solid #2f5a3b;}
+.xmas2019 .keyword .tag .sch:hover {border-color:#6f857a; background-color:#6f857a;}
+.xmas2019 .keyword .tag .evt {border:2px solid #e3604a;}
+.xmas2019 .keyword .tag .evt:hover {border-color:#d87969; background-color:#d87969;}
+
+.xmas2019 .take {position:relative; left:50%; width:1920px; margin-left:-960px;}
+.xmas2019 .take > div {position:relative;}
+.xmas2019 .take > div:before,
+.xmas2019 .take > div:after {content:' '; position:absolute; background-repeat:no-repeat; background-position:0 0;}
+.xmas2019 .type-a:before, .xmas2019 .type-b:after {right:0;}
+.xmas2019 .type-a:after, .xmas2019 .type-b:before {left:0;}
+.xmas2019 .take1:before {top:1620px; width:256px; height:798px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_take1_before.png);}
+.xmas2019 .take1:after {top:692px; width:327px; height:492px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_take1_after.png);}
+.xmas2019 .take2:before {top:1837px; width:257px; height:671px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_take2_before.png);}
+.xmas2019 .take2:after {top:734px; width:472px; height:401px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_take2_after.png);}
+.xmas2019 .take3:before {top:1803px; width:271px; height:811px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_take3_before.png);}
+.xmas2019 .take3:after {top:661px; width:311px; height:524px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_take3_after.png);}
+
+.xmas2019 .take .txt-wrap {position:relative; height:1372px;}
+.xmas2019 .take .txt-wrap:before {content:' '; position:absolute; top:0; left:0; width:100%; height:796px;}
+.xmas2019 .take1 .txt-wrap:before {background:#f2e1d4;}
+.xmas2019 .take2 .txt-wrap:before {background:#dcdec1;}
+.xmas2019 .take3 .txt-wrap:before {background:#f4e6b7;}
+.xmas2019 .take .txt-wrap p {width:1140px; margin:0 auto; opacity:0; transform:translateY(20px); transition:1s;}
+.xmas2019 .take .txt-wrap.que p {opacity:1; transform:translateY(0px);}
+.xmas2019 .take .txt-wrap.que p:last-child {transition-delay:0.5s;}
+.xmas2019 .take1 .txt-wrap p:first-child {padding-top:145px;}
+.xmas2019 .take2 .txt-wrap p:first-child {padding-top:145px;}
+.xmas2019 .take3 .txt-wrap p:first-child {padding-top:130px;}
+
+.xmas2019 .take .img {overflow:hidden;}
+.xmas2019 .take .img img {transition:1s;}
+.xmas2019 .take .img:hover img {transform:scale(1.05);}
+.xmas2019 .take .img2 {position:absolute; top:942px;}
+.xmas2019 .take .img3 {position:absolute; top:1759px;}
+.xmas2019 .take .type-a .img {right:190px;}
+.xmas2019 .take .type-b .img {left:190px;}
+
+.xmas2019 .take .slider-wrap {position:absolute; top:1405px;}
+.xmas2019 .take .type-a .slider-wrap {left:0;}
+.xmas2019 .take .type-b .slider-wrap {right:0;}
+.xmas2019 .take .slider {overflow:hidden; width:980px; height:764px;}
+.xmas2019 .take .slider .slide {font-size:0; white-space:nowrap;}
+.xmas2019 .take .slider .slide > a {display:inline-block;}
+.xmas2019 .take .slider-wrap .progressbar {position:absolute; top:784px; width:240px; height:4px; background-color:#f0e5cc;}
+.xmas2019 .take .type-a .slider-wrap .progressbar {right:0;}
+.xmas2019 .take .type-b .slider-wrap .progressbar {left:0;}
+.xmas2019 .take .slider-wrap .progressbar-fill {position:absolute; top:0; width:0px; height:100%; background-color:#323f32; transition:width 1s; -ms-transition:width 1s;}
+.xmas2019 .take .type-a .slider-wrap .progressbar-fill {right:0;}
+.xmas2019 .take .type-b .slider-wrap .progressbar-fill {left:0;}
+.xmas2019 .take .slider-wrap .pager {position:absolute; top:800px; font-size:20px; color:#393939;}
+.xmas2019 .take .type-a .slider-wrap .pager {right:0;}
+.xmas2019 .take .type-b .slider-wrap .pager {left:0;}
+.xmas2019 .take .slider-wrap .pager b {font-weight:normal;}
+.xmas2019 .take .slider-wrap .pager span {font-weight:300;}
+.xmas2019 .take .slider-wrap .pager i {margin:0 3px; font-style:normal; font-size:15px; vertical-align:2px;}
+
+.xmas2019 .take .main-img {overflow:hidden; position:relative; width:1920px; height:797px;}
+.xmas2019 .take .main-img .link {position:absolute; top:0; left:0; width:100%; height:100%;}
+.xmas2019 .take .main-img .link li {position:absolute;}
+.xmas2019 .take1 .main-img .link .l1 {left:286px; top:284px;}
+.xmas2019 .take1 .main-img .link .l2 {left:491px; top:714px;}
+.xmas2019 .take1 .main-img .link .l3 {left:638px; top:367px;}
+.xmas2019 .take1 .main-img .link .l4 {left:771px; top:167px;}
+.xmas2019 .take1 .main-img .link .l5 {left:1360px; top:525px;}
+.xmas2019 .take1 .main-img .link .l6 {left:1448px; top:690px;}
+.xmas2019 .take2 .main-img .link .l1 {left:1161px; top:130px;}
+.xmas2019 .take3 .main-img .link .l1 {left:887px; top:216px;}
+.xmas2019 .take .main-img .link li:before, .xmas2019 .take .main-img .link li:after {content:' '; display:block; position:absolute;}
+.xmas2019 .take .main-img .link li:before {top:-7px; left:-7px; width:27px; height:27px; border-radius:20px; background-color:#f0dd82; opacity:0.5; animation:linkHalo 1.8s infinite both;}
+.xmas2019 .take .main-img .link li:after {top:0; left:0; width:13px; height:13px; border-radius:10px; background-color:#f0dd82;}
+.xmas2019 .take .main-img a {display:block; position:absolute;}
+.xmas2019 .take1 .main-img a {top:-65px; left:-65px; width:140px; height:140px;}
+.xmas2019 .take2 .main-img a {left:-1161px; top:-130px; width:1920px; height:797px;}
+.xmas2019 .take3 .main-img a {left:-887px; top:-216px; width:1920px; height:797px;}
+
+.xmas2019 .take .prd-wrap {padding:200px 0 80px;}
+.xmas2019 .take .prd-wrap ul {overflow:hidden; width:1075px; margin:0 auto;}
+.xmas2019 .take .prd-wrap ul li {float:left; width:185px; height:350px; padding:0 15px;}
+.xmas2019 .take .prd-wrap ul li a {display:block;}
+.xmas2019 .take .prd-wrap .desc {padding-top:10px;}
+.xmas2019 .take .prd-wrap .name {overflow:hidden; font-size:16px; color:#222; text-overflow:ellipsis; white-space:nowrap; letter-spacing:-0.8px;}
+.xmas2019 .take .prd-wrap .price {overflow:hidden; margin-top:10px; font-weight:bold; font-size:14px; color:#fe3122;}
+.xmas2019 .take .prd-wrap .price s {display:none;}
+.xmas2019 .take .prd-wrap .price span {float:left; margin-right:8px;}
+
+.xmas2019 .lookbook {position:relative; padding:110px 0 240px; text-align:center; background:#f1e6d1 url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/bg_lookbook.png) 50% 0 no-repeat;}
+.xmas2019 .lookbook h3 {margin-bottom:55px;}
+.xmas2019 .lookbook .img {position:relative; left:50%; width:1650px; margin-left:-825px;}
+.xmas2019 .lookbook .link {position:absolute; top:0; left:0; width:100%; height:100%;}
+.xmas2019 .lookbook .link li {position:absolute;}
+.xmas2019 .lookbook .link .l1 {left:303px; top:535px;}
+.xmas2019 .lookbook .link .l2 {left:746px; top:142px;}
+.xmas2019 .lookbook .link .l3 {left:1144px; top:494px;}
+.xmas2019 .lookbook .link .l4 {left:1351px; top:398px;}
+.xmas2019 .lookbook .link .l5 {left:275px; top:1088px;}
+.xmas2019 .lookbook .link .l6 {left:746px; top:1226px;}
+.xmas2019 .lookbook .link .l7 {left:1280px; top:1106px;}
+.xmas2019 .lookbook .link li:before, .xmas2019 .lookbook .link li:after {content:' '; display:block; position:absolute;}
+.xmas2019 .lookbook .link li:before {top:-8px; left:-8px; width:35px; height:35px; border-radius:20px; background-color:#f0dd82; opacity:0.5; animation:linkHalo 1.8s infinite both;}
+.xmas2019 .lookbook .link li:after {top:0; left:0; width:19px; height:19px; border-radius:10px; background-color:#f0dd82;}
+.xmas2019 .lookbook .link li a {display:block; position:absolute; top:-60px; left:-60px; width:140px; height:140px;}
+@keyframes linkHalo {
+	from {transform:scale(0); opacity:1;}
+	to {transform:scale(1.2); opacity:0;}
+}
+
+.xmas-item {position:relative; padding:120px 0; background-color:#3d5543;}
+.xmas-item:before, .xmas-item:after {content:' '; display:block; position:absolute;}
+.xmas-item:before {top:-100px; left:50%; width:2120px; height:220px; margin-left:-1060px; background:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_deco_01_v2.png) no-repeat 50% 0;}
+.xmas-item:after {bottom:0px; right:50%; width:471px; height:431px; margin-right:-930px; background:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_deco_04.png) no-repeat 0 0;}
+.xmas-item h3 {text-align:center;}
+.xmas-item .type {margin-bottom:86px; text-align:center;}
+.xmas-item .type ul {display:inline-block; width:1168px; vertical-align:top;}
+.xmas-item .type li {float:left; position:relative;}
+.xmas-item .type li + li {margin-left:16px;}
+.xmas-item .type li input {visibility:hidden; position:absolute; left:0; top:0; width:0; height:0;}
+.xmas-item .type li label {position:relative; display:flex; flex-direction:column; justify-content:center; align-items:center; width:132px; height:132px; color:#899f68; text-align:center; cursor:pointer; background-color:#284530; border-radius:66px;}
+.xmas-item .type li label span {font-size:16px;}
+.xmas-item .type li label strong {display:block; font-size:17px; letter-spacing:-0.5px;}
+.xmas-item .type li input:checked + label, .xmas-item .type li label:hover {background-color:#6e7d4a; box-shadow:0 24px 27px 0 rgba(0,0,0,0.2);}
+.xmas-item .type li input:checked + label span, .xmas-item .type li label:hover span {color:#e3c39d;}
+.xmas-item .type li input:checked + label strong, .xmas-item .type li label:hover strong {color:#ffdcb2;}
+.xmas-item .type li input:checked + label:after {content:' '; position:absolute; top:-6px; left:-6px; width:144px; height:144px; background:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/ico_chk_v2.png) no-repeat 50%; animation:typeRotate 5s infinite;}
+.xmas-item .item-box {position:relative; left:50%; width:1080px; margin-left:-755px; padding:120px 215px 0; background-color:#eee8dd; border-radius:40px;}
+.xmas-item .item-box:before, .xmas-item .item-box:after {content:' '; display:block; position:absolute;}
+.xmas-item .item-box:before {top:-47px; right:-223px; width:362px; height:993px; background:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_deco_02.png) no-repeat 0 0; clip:rect(0px,362px,993px,139px);}
+.xmas-item .item-box:after {top:857px; left:-283px; width:373px; height:769px; background:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/img_deco_03.png) no-repeat 0 0; clip:rect(0px,283px,769px,0px);}
+.xmas-item .items.type-thumb.item-240 ul {margin:0;}
+.xmas-item .items.type-thumb.item-240 li {height:390px; margin:0; padding:0 15px;}
+@keyframes typeRotate {
+	100% {transform:rotate(360deg);}
+}
+.xmas-item .desc .brand {margin:8px 0 -2px; font-size:14px; color:#151515;}
+.xmas-item .desc .name {padding-top:0; font-size:16px; font-weight:bold; color:#222;}
+.xmas-item .desc .price {margin-top:5px; font-size:15px; font-weight:bold;}
+.xmas-item .desc .price .sum {color:#616161;}
+.xmas-item .pageWrapV15 {padding:20px 0 84px;}
+.xmas-item .paging {height:auto;}
+.xmas-item .paging a {position:relative; display:inline-flex; justify-content:center; align-items:center; width:50px; height:50px; margin:0 5px; line-height:inherit; border:0 none; background-color:transparent;}
+.xmas-item .paging a span {position:relative; height:auto; padding:0; font-weight:bold; font-size:20px; color:#a6a197;}
+.xmas-item .paging a.current span {color:#222;}
+.xmas-item .paging a.current:before {content:' '; position:absolute; top:10px; left:0; right:0; width:24px; height:24px; margin:auto; background-color:#eba582; border-radius:12px;}
+.xmas-item .paging a:hover {background-color:inherit;}
+.xmas-item .paging a.arrow span {width:10px; height:20px; background-image:url(//webimage.10x10.co.kr/fixevent/event/2019/xmas2019/ico_page_arrow.png);}
+.xmas-item .paging a.prev span {background-position:inherit; transform:scale(-1);}
+.xmas-item .paging a.next span {background-position:inherit;}

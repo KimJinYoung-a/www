@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+/* 상품후기 '도움이 돼요' '도움 안돼요' 버튼추가 - sy20180903 */
+.customerReview .btn-group {padding-top:15px; text-align:left;}
+.customerReview .btn-group button {margin-right:10px; border-radius:0; border:solid 1px #666;  color:#666; outline:none;}

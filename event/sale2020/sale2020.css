@@ -1,0 +1,273 @@
+<style type="text/css">
+    div.evtHead {display:none;}
+    #contentWrap {padding-top:0;}
+    .eventContV15 {margin-top:0 !important;}
+    
+    .sale2020 {background-color:#fff;}
+    .sale2020 button {background-color:transparent;}
+    .sale2020 a:hover {text-decoration:none;}
+    .sale2020 .color-red,
+    .sale2020 .cRd0V15 {color:#ff357b !important;}
+    .sale2020 .color-green {color:#00cfcb !important;}
+    .sale2020 a {color:#000;}
+    
+    .top {overflow:hidden; height:1050px; background-color:#55f072;}
+    .top .inner {position:relative; width:1140px; height:440px; margin:0 auto;}
+    .top h2 {position:absolute; top:118px; left:100px; text-align:left;}
+    .top h2 span {display:block;}
+    .top h2 .t2 { margin:49px 0;}
+    .top .total-items,
+    .top .total-sale {position:absolute; top:0; right:135px;}
+    .top .total-items {top:370px; right:45px;}
+    
+    /* item slide */
+    .items-slide {overflow:hidden; width:1920px; height:37rem; margin:65px auto 0;}
+    .items-slide ul {display:flex; animation:slide 16s 100 linear both alternate;} /* 3168px */
+    .items-slide ul:nth-child(2n) {animation-name:slideReverse;}
+    .items-slide ul li {position:relative; width:178px; height:350px; flex-shrink:0; margin:0 10px;}
+    .items-slide ul li:after {display:block; position:absolute; bottom:0; left:0; z-index:30; width:100%; height:170px; background-color:#55f072; content:'';}
+    .items-slide ul li a {display:inline-block; height:100%;}
+    
+    .items-slide .hole {position:absolute; top:157px; left:0; width:100%;}
+    .items-slide .hole:before,
+    .items-slide .hole:after {display:block; position:relative; top:0; width:100%; height:22px; background:url(//webimage.10x10.co.kr/fixevent/event/2020/sale2020/index/m/bg_half_oval_v2.png) no-repeat 50% 50% / 100%; content:'';}
+    .items-slide .hole:after {top:-.05rem; transform:rotate(180deg); z-index:40;} 
+    .items-slide ul li span {overflow:hidden; display:inline-block; width:100%; height:100%; text-align:center;}
+    
+    .items-slide ul li img {position:relative; top:130px; left:0; z-index:20; width:100%; animation:showUp 1s .3s 1 both;}
+    .items-slide ul li:nth-child(1) img {animation-delay:.3s;}
+    .items-slide ul li:nth-child(2) img {animation-delay:.5s;}
+    .items-slide ul li:nth-child(3) img {animation-delay:.7s;}
+    .items-slide ul li:nth-child(4) img {animation-delay:.6s;}
+    .items-slide ul li:nth-child(5) img {animation-delay:.8s;}
+    .items-slide ul li:nth-child(6) img {animation-delay:1s;}
+    .items-slide ul li:nth-child(7) img {animation-delay:1.4s;}
+    .items-slide ul li:nth-child(8) img {animation-delay:2s;}
+    .items-slide ul li:nth-child(9) img {animation-delay:2.5s;}
+    .items-slide ul li:nth-child(10) img {animation-delay:3.6s;}
+    .items-slide ul li:nth-child(11) img{animation-delay:5.6s;}
+    .items-slide ul li:nth-child(12) img {animation-delay:7.1s;}
+    .items-slide ul li:nth-child(13) img {animation-delay:9.1s;}
+    .items-slide ul li:nth-child(14) img {animation-delay:10.1s;}
+    .items-slide ul li:nth-child(15) img {animation-delay:11.6s;}
+    .items-slide ul li:nth-child(16) img {animation-delay:13.6s;}
+    
+    .items-slide ul:nth-child(2) li:nth-child(16) img {animation-delay:.3s;}
+    .items-slide ul:nth-child(2) li:nth-child(15) img {animation-delay:.5s;}
+    .items-slide ul:nth-child(2) li:nth-child(14) img {animation-delay:.7s;}
+    .items-slide ul:nth-child(2) li:nth-child(13) img {animation-delay:.6s;}
+    .items-slide ul:nth-child(2) li:nth-child(12) img {animation-delay:.8s;}
+    .items-slide ul:nth-child(2) li:nth-child(11) img {animation-delay:1s;}
+    .items-slide ul:nth-child(2) li:nth-child(10) img {animation-delay:1.4s;}
+    .items-slide ul:nth-child(2) li:nth-child(9) img {animation-delay:2s;}
+    .items-slide ul:nth-child(2) li:nth-child(8) img {animation-delay:2.5s;}
+    .items-slide ul:nth-child(2) li:nth-child(7) img {animation-delay:3.6s;}
+    .items-slide ul:nth-child(2) li:nth-child(6) img{animation-delay:5.6s;}
+    .items-slide ul:nth-child(2) li:nth-child(5) img {animation-delay:7.1s;}
+    .items-slide ul:nth-child(2) li:nth-child(4) img {animation-delay:9.1s;}
+    .items-slide ul:nth-child(2) li:nth-child(3) img {animation-delay:10.1s;}
+    .items-slide ul:nth-child(2) li:nth-child(2) img {animation-delay:11.6s;}
+    .items-slide ul:nth-child(2) li:nth-child(1) img {animation-delay:13.6s;}
+    
+    .items-slide ul {position:relative; z-index:50;}
+    .items-slide ul:nth-child(2) {top:-150px;}
+    @keyframes slide {
+        0% {transform:translateX(200px);}
+        100% {transform:translateX(-1568px);}
+    }
+    @keyframes slideReverse {
+        0% {transform:translateX(-1568px);}
+        100% {transform:translateX(200px);}
+    }
+    @keyframes showUp {
+        0% {top:200px;}
+        50% {top:-10px; z-index:20;}
+        50.111% {z-index:50;} 
+        100% {top:25px; z-index:50;}
+    }
+    
+    /* 쿠폰 */
+    .coupon-section {background-color:#d4ffdc; text-align:center;}
+    .lyr-pop {display:flex; justify-content:center; align-items:center; position:fixed; top:0; left:0; z-index:300; width:100vw; height:100vh; background-color:rgba(0,0,0,0.6);}
+    .lyr-pop .btn-close {position:fixed; top:132px; left:50%; width:103px; height:112px; margin-left:220px; text-indent:-999em;}
+    
+    /* tab */
+    .tab-wrap {position:relative; z-index:30; background-color:#dadada;}
+    .tab-wrap ul {display:flex; justify-content:center;}
+    .tab-wrap ul li {display:flex; align-items:center; justify-content:center; font-weight:500; cursor:pointer;}
+    .tab-wrap .tab {background-color:#40e0f8; width:1140px; margin:0 auto;}
+    .tab-wrap .tab li {position:relative; width:25%; height:70px; font-size:24px; color:#000; background-color:#dadada;}
+    .tab-wrap .tab li.on {color:#fff; background-color:#000;}
+    /*.tab-wrap .tab li.on:first-child:before,
+    .tab-wrap .tab li.on:last-child:after {display:block; width:100vw; height:100%; position:absolute; top:0; background-color:#000; content:'';}
+    .tab-wrap .tab li.on:first-child:before {right:100%;}
+    .tab-wrap .tab li.on:last-child:after {left:100%;}*/
+    .tab-wrap .tab-sub {position:absolute; top:70px; left:50%; height:85px; align-items:center; transform:translateX(-78%);}
+    .tab-wrap .tab-sub:before {display:block; position:absolute; bottom:0; left:-50vw; width:200vw; height:100%; content:''}
+    .tab-wrap .tab-sub li {position:relative; z-index:10; height:100%; padding:0 15px; font-size:20px; color:#a5a5a5; cursor:pointer;}
+    .tab-wrap .tab-sub li.on {color:#34e255;}
+    .tab-wrap .event-sub {transform:translateX(22%);}
+    
+    .sticky {position:fixed; top:0; left:0; width:100%;}
+    .sticky.tab-wrap + .conts {padding-top:80px;}
+    .sticky.tab-wrap .tab-sub {height:36px; top:70px;}
+    .sticky.tab-wrap .tab-sub:before {background-color:rgba(255,255,255,.85);}
+    
+    /* conts */
+    .sale2020 .conts {display:none; position:relative; width:1140px; margin:0 auto;}
+    .sale2020 .conts.on {display:block;}
+    .sale2020 .conts h3 {margin-top:85px; margin-bottom:35px; color:#000; font-size:34px; line-height:1; font-weight:700; text-align:left; text-indent:20px;}
+    .sale2020 .cont-benefit h3,
+    .sale2020 .cont-now h3 {margin-top:50px;}
+    
+    /* 필터 */
+    .filter-wrap {display:flex; position:absolute; top:0; right:20px; z-index:20;}
+    .filter-wrap .filter {position:relative; z-index:50; width:120px; height:32px; margin-left:10px; background-color:#fff; background-color:#00cfcb;}
+    .filter-wrap .filter dt {position:relative; z-index:10; width:120px; height:32px;}
+    .filter-wrap .filter dt span {display:block; position:relative; height:13px; padding:10px 0 9px 20px; background-color:#fff; color:#000; font-size:13px; line-height:1; font-weight:bold; text-align:left; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; cursor:pointer;}
+    .filter-wrap .filter dt span:after {display:inline-block; position:absolute; top:50%; right:0; width:10px; height:7px; margin-top:-3px; background:url(http://fiximage.10x10.co.kr/web2018/diary2019/btn_unfold.png) no-repeat right 50%; content:' ';}
+    .filter-wrap .filter dt.over span {background:#fff;}
+    .filter-wrap .filter dt.over span:after {transform:rotate(180deg);}
+    .filter-wrap .filter dd {display:none; position:absolute; left:0; top:32px; z-index:5; width:120px; background-color:rgba(255,255,255,.9);}
+    .filter-wrap .filter dd ul {overflow-x:hidden; overflow-y:scroll; max-height:400px;}
+    .filter-wrap .filter dd li {overflow:hidden; width:169px; height:13px; padding:9px 21px; border-top:solid 1px #e1e1e1; color:#000; font-size:13px; line-height:1; font-weight:bold; text-overflow:ellipsis; white-space:nowrap; cursor:pointer; text-align:left !important;}
+    .filter-wrap .filter dd li:nth-child(1) {border-top:0;}
+    .filter-wrap .filter dd li:hover {background-color:rgba(224, 253, 255, .85);}
+    .filter-wrap .date-filter,
+    .filter-wrap .date-filter dt, 
+    .filter-wrap .date-filter dd {width:80px;}
+    
+    /* 상품리스트 */
+    .sale2020 .item-list {position:relative; display:flex; flex-wrap:wrap; justify-content:space-between; width:1100px; min-height:430px; margin:0 auto; padding:0 20px;}
+    .sale2020 .item-list.on {display:block;}
+    .sale2020 .item-list li {position:relative; width:252px; margin-bottom:55px;}
+    .sale2020 .item-list li a {position:relative; display:block; text-decoration:none;}
+    .sale2020 .item-list .thumbnail {overflow:hidden; position:relative; width:100%; height:252px; border-radius:10px;}
+    .sale2020 .item-list .thumbnail img {width:100%;}
+    .sale2020 .item-list .desc {padding:15px 8px 0; font-size:14px; text-decoration:none; text-align:left;}
+    .sale2020 .item-list .desc .name { margin-bottom:2px;}
+    .sale2020 .item-list .desc .price-area {display:flex; align-items:center; margin-bottom:8px; font-weight:bold; font-size:16px;}
+    .sale2020 .item-list .desc .price-area .discount {display:inline-block; margin-left:5px; font-weight:normal; font-weight:normal; font-size:14px; vertical-align:top;}
+    .sale2020 .item-list .desc .price-area .sale {color:#ff357b}
+    .sale2020 .item-list .desc .price-area .coupon {color:#00cfcb;}
+    .sale2020 .item-list .desc .brand{font-size:12px; color:#999;}
+    
+    /* 혜택 */
+    .cont-benefit ul {display:flex; flex-wrap:wrap; justify-content:space-between; width:1140px; padding:0 40px; box-sizing:border-box;}
+    .cont-benefit ul li {margin-bottom:60px;}
+    
+    /* 후기 */
+    .sale2020 .grpSubWrapV15 ul {padding-left:8px;}
+    .sale2020 .grpSubWrapV15 ul li {width:130px;}
+    .sale2020 .grpSubWrapV15 ul li a span {display:inline-block; padding-left:20px; background-position:0 0; background-repeat:no-repeat; line-height:14px;}
+    .sale2020 .grpSubWrapV15 ul li.current a span {background-position:0 100%; font-weight:bold; color:#333;}
+    .sale2020 .grpSubWrapV15 ul li a span.bestRvwSub01 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/tab_ico_txtreview.png);}
+    .sale2020 .grpSubWrapV15 ul li a span.bestRvwSub02 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/tab_ico_photoreview.png);}
+    .sale2020 .grpSubWrapV15 ul li a span.bestRvwSub03 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/tab_ico_testreview.png);}
+    
+    .sale2020 .pdtWrap {margin-top:30px;}
+    .sale2020 .pdtWrap .pdtList li:nth-child(n) {float:left;}
+    .sale2020 .pdtWrap .pdtList li:nth-child(2n) {float:left;}
+    .sale2020 div.reviewListV15 .pdtBox {overflow:hidden; width:420px;}
+    
+    .sale2020 div.txtReviewWrap .reviewBoxV15 {width:370px;}
+    .sale2020 div.txtReviewWrap .pdtPhoto {overflow:hidden; border-radius:10px;}
+    .sale2020 div.txtReviewWrap .pdtInfo {width:160px; font-size:14px;}
+    .sale2020 div.txtReviewWrap .pdtInfo .pdtName {line-height:1.6;}
+    .sale2020 div.txtReviewWrap .reviewBoxV15 a.more1V15 {font-size:13px;}
+    .sale2020 div.photoReviewWrap .pdtInfo {width:270px;}
+    .sale2020 div.photoReviewWrap .reviewBoxV15 {width:125px;}
+    .sale2020 div.photoReviewWrap .reviewBoxV15 .reviewWriteV15 p {display:block;}
+    
+    .sale2020 div.txtReviewWrap .reviewBoxV15,
+    .sale2020 div.txtReviewWrap .reviewBoxV15 .reviewWriteV15,
+    .sale2020 div.txtReviewWrap .reviewBoxV15 a.more1V15,
+    .sale2020 div.txtReviewWrap .pdtInfo .pdtName,
+    .sale2020 div.txtReviewWrap .pdtInfo .pdtPrice,
+    .sale2020 div.txtReviewWrap .pdtInfo .finalP {color:#000;}
+    .sale2020 div.txtReviewWrap .pdtInfo .pdtName {font-size:14px;}
+    .sale2020 div.txtReviewWrap .pdtInfo .pdtPrice {font-size:16px;}
+    
+    /* 기획전 */
+    .sale2020 .cont-benefit P {padding:800px 0; background-color:#00ffc8; font-size:30px}
+    .sale2020 .exhibition > li {position:relative; width:523px; height:245px; margin:0 32px 30px 0; background-color:#f9f9f9; border-radius:10px; overflow:hidden;}
+    .sale2020 .exhibition > li:nth-child(2n) {margin-right:0;}
+    .sale2020 .exhibition > li a {display:flex;}
+    .sale2020 .exhibition .thumbnail {width:245px;}
+    .sale2020 .exhibition .thumbnail img {width:100%;}
+    .sale2020 .exhibition .desc {width:275px; padding:50px 30px 0; box-sizing:border-box;}
+    .sale2020 .exhibition .desc .tit {margin-bottom:10px; font-size:18px; font-weight:bold; line-height:1.5; word-break:keep-all; color:#000;}
+    .sale2020 .exhibition .desc .subcopy {margin-bottom:20px; line-height:1.4; word-break:keep-all;}
+    
+    /* md pick */
+    .sale2020 .md-pick {padding:100px 0 35px; text-align:left;}
+    .sale2020 .md-pick .inner-cont {position:relative; width:1140px; margin:0 auto;}
+    .sale2020 .md-pick .inner-cont:after {visibility:hidden; display:block; clear:both; height:0; content:'';}
+    .sale2020 .md-pick h2 {color:#000; font-size:32px; line-height:1.25; font-weight:normal;}
+    .sale2020 .md-pick h2 strong {font-weight:800;}
+    .sale2020 .md-pick .list-tag {padding-top:80px;}
+    .sale2020 .md-pick .list-tag li a {display:inline-block; height:24px; margin-bottom:10px; padding:0 10px; font-size:13px; line-height:24px; font-weight:normal; color:#000; background-color:#eee; border-radius:12px;}
+    .sale2020 .md-pick .list-tag li a:hover {background-color:#ddd;}
+    .sale2020 .md-pick .ftLt .desc {position:relative; padding-top:60px; color:#333; font-size:13px; line-height:1.5;}
+    .sale2020 .md-pick .ftLt .desc:after {content:''; display:inline-block; position:absolute; left:0; top:40px; width:8px; height:1px; background-color:#666;}
+    .sale2020 .md-pick .items ul {margin:0 -20px;}
+    .sale2020 .md-pick .items li {width:260px; height:370px; margin:0 20px;}
+    .sale2020 .md-pick .items .thumbnail {height:260px; border-radius:10px;}
+    .sale2020 .md-pick .items .name {height:35px; padding:12px 0 8px; font-size:14px; line-height:1.29; white-space:normal; text-overflow:clip;}
+    .sale2020 .md-pick .items .name .labelV18 {padding-top:5px; font-size:13px;}
+    .sale2020 .md-pick .items .price {font-size:16px;}
+    
+    .sale2020 .btn-more {display:flex; justify-content:center; align-items:center; width:170px; height:35px; margin:0 auto; border:1px solid #dbdbdb; border-radius:35px; color:#000; line-height:35px; box-sizing:border-box;}
+    .sale2020 .btn-more:after {display:inline-block; width:10px; height:16px; margin-top:3px; margin-left:7px; background-position:-100px 0; transform:rotate(90deg); background-image:url(//fiximage.10x10.co.kr/web2019/diary2020/ico.svg?v=1.02); content:'';} 
+    
+    /* 솔드아웃 */
+    .sale2020 .thumbnail .soldout {position:absolute; top:0; left:0; right:0; bottom:0; z-index:10; display:flex; justify-content:center; align-items:center; width:100%; height:100%; color:#fff; text-align:center; font-size:16px; background-color:rgba(0, 0, 0, 0.5);}
+    .sale2020 .thumbnail .soldout .ico-soldout:before {content:''; display:block; width:104px; height:104px; margin:10px 0; background-position:-625px 0; background-image:url(//fiximage.10x10.co.kr/web2019/diary2020/ico.svg?v=1.08); background-size:740px;}
+    .sale2020 .thumbnail .soldout b {display:block;}
+    .sale2020 .cont-best .soldOutMask {position:absolute; top:0; left:0; right:0; bottom:0; z-index:10; width:100%; height:100%; color:#fff; text-align:center; font-size:16px; background-color:rgba(0, 0, 0, 0.5); background-image:none;}
+    .sale2020 .cont-best .soldOutMask:before {display:block; width:104px; height:104px; margin:50px auto 10px; background-position:-625px 0; background-image:url(//fiximage.10x10.co.kr/web2019/diary2020/ico.svg?v=1.08); background-size:740px; content:'';}
+    .sale2020 .cont-best .soldOutMask:after {display:block; content:'일시품절';}
+    
+    /* 뱃지 */
+    .sale2020 .badge {display:inline-block; position:absolute; top:6px; left:6px; z-index:4; width:30px; height:30px; border:solid 2px #55f072; border-radius:50%; background-color:#b9ffc6; color:#111; font-size:14px; line-height:30px; font-weight:600; text-align:center;} /* 디폴트 badge는 순위badge */
+    .sale2020 .badge-wish, 
+    .sale2020 .badge-time {width:unset; padding:0 10px; border-radius:30px;}
+    .sale2020 .badge-group {position:absolute; bottom:6px; right:6px; z-index:3; font-size:0;} 
+    .sale2020 .badge-group .badge-item {display:inline-block; height:30px; padding:0 10px; margin-left:6px; border-radius:30px; background-color:rgba(0, 0, 0, .7); font-size:13px; line-height:29px;}
+    .sale2020 .badge-group .badge-gift {color:#ffe400;}
+    .sale2020 .badge-group .badge-delivery {color:#50ff9a;}
+    
+    .sale2020 .badge-area {font-size:0;}
+    .sale2020 .badge-area em {display:inline-block; height:30px; min-width:56px; margin-right:5px; margin-bottom:10px; padding:0 8px; font-size:13px; text-align:center; line-height:30px; font-weight:bold; background-color:#fff; box-sizing:border-box; border-radius:30px;} /* 기획전 */
+    .sale2020 .badge-area .badge-count {background-color:#fff; color:#000;}
+    .sale2020 .badge-area .badge-plus {background-color:#ffd800;}
+    .sale2020 .badge-area .badge-gift {background-color:#111111; color:#fff;}
+    .sale2020 .badge-area .badge-sale {background-color:#ff357b; color:#fff;}
+    .sale2020 .badge-area .badge-cpn {background-color:#00cfcb; color:#fff;}
+    .sale2020 .badge-area .badge-only {background-color:#111111; color:#fff;}
+    .sale2020 .badge-area .badge-launch {background-color:#111111; color:#fff;}
+    .sale2020 .badge-area .badge-free {background-color:#50ff9a; color:#000;}
+    .sale2020 .badge-area .badge-book {background-color:#111111; color:#fff;}
+    
+    .sale2020 p.t-low {top:unset; bottom:6px; right:6px; height:30px; width:auto; border-radius:30px;} /* md pick */
+    .sale2020 p.t-low span {font-size:13px; padding:0 10px;}
+    
+    /* 성인인증 */
+    .sale2020 .item-list .adult-hide, .txtReviewWrap .adult-hide {background:#f5f5f5 url(http://fiximage.10x10.co.kr/web2018/common/img_adult_320.png) 50% 35% no-repeat; background-size:120px auto;}
+    .sale2020 .item-list .adult-hide p {bottom:42px;}
+    .sale2020 .txtReviewWrap .adult-hide p {bottom:30px;}
+    
+    @media all and (min-width:1930px){
+        .sale2020 .items-slide {width:5120px;}
+        .items-slide ul li {margin:0 30px;}
+    
+        @keyframes slide {
+            0% {transform:translateX(10vw);}
+            100% {transform:translateX(-1068px);}
+        }
+        @keyframes slideReverse {
+            0% {transform:translateX(-1568px);}
+            100% {transform:translateX(200px);}
+        }
+    }
+    </style>

@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#contentWrap.apple-store {width:100%; padding-top:0;}
+#contentWrap.apple-store a {text-decoration:none; cursor:pointer;}
+
+.apple-store .apple-cont {width:1140px; margin:0 auto; padding-top:70px;}
+.apple-store .thumbnail {position:relative;}
+.apple-store .thumbnail img {width:100%; vertical-align:top;}
+.apple-store .thumbnail .btn-cart {position:absolute; right:18px; bottom:22px; z-index:20; width:36px; height:36px; background:rgba(18,18,18,.5) url(http://fiximage.10x10.co.kr/web2020/apple/ico_cart.png?v=2) no-repeat 50% 50%; background-size:18px auto; font-size:0; color:transparent; border-radius:50%;}
+
+.apple-store .navigation {background:#f2f2f2;}
+.apple-store .navigation ul {position:relative; display:flex; width:1140px; margin:0 auto;}
+.apple-store .navigation li {position:relative; width:190px;}
+.apple-store .navigation li a {position:relative; display:flex; height:54px; padding-top:124px; font-size:20px; line-height:1.1; font-weight:bold; color:#222; justify-content:center;}
+.apple-store .navigation li a:after {content:''; position:absolute; left:50%; bottom:72px; width:110px; height:110px; margin-left:-55px; background:url(http://fiximage.10x10.co.kr/web2020/apple/ico_category.png) no-repeat 0 0;}
+.apple-store .navigation li.tab-iPad a:after {background-position-x:0;}
+.apple-store .navigation li.tab-macbook a:after {background-position-x:-110px;}
+.apple-store .navigation li.tab-iphone a:after {background-position-x:-220px;}
+.apple-store .navigation li.tab-imac a:after {background-position-x:-330px;}
+.apple-store .navigation li.tab-airpods a:after {background-position-x:-440px;}
+.apple-store .navigation li.tab-watch a:after {background-position-x:-550px;}
+.apple-store .navigation li a,
+.apple-store .navigation li a:after,
+.apple-store .navigation li.current:after {transition:all .3s;}
+.apple-store .navigation.sticky {position: fixed; top:0; width:100%; z-index:30;}
+.apple-store .navigation.sticky + .apple-cont {padding-top:180px;}
+.apple-store .navigation.sticky li a {z-index:100; height:70px; padding-top:0; align-items:center;}
+.apple-store .navigation.sticky li a:after {height:0;}
+.apple-store .navigation.sticky li.current a { color:#fff;}
+.apple-store .navigation.sticky li.current:after {content:''; position:absolute; left:0; bottom:0; width:100%; height:70px; background:#000;}
+
+.apple-store .today-rec h3 {padding:0 0 17px 13px; font-weight:700; font-size:30px; line-height:1.1; letter-spacing:-.5px; color:#0f0f0f;}
+.apple-store .today-rec ul {display:flex;}
+.apple-store .today-rec li {position:relative; overflow:hidden; width:380px; margin:0 13px;}
+.apple-store .today-rec li:nth-child(4) {display:none;}
+.apple-store .today-rec li a {display:block;}
+.apple-store .today-rec .thumbnail {border:1px solid #ddd; border-bottom:0;}
+.apple-store .today-rec .thumbnail img {width:100%;}
+.apple-store .today-rec .thumbnail .btn-cart {right:18px; bottom:-117px; width:40px; height:40px; background-size:21px auto;}
+.apple-store .today-rec .desc {height:100px; padding:32px 65px 0 20px; color:#fff; background:#2e2e2e;}
+.apple-store .today-rec .desc p {overflow:hidden;  text-overflow:ellipsis; white-space:nowrap;}
+.apple-store .today-rec .desc .txt1 {font-size:24px; font-weight:700;}
+.apple-store .today-rec .desc .txt2 {padding-top:3px; font-size:18px; line-height:1.26; font-weight:400;}
+
+.apple-store .item-list {padding-top:90px;}
+.apple-store .item-list ul {overflow:hidden; margin-left:-46px; padding-top:50px;}
+.apple-store .item-list .acc-view ul {padding-top:30px;}
+.apple-store .item-list li {float:left; width:250px; height:475px; margin-left:46px;}
+.apple-store .item-list .title {display:flex; height:60px; padding:0 30px; color:#fff; font-size:27px; font-weight:500; align-items:center;}
+.apple-store .item-list.ipad .title {background-image: linear-gradient(93deg, #ff674c, #e8456e);}
+.apple-store .item-list.macbook .title {background-image: linear-gradient(93deg, #f936aa, #b84be2 100%, #a91ae1 100%);}
+.apple-store .item-list.iphone .title {background-image: linear-gradient(273deg, #4159ff, #39bcff );}
+.apple-store .item-list.imac .title {background-image: linear-gradient(273deg, #ffbc41, #ff396a);}
+.apple-store .item-list.airpods .title {background-image: linear-gradient(273deg, #fb39ff, #5739ff);}
+.apple-store .item-list.watch .title {background-image: linear-gradient(273deg, #c8ff41, #10abfb);}
+.apple-store .item-list .btn-more {display:flex; position:relative; width:480px; height:79px; margin:0 auto; padding:0 52px; color:#060606; border:3px solid #000; border-radius:43px; font-size:24px; font-weight:700; letter-spacing:-0.3px; background:url(http://fiximage.10x10.co.kr/web2020/apple/ico_more.png) no-repeat right 34px top 50%; align-items:center;}
+.apple-store .item-list li.soldout .btn-cart {display:none;}
+.apple-store .item-list li.soldout .thumbnail:before {content:''; position:absolute; left:0; top:0; width:100%; height:100%; background:rgba(34,34,34,.25);}
+.apple-store .item-list li.soldout .thumbnail:after {content:'일시품절'; position:absolute; right:0; bottom:0; width:70px; height:50px; color:#fff; font-size:14px; line-height:50px; text-align:center; background:rgba(34,34,34,.5);}
+.apple-store .main-slider {height:500px; background:#222;}
+.apple-store .main-slider .slide-item {position:relative; height:500px; background-position:50% 50%; background-repeat:no-repeat;}
+.apple-store .main-slider .slide-item a {display:block; position:relative; width:100%; height:100%; color:#fff;}
+.apple-store .main-slider .slide-item .copy {position:absolute; left:50%; top:187px; margin-left:-525px; font-size:50px; font-weight:700; line-height:1.2;}
+.apple-store .main-slider .slide-item .copy p {overflow:hidden; max-width:1040px; margin-left:15px; opacity:0; transition:all .5s; text-overflow:ellipsis; white-space:nowrap;}
+.apple-store .main-slider .slide-item .copy p:first-child:last-child {padding-top:32px;}
+.apple-store .main-slider .slide-item.slick-active .copy p {margin-left:0; opacity:1; transition-delay:.1s;}
+.apple-store .main-slider .slide-item.slick-active .copy p:nth-child(2) {transition-delay:.2s;}
+
+.apple-store .main-slider .slick-arrow {position:absolute; left:50%; top:50%; z-index:10; width:40px; height:72px; margin:-36px 0 0 -700px; background:url(http://fiximage.10x10.co.kr/web2018/common/sp_icon.png?v=1.12) 0 -110px no-repeat;}
+.apple-store .main-slider .slick-next {margin-left:672px; background-position:-50px -110px;}
+.apple-store .main-slider .slick-dots {display:inline-block !important; position:absolute; left:50%; top:367px;  z-index:10; width:50px; height:20px; margin-left:-525px; padding:0 10px; font-size:15px; line-height:20px; color:#000; border-radius:10px; background:rgba(216,216,216,.5);}
+.apple-store .main-slider .slick-dots li {position:absolute; left:0; top:0; width:100%; opacity:0;}
+.apple-store .main-slider .slick-dots li.slick-active {opacity:1;}
+.apple-store .main-slider .bg {height:100%;}
+.apple-store .main-slider .bg div {position:absolute; top:0; width:50%; height:100%;}
+.apple-store .main-slider .bg .left {left:0; margin-left:-960px;}
+.apple-store .main-slider .bg .right {right:0; margin-right:-960px;}
+
+.apple-store .item-list a {display:block;}
+.apple-store .item-list .desc {padding:20px 5px 0; color:#111; font-weight:bold; line-height:1.1; letter-spacing:-0.5px;}	
+.apple-store .item-list .price {font-size:20px; font-weight:bold;}
+.apple-store .item-list .price span {font-size:16px; padding-left:4px; vertical-align:1px;}
+.apple-store .item-list .price .sale {color:#ff214f;}
+.apple-store .item-list .price .coupon {color:#26b732;}
+.apple-store .item-list .name {padding-top:10px; font-size:16px; line-height:1.44;}
+.apple-store .item-list .brand {padding-top:12px; font-size:13px;}
+.apple-store .item-list .review {padding-top:15px; font-size:12px; line-height:13px; font-weight:500; color:#b6b6b6;}
+.apple-store .item-list .review span {display:inline-block; width:75px; height:13px; background:url(http://fiximage.10x10.co.kr/web2020/apple/ico_star2.png) repeat-x 0 0; background-size:15px auto;}
+.apple-store .item-list .review i {display:inline-block; max-width:75px; height:100%; margin-right:2px; background:url(http://fiximage.10x10.co.kr/web2020/apple/ico_star.png?v=5) repeat-x 0 0; background-size:15px auto; vertical-align:top;}
+.apple-store .item-list .free-shipping {display:inline-block; height:16px; padding:0 5px; margin-top:15px; color:#777;  border:.5px solid #979797; font:400 12px/15px 'Noto Sans KR';}
+
+.apple-store .cartLyr {display:none; position:absolute; left:50%; top:50%; width:234px; height:120px; margin-left:-117px; padding:25px 20px 0; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_descript_box.png) 50% 0 no-repeat; z-index:201;}
+.apple-store .cartLyr p {padding:0 7px 15px; color:#222; font-size:13px; font-weight:600;}
+.apple-store .cartLyr .btn-close {position: absolute; top:0; right:2px; width:40px; height:40px; font-size:15px; font-weight:500; background:transparent;}
+.apple-store .cartLyr .btn-area {display:flex; justify-content:center;}
+.apple-store .cartLyr .btn-area a {display:flex; align-items:center; justify-content:center; width:112px; height:35px; margin:0 5px; font-size:13px; border-radius:17px; font-weight:600; color:#222; background:#e2e2e2;}
+.apple-store .cartLyr .btn-area a:first-child {color:#fff; background-color:#6236ff;}
