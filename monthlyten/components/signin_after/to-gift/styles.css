@@ -1,0 +1,18 @@
+.to_gift {
+    position: relative;
+    left: 50%;
+    width: 1920px;
+    height: 520px;
+    transform: translateX(-50%);
+}
+
+.to_gift button {
+    position: absolute;
+    top: 323px;
+    left: 50%;
+    margin-left: -530px;
+    width: 309px;
+    height: 68px;
+    background: transparent;
+    text-indent: -9999px;
+}

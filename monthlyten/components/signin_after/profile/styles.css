@@ -1,0 +1,23 @@
+.profile {
+    position: relative;
+    left: 50%;
+    width: 1920px;
+    height: 340px;
+    transform: translateX(-50%);
+}
+
+.profile .profile-info {
+    position: absolute;
+    top: 89px;
+    left: 50%;
+    margin-left: -529px;
+    font-family: 'Apple SD Gothic Neo';
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.profile .profile-info .profile-info__emph {
+    color: rgba(254, 106, 33, 1);
+}

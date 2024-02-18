@@ -1,0 +1,215 @@
+.coupon-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 650px;
+  padding: 17px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.coupon-modal__close {
+  text-align: right;
+}
+
+.coupon-modal__close>button {
+  width: 28px;
+  height: 28px;
+  background: url(http://webimage.10x10.co.kr/fixevent/event/2023/monthly/feburary/m/modal_close.png) center center no-repeat;
+}
+
+.coupon-modal__container {
+  padding: 21px;
+  text-align: center;
+}
+
+.coupon-modal__container>img {
+  width: 407px;
+}
+
+.coupon-modal__desc {
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 46px;
+}
+
+.coupon-modal__check-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px auto 16px;
+  width: 407px;
+  text-align: center;
+}
+
+.coupon-modal__check-box {
+  display: flex;
+  align-items: center;
+}
+
+.coupon-modal__check-box>input[type='checkbox'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  margin-right: 6px;
+  border: 2px solid #fe6a21;
+  background: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.coupon-modal__check-box input[type='checkbox']:checked {
+  background: transparent url(http://webimage.10x10.co.kr/fixevent/event/2023/monthly/feburary/m/check.png) no-repeat center center / 14px;
+}
+
+.coupon-modal__check-box>label {
+  line-height: 23px;
+  margin-right: 23px;
+  color: #FE6A21;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.coupon-modal__check--more {
+  line-height: 23px;
+  color: #777777;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.coupon-modal__check--notice--more{
+  margin: 40px auto 16px;
+  line-height: 23px;
+  color: #777777;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.coupon-modal__check--more2 {
+  margin: auto;
+}
+
+.coupon-download {
+  margin-bottom: 23px;
+}
+
+.coupon-download>button {
+  position: relative;
+  width: 335px;
+  height: 68px;
+  margin: 0 auto;
+  color: #6D6D6D;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #663F27;
+  border-radius: 5px;
+}
+
+.coupon-download.is-agree>button {
+  color: var(--white);
+  background-color: #FE6A21;
+}
+
+.coupon-download.is-has>button {
+  position: relative;
+  border: 1px solid #FE6A21;
+  background: transparent;
+  color: #FE6A21;
+}
+
+.coupon-download.is-has>button::before {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 74px;
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+  background: url(http://webimage.10x10.co.kr/fixevent/event/2023/monthly/feburary/m/downLoadCheck.png) no-repeat center center / 1.14rem;
+}
+
+/* 쿠폰 유의사항 */
+.precaution {
+  position: relative;
+  width: 407px;
+  height: 105px;
+  margin: 0 auto 20px;
+  border: 0.5px solid var(--c_666);
+}
+
+.precaution__inner {
+  overflow-y: auto;
+  width: 407px;
+  height: 105px;
+  padding: 0 15px 12px;
+  color: var(--white);
+  font-family: 'Apple SD Gothic Neo';
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.precaution--dim::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 42px;
+  width: 100%;
+  height: 63px;
+  background: linear-gradient(0deg, rgba(47, 47, 47, 0.9) 0%, rgba(47, 47, 47, 0) 73.11%);
+  ;
+}
+
+.precaution__title {
+  line-height: 22px;
+  padding: 12px 0 7px;
+  color: var(--white);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.precaution__list--base,
+.precaution__list--nember {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.precaution__list--base li {
+  position: relative;
+  padding-left: 12px;
+}
+
+.precaution__list--base li::before {
+  content: '-';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.precaution__list--nember>ul {
+  margin-left: 18px;
+}
+
+
+/* 쿠폰 발급 완료 시 */
+.is-has-coupon .coupon-modal__container>img {
+  width: 486px;
+  margin-bottom: 46px;
+}

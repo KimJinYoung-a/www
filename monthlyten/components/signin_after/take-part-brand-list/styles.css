@@ -1,0 +1,41 @@
+.participate-brands {
+    position: relative;
+    overflow: hidden;
+    height: 130px;
+    background: #FE6A21;
+}
+
+.brand-list01 img {
+    width: 2392px;
+    height: 65px;
+}
+
+.brand-list02 img {
+    width: 2392px;
+    height: 65px;
+}
+
+.brand-list__wrap img {
+    width: 2392px;
+}
+
+.brand-list01 {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: brand-logo-move 70s linear infinite;
+    top: 0;
+}
+
+.brand-list02 {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: brand-logo-move 70s linear infinite;
+    top: 65px;
+}
+
+@keyframes brand-logo-move {
+    from { transform: translateX(0%); }
+    to { transform: translateX(-50%); }
+}

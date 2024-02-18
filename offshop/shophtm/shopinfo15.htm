@@ -1,0 +1,97 @@
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="295" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="padding:5px 0 20px 0; border-bottom: solid 1px #eaeaea;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1501_info01.gif" alt="제주시 연동 7길 26 1층 064-755-1693 (fax-0504-081-1693)" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1501_info02.gif" alt="OPEN PM12:00 / CLOSE AM12:00" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:36px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1501_limg_20150721.jpg" /></td>
+				</tr>
+				</table>
+			</td>
+			<td valign="top" style="padding-left:30px;">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1501_rimg_20150721.jpg" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;">
+						<!--<img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1501_map.gif" />-->
+						<div id="mapView" style="width:375px; height:208px;"></div>
+						<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=523d793577f1c5116aacc1452942a0e5&libraries=services"></script>
+						<script>
+							function initialize() {
+								//장소정보
+								var pInfo = {
+									title :"텐바이텐 신제주점",
+									address : "제주특별자치도 제주시 연동 7길 26 1층",
+									tel : "064-755-1693",
+									zoom : 2,
+									y : 33.487519,		// 위도
+									x : 126.490511		// 경도
+								};
+
+								if(pInfo.x>0 && pInfo.y>0) {
+									//좌표가 있을 때
+									var mapPosition  = new daum.maps.LatLng(pInfo.y, pInfo.x);
+									drawMap(mapPosition,pInfo);		
+								} else {
+									//주소가 있을 때
+									var geocoder = new daum.maps.services.Geocoder();	// 주소-좌표 변환 객체를 생성
+									// 주소로 좌표를 검색합니다
+									geocoder.addressSearch(pInfo.address, function(result, status) {
+										if (status === daum.maps.services.Status.OK) {
+											var mapPosition  = new daum.maps.LatLng(result[0].y, result[0].x);
+											drawMap(mapPosition,pInfo);
+										}
+									});
+								}
+							}
+							initialize();
+
+							function drawMap(pos,info) {
+								var mapContainer = document.getElementById('mapView'),
+									mapOption = {
+										center: pos,
+										level: info.zoom // 지도의 확대 레벨
+									};
+
+								// 지도 생성
+								var map = new daum.maps.Map(mapContainer, mapOption);
+
+								var marker = new daum.maps.Marker({
+									map: map,
+									position: pos
+								});
+
+								// 인포윈도우로 장소에 대한 설명을 표시
+								var infowindow = new daum.maps.InfoWindow({
+									content: '<div style="padding:3px;width:180px;"><b>'+info.title+'</b><ul><li>'+info.address+'</li><li>전화 : '+info.tel+'</li></ul></div>'
+								});
+								infowindow.open(map, marker);
+							}
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" style="padding-bottom:8px; border-bottom:solid 1px #eaeaea;">
+						<!--<a href="javascript:jsPopmap()" onFocus="blur()"><img src="http://fiximage.10x10.co.kr/tenbytenshop/btn_print.gif" width="55" height="15" /></a>-->
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1501_way.gif" alt="Bus - 시내버스 : 55,500,502/공항버스 - 700,701 | Car - 신제주 제원아파트 사거리에서 차없는 거리 방향" /></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>

@@ -1,0 +1,4 @@
+.offshop-inquiry .board-list input[type='checkbox'] {display:inline-block !important; padding:0 0 0 15px; border:0;}
+.offshop-inquiry .board-list input[type='checkbox'] + label {margin-top:-3px !important; padding-left:8px !important; margin-left:0 !important; background:none !important;}
+.ly-offshop-list {background-color:#fff;}
+.offshop-conts .svgBlur {display:none;}

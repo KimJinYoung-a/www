@@ -1,0 +1,219 @@
+li {
+    list-style: none;
+}
+
+.content-guide-wrap {
+    overflow: hidden;
+    width: 100%;
+    min-width: 1140px;
+    margin: 0 auto;
+}
+
+.content-guide-wrap .guide-limit {
+    width: 100%;
+    padding: 36px 0 15px 0;
+    text-align: center;
+    background: #FE6A21;
+}
+
+.content-guide-wrap .guide-limit__members {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 6px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.content-guide-wrap .guide-limit__members::after {
+    content: '';
+    position: absolute;
+    top: -0.17rem;
+    right: -0.85rem;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #D1FF59;
+    animation: circle 1.5s infinite alternate;
+}
+
+@keyframes circle {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.content-guide-wrap .guide-limit__time {
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 600;
+    color: #D1FF59;
+}
+
+.content-guide-wrap .guide-main {
+    position: relative;
+    width: 100%;
+}
+
+.content-guide-wrap .guide-main::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(221, 221, 221, 0) 0%, #e4e4e4 70.31%);
+    backdrop-filter: blur(5px);
+    z-index: 2;
+}
+
+.content-guide-wrap .guide-benefit {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    margin: 30px auto;
+    padding: 42px 42px 38px 42px;
+    width: 635px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 8px 14px 0px #00000033;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.content-guide-wrap .benefit__receive-emph {
+    color: #000;
+    font-size: 26px;
+    line-height: 37.7px;
+    font-weight: 600;
+}
+
+.content-guide-wrap .benefit__receive-orange {
+    color: #FE6A21;
+}
+
+.content-guide-wrap .benefit__info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-guide-wrap .benefit__info--coupon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 64px;
+    padding: 0 21px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    background: #FE6A21;
+}
+
+.content-guide-wrap .benefit__info--coupon::before {
+    position: absolute;
+    left: -6.365px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    width: 12.73px;
+    height: 12.23px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.content-guide-wrap .benefit__info--coupon::after {
+    position: absolute;
+    right: -6.365px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    width: 12.73px;
+    height: 12.23px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.content-guide-wrap .benefit__info--discount {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0 22px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    background: #FE6A21;
+}
+
+.content-guide-wrap .coupon-num {
+    padding-left: 5px;
+    font-size: 28px;
+    line-height: 27.5px;
+    font-weight: 500;
+    color: #D1FF59;
+}
+
+.content-guide-wrap .benefit__info--plus {
+    margin: 0 8.7px;
+    font-size: 25px;
+    line-height: 24.55px;
+    font-weight: 400;
+    color: #999;
+}
+
+.content-guide-wrap .guide-desc {
+    position: relative;
+    margin-top: 73px;
+    text-align: center;
+    color: #000;
+    z-index: 2;
+}
+
+.content-guide-wrap .guide-desc__title{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 28px 7px 28px;
+    font-size: 28px;
+    line-height: 29.4px;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 24px;
+}
+
+.content-guide-wrap .guide-desc__sub{
+    padding-top: 38px;
+    font-size: 60px;
+    line-height: 63px;
+    font-weight: 700;
+}
+
+.content-guide-wrap .guide-desc__login{
+    padding-top: 27px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 500;
+}
+
+.content-guide-wrap .guide-desc__button{
+    margin: 72px 0 115px 0;
+    padding: 23px 130px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    background: #333;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+}

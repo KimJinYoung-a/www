@@ -1,0 +1,65 @@
+.today-brand {
+    padding: 100px 0;
+    background: var(--c_111);
+}
+
+.today-brand__title {
+    width: 1140px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+    color: var(--white);
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.8px;
+}
+
+.today-brand .product {
+    padding: 0;
+}
+
+.today-brand .product__list {
+    padding-top: 10px;
+}
+
+.today-brand .product__list::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 255px;
+    height: 3px;
+    background: #FE6A21;
+}
+
+.today-brand .product__list .product-info__percent---text {
+    color: #FE6A21;
+}
+
+.today-brand .product__list .product-info__percent {
+    color: #FE6A21;
+}
+
+.today-brand .product__list .product-info__price {
+    color: var(--white);
+}
+
+.today-brand .product__list .product-info__brand {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    padding: 16px 9px 15px 7px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: var(--c_111);
+    font-weight: 600;
+    text-align: center;
+    writing-mode: vertical-rl;
+    border: 2px solid var(--c_111);
+    border-left: 0;
+    border-radius: 0 15px 15px 0;
+    background: #FE6A21;
+    z-index: 2;
+}

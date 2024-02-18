@@ -1,0 +1,7 @@
+.app_alert {
+    position: relative;
+    left: 50%;
+    width: 1920px;
+    height: 459px;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,51 @@
+.limit-event {
+    overflow: hidden;
+    padding: 100px 0 60px;
+    width: 100%;
+    height: auto;
+    background-color: #FE6A21;
+}
+
+.limit-event h2 {
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: -0.02;
+    text-align: center;
+    color: #fff;
+}
+
+.limit-event__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 918px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.limit-event__banner {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+    width: 439px;
+    height: 300px;
+}
+
+.limit-event__banner img {
+    width: 100%;
+}
+
+.limit-event__banner::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 43px;
+    height: 43px;
+    background: url("//webimage.10x10.co.kr/fixevent/event/2023/monthly/feburary/go_evt.png") no-repeat 0 0;
+    background-size: cover;
+}

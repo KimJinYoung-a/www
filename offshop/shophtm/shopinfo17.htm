@@ -1,0 +1,96 @@
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="295" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="padding:5px 0 20px 0; border-bottom: solid 1px #eaeaea;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1701_info01.png" alt="경기도 고양시 강송로 33 일산 벨라시타점 본동 1층 / 031-849-5741" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1701_info02.png" alt="OPEN PM11:00 / CLOSE PM10:00" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:36px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1701_limg_v2.jpg" /></td>
+				</tr>
+				</table>
+			</td>
+			<td valign="top" style="padding-left:30px;">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1701_rimg_v2.jpg" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;">
+						<div id="mapView" style="width:375px; height:208px;"></div>
+						<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=523d793577f1c5116aacc1452942a0e5&libraries=services"></script>
+						<script>
+						function initialize() {
+							//장소정보
+							var pInfo = {
+								title :"텐바이텐 일산 벨라시타점",
+								address : "경기도 고양시 일산동구 강송로33 요진벨라시타 본동 1층 A-1218호",
+								tel : "031-849-5741",
+								zoom : 3,
+								y : 37.641728,		// 위도
+								x : 126.790810		// 경도
+							};
+
+							if(pInfo.x>0 && pInfo.y>0) {
+								//좌표가 있을 때
+								var mapPosition  = new daum.maps.LatLng(pInfo.y, pInfo.x);
+								drawMap(mapPosition,pInfo);		
+							} else {
+								//주소가 있을 때
+								var geocoder = new daum.maps.services.Geocoder();	// 주소-좌표 변환 객체를 생성
+								// 주소로 좌표를 검색합니다
+								geocoder.addressSearch(pInfo.address, function(result, status) {
+									if (status === daum.maps.services.Status.OK) {
+										var mapPosition  = new daum.maps.LatLng(result[0].y, result[0].x);
+										drawMap(mapPosition,pInfo);
+									}
+								});
+							}
+						}
+						initialize();
+
+						function drawMap(pos,info) {
+							var mapContainer = document.getElementById('mapView'),
+								mapOption = {
+									center: pos,
+									level: info.zoom // 지도의 확대 레벨
+								};
+
+							// 지도 생성
+							var map = new daum.maps.Map(mapContainer, mapOption);
+
+							var marker = new daum.maps.Marker({
+								map: map,
+								position: pos
+							});
+
+							// 인포윈도우로 장소에 대한 설명을 표시
+							var infowindow = new daum.maps.InfoWindow({
+								content: '<div style="padding:3px;width:180px;"><b>'+info.title+'</b><ul><li>'+info.address+'</li><li>전화 : '+info.tel+'</li></ul></div>'
+							});
+							infowindow.open(map, marker);
+						}
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" style="padding-bottom:8px; border-bottom:solid 1px #eaeaea;">
+						<!--<a href="javascript:jsPopmap()" onFocus="blur()"><img src="http://fiximage.10x10.co.kr/tenbytenshop/btn_print.gif" width="55" height="15" /></a>-->
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1701_way.png" alt="Bus - 간선:707/좌석:870/마을:073 | Subway 백석  8번 출구 도보 10분" /></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>

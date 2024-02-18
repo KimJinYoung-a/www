@@ -1,0 +1,88 @@
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="295" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="padding:5px 0 20px 0; border-bottom: solid 1px #eaeaea;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1801_info01.png" alt="서울시 서대문구 이화여대길 59 롯데엘큐브 1층 / 02-364-6268" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1801_info02.png" alt="OPEN PM11:00 / CLOSE PM10:00" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:36px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1801_limg_v2.jpg" /></td>
+				</tr>
+				</table>
+			</td>
+			<td valign="top" style="padding-left:30px;">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1801_rimg_v2.jpg" /></td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;">
+						<div id="mapView" style="width:375px; height:208px;"></div>
+						<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+						<script>
+							function initialize() {
+							var Y_point   = 37.558980; // Y 좌표
+							var X_point   = 126.945145; // X 좌표
+							var zoomLevel  = 16; // 첫 로딩시 보일 지도의 확대 레벨
+							var markerTitle = "텐바이텐 이대 엘큐브점"; // 현재 위치 마커에 마우스를 올렸을때 나타나는 이름
+							var markerMaxWidth = 300; // 마커를 클릭했을때 나타나는 말풍선의 최대 크기
+
+							var myLatlng = new google.maps.LatLng(Y_point, X_point);
+							var mapOptions = {
+								zoom: zoomLevel,
+								center: myLatlng,
+								draggable: true,
+								mapTypeControl:false,
+								zoomControlOptions: {
+									style:google.maps.ZoomControlStyle.SMALL,
+									position: google.maps.ControlPosition.RIGHT_TOP
+								},
+								streetViewControl:false,
+								mapTypeId: google.maps.MapTypeId.ROADMAP
+							}
+							var map = new google.maps.Map(document.getElementById('mapView'), mapOptions);
+							var marker = new google.maps.Marker({
+								position: myLatlng,
+								map: map,
+								title: markerTitle
+							});
+
+							// 말풍선 내용
+							var contentString = '<b>텐바이텐 이대엘큐브점</b><ul><li>주소 : 서울시 서대문구 이화여대길59 롯데엘큐브 1층</li><li>전화 : 02-364-6268</li></ul>';
+							var infowindow = new google.maps.InfoWindow(
+								{
+								content: contentString,
+								maxWidth: markerMaxWidth
+								}
+							);
+
+							google.maps.event.addListener(marker, 'click', function() {
+								infowindow.open(map, marker);
+							});
+
+							}
+							initialize();
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" style="padding-bottom:8px; border-bottom:solid 1px #eaeaea;">
+						<!--<a href="javascript:jsPopmap()" onFocus="blur()"><img src="http://fiximage.10x10.co.kr/tenbytenshop/btn_print.gif" width="55" height="15" /></a>-->
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-top:20px;"><img src="http://fiximage.10x10.co.kr/tenbytenshop/sub01_1801_way.png" alt="Bus - 간선:751/좌석:770/지선:5713,7017 | Subway - 신촌  2번 출구 도보 9분/이대 3번 출구 도보 5분" /></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>

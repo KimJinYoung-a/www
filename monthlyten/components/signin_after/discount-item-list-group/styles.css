@@ -1,0 +1,105 @@
+.category-group {
+    position: relative;
+    background: var(--white);
+}
+
+.category-group .category-list {
+    position: relative;
+}
+
+.category-group .category-list:nth-of-type(even) {
+    background: #F5F6F7;
+}
+
+.category-group .category-list:first-child::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 252px;
+    background: linear-gradient(180deg, #FE6A21 0%, rgba(254, 106, 33, 0) 100%);
+}
+
+.category-group .category-list h2 {
+    position: relative;
+    display: none;
+    color: var(--c_111);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: -0.8px;
+}
+
+.category-group .category-list:first-child h2 {
+    display: block;
+    padding-top: 100px;
+}
+
+.category-group .category-list:nth-of-type(even) {
+    background: #FFF4EF;
+}
+
+.category-group .category-title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 52px;
+    padding: 6px 0;
+    border-top: 3px solid var(--c_111);
+    border-bottom: 3px solid var(--c_111);
+    cursor: pointer;
+} 
+
+.category-title__left {
+    width: 111px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    color: var(--c_111);
+    border-right: 3px solid var(--c_111);
+}
+
+
+.category-title__left--index {
+    font-size: 35px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+}
+
+.category-title__right {
+    display: flex;
+    align-items: center;
+}
+
+
+.category-title__right--kr {
+    padding-left: 33px;
+    font-size: 33px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: -0.66px;
+}
+
+.category-list .product__more {
+    position: absolute;
+    left: 50%;
+    bottom: 98px;
+    transform: translateX(-50%);
+    width: 1140px;
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--c_666);
+    cursor: pointer;
+}
+
+
+.category-list .product-info__name::before {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255,1) 100%);
+}
+
+.category-list:nth-of-type(even) .product-info__name::before {
+    background: linear-gradient(180deg, rgba(245,246,247,0) 0%, rgba(255,244,239,1) 100%);
+}

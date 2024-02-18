@@ -1,0 +1,314 @@
+:root {
+  --swiper-navigation-size: 20px;
+  --ten:#ff214f;
+	--aqua:#00c4be;
+	--lime:#d1ff59;
+	--pink:#ffa6b8;
+	--white:#fff;
+	--grey:#f5f6f7;
+	--c_111:#111;
+	--c_666:#666;
+	--c_999:#999;
+	--c_ccc:#ccc;
+	--c_eee:#eee;
+	--dim90:rgba(0,0,0,.9);
+	--dim80:rgba(0,0,0,.8);
+	--dim20:rgba(0,0,0,.2);
+}
+
+.monthly__top-banner {
+  width: 1920px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+.monthly__container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* ============== 메뉴 스와이퍼 ============== */
+.menu-swiper {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+  padding: 18px 0 0 10px;
+  margin-bottom: 6px;
+  background: var(--white);
+  border-bottom: 2px solid #fe6a21;
+  z-index: 10;
+}
+
+.menu-swiper .swiper-slide {
+  width: auto;
+  padding: 10px 0;
+  margin-right: 30px;
+  color: #D4D4D4;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu-swiper .is-tab-active {
+  color: #fe6a21;
+}
+
+/* ============== 메뉴 스와이퍼 좌우 화살표 ============== */
+.menu-swiper .swiper-button-next.swiper-button-disabled,
+.menu-swiper .swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.menu-swiper .swiper-button-next,
+.menu-swiper .swiper-button-prev {
+  color: var(--c_999);
+  margin-top: inherit;
+}
+
+.menu-swiper .swiper-button-next,
+.menu-swiper .swiper-rtl .swiper-button-prev {
+  right: 0;
+}
+
+.menu-swiper .swiper-button-prev,
+.menu-swiper .swiper-rtl .swiper-button-next {
+  left: 0;
+}
+
+.menu-swiper .swiper-button-next::before,
+.menu-swiper .swiper-button-prev::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  height: 100%;
+  z-index: -1;
+}
+
+.menu-swiper .swiper-button-next::before {
+  right: 0;
+  background: linear-gradient(270deg, var(--white) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.menu-swiper .swiper-button-prev::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--white) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* ============== sort 버튼 ============== */
+.monthly__sort {
+  width: 100%;
+  padding: 20px 22px 29px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  background: transparent;
+}
+
+.monthly__sort::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 19px;
+  margin-left: 4px;
+  background: url(//webimage.10x10.co.kr/fixevent/event/2022/universal/icon_arrow_down.png) no-repeat 0 0 / 100%;
+  transform: rotate(0deg);
+  vertical-align: middle;
+  transition: all .3s;
+}
+
+.monthly__sort.is-sort-active::after {
+  transform: rotate(180deg);
+}
+.monthly__sorting-list {
+  position: absolute;
+  top: 144px;
+  right: 20px;
+  width: auto;
+  padding: 20px;
+  border: 1px solid var(--c_eee);
+  background: var(--white);
+  z-index: 20;
+}
+
+.monthly__sorting-list > li {
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+}
+
+.monthly__sorting-list > li:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ============== 상품 리스트 영역 ============== */
+.product {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.product__list {
+  min-height: 485px;
+  padding: 40px 22px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.product__list:nth-child(1),
+.product__list:nth-child(2),
+.product__list:nth-child(3),
+.product__list:nth-child(4) {
+  padding-top: 0;
+}
+
+.product__list .thumbnail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-color: #D3D3D3;
+}
+
+.product__list .thumbnail::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 23px;
+  height: 23px;
+  background-image: url(//webimage.10x10.co.kr/fixevent/event/2023/monthly/common/icon-thumbnail-default.svg);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.product__list .thumbnail>img {
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: top;
+  z-index: 1;
+}
+
+.product-info {
+  width: 240px;
+  padding-top: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.product-info__brand {
+  line-height: 14px;
+  color: #b2b2b2;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.product-info__name {
+  min-height: 32px;
+  line-height: 18px;
+  padding: 7px 0 5px;
+  color: #555;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.product-info__org-price {
+  line-height: 20.8px;
+  color: #777;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: -.5px;
+  text-decoration: line-through;
+}
+
+.price-wrap {
+  line-height: 20.8px;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.product-info__price {
+  font-weight: bold;
+}
+
+.product-info__percent {
+  margin-left: 2px;
+  color: #d50c0c;
+}
+
+.product-info__bage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-info__bage > img {
+  margin-left: 2px;
+}
+.product-info__bage > img:first-child {
+  margin: 0;
+}
+
+.product-info__bage--gift {
+  display: inline-block;
+  height: 20px;
+  margin: -1px 0 0 2px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.product-info__action {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15px;
+  margin-top: 44px;
+  text-align: center;
+}
+.product-info__action > li {
+  height: 15px;
+  line-height: 14px;
+  font-size: 11px;
+  color: var(--c_999);
+  font-weight: bold;
+  letter-spacing: -0.935px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.product-info__action--quick,
+.product-info__action--review {
+  padding-right: 5px;
+}
+.product-info__action--review::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 14px;
+  background: url(//fiximage.10x10.co.kr/web2015/common/ico_review.png) 0 50% no-repeat;
+  vertical-align: top;
+}
+.product-info__action--wish::before{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 13px;
+  background: url(//fiximage.10x10.co.kr/web2015/common/ico_wish.png) 0 50% no-repeat;
+  vertical-align: top;
+}

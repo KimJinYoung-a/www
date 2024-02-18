@@ -1,0 +1,113 @@
+.brand-group .brand-list {
+    position: relative;
+    background: var(--white);
+}
+
+.brand-group .brand-list:nth-of-type(even) {
+    background: #F5F6F7;
+}
+
+.brand-group .brand-title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 52px;
+    padding: 6px 0;
+    border-top: 3px solid var(--c_111);
+    border-bottom: 3px solid var(--c_111);
+    cursor: pointer;
+} 
+
+.brand-title__left {
+    width: 111px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    color: var(--c_111);
+    border-right: 3px solid var(--c_111);
+}
+
+.brand-title__left--brand {
+    padding-bottom: 15px;
+    font-size: 15px; 
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+}
+
+.brand-title__left--index {
+    font-size: 35px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+}
+
+.brand-title__right {
+    flex: 1;
+}
+
+.brand-title__right--en {
+    padding:20px 0 14px 34px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    color: var(--c_999);
+}
+
+.brand-title__right--kr {
+    padding: 0 0 22px 33px;
+    font-size: 33px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: -0.66px;
+}
+
+.brand-list.is-main-brand .brand-title {
+    border-color: #FE6A21;
+}
+
+.brand-list.is-main-brand .brand-title__left {
+    color: #FE6A21;
+    border-color: #FE6A21;
+}
+     
+.brand-list.is-main-brand .brand-title__left::before {
+    position: absolute;
+    content: 'HOT';
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 9.4px 17.4px 4.53px 17.4px;
+    font-size: 18px;
+    line-height: 17.68px;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+    border-radius: 27px;
+    background: #FE6A21;
+}
+
+.brand-list .product__more {
+    position: absolute;
+    left: 50%;
+    bottom: 98px;
+    transform: translateX(-50%);
+    width: 1140px;
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--c_666);
+    cursor: pointer;
+}
+
+.brand-list.is-main-brand .product__more {
+    color: #FE6A21;
+}
+
+.brand-list .product-info__name::before {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255,1) 100%);
+}
+
+.brand-list:nth-of-type(even) .product-info__name::before {
+    background: linear-gradient(180deg, rgba(245,246,247,0) 0%, rgba(245,246,247,1) 100%);
+}
